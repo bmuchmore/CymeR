@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=commit
+Exec=/home/brian/Desktop/CymeR/BaseFiles/commit.sh
+Icon=/home/brian/Desktop/CymeR/BaseFiles/commit.png

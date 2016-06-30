@@ -1,0 +1,5 @@
+library(h2o)
+h2o.init(ip = "localhost", port = 54321, startH2O = TRUE, nthreads = -1, https = TRUE)
+browseURL("https://127.0.0.1:54321/")
+
+

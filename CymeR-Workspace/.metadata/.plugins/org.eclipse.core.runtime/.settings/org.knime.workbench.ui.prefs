@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+knime.confirm.delete=false
+knime.confirm.exec_nodes_not_saved=always
+knime.confirm.reconnect=always
+knime.confirm.reset=false
+knime.exec_nodes_for_data_aware_dialogs=never

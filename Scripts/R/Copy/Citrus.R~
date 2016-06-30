@@ -1,0 +1,2 @@
+library(citrus)
+output <- citrus.launchUI()

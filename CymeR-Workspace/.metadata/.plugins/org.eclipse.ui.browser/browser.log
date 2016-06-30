@@ -1,0 +1,298 @@
+
+Nov 10, 2015 17:43:00.56 NEW SESSION
+Nov 10, 2015 17:43:00.57 process 180: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Nov 10, 2015 17:43:00.57 See the manual page for dbus-uuidgen to correct this issue.
+Nov 10, 2015 17:43:01.21 
+Nov 10, 2015 17:43:01.21 ** (firefox:180): WARNING **: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Nov 10, 2015 17:43:06.37 process 255: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Nov 10, 2015 17:43:06.37 See the manual page for dbus-uuidgen to correct this issue.
+Nov 10, 2015 17:43:06.85 
+Nov 10, 2015 17:43:06.85 ** (firefox:255): WARNING **: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Nov 10, 2015 17:43:07.19 
+Nov 10, 2015 17:43:07.19 (firefox:255): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+
+Nov 10, 2015 17:45:57.43 NEW SESSION
+Nov 10, 2015 17:45:57.44 process 157: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Nov 10, 2015 17:45:57.44 See the manual page for dbus-uuidgen to correct this issue.
+Nov 10, 2015 17:45:58.09 
+Nov 10, 2015 17:45:58.09 ** (firefox:157): WARNING **: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Nov 10, 2015 17:46:03.26 process 228: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Nov 10, 2015 17:46:03.26 See the manual page for dbus-uuidgen to correct this issue.
+Nov 10, 2015 17:46:03.72 
+Nov 10, 2015 17:46:03.72 ** (firefox:228): WARNING **: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Nov 10, 2015 17:46:04.04 
+Nov 10, 2015 17:46:04.04 (firefox:228): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Nov 10, 2015 17:46:12.65 process 318: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Nov 10, 2015 17:46:12.65 See the manual page for dbus-uuidgen to correct this issue.
+Nov 10, 2015 17:46:18.23 process 382: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Nov 10, 2015 17:46:18.23 See the manual page for dbus-uuidgen to correct this issue.
+Nov 10, 2015 17:46:18.75 
+Nov 10, 2015 17:46:18.75 (firefox:382): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Nov 10, 2015 17:46:18.79 
+Nov 10, 2015 17:46:18.79 ** (firefox:382): WARNING **: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Nov 10, 2015 17:47:14.61 process 496: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Nov 10, 2015 17:47:14.61 See the manual page for dbus-uuidgen to correct this issue.
+Nov 10, 2015 17:47:15.20 process 561: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Nov 10, 2015 17:47:15.20 See the manual page for dbus-uuidgen to correct this issue.
+Nov 10, 2015 17:47:15.73 
+Nov 10, 2015 17:47:15.73 (firefox:561): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Nov 10, 2015 17:47:15.78 
+Nov 10, 2015 17:47:15.78 ** (firefox:561): WARNING **: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Nov 10, 2015 17:47:41.84 process 663: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Nov 10, 2015 17:47:41.84 See the manual page for dbus-uuidgen to correct this issue.
+Nov 10, 2015 17:47:42.43 process 725: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Nov 10, 2015 17:47:42.43 See the manual page for dbus-uuidgen to correct this issue.
+Nov 10, 2015 17:47:42.98 
+Nov 10, 2015 17:47:42.98 (firefox:725): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Nov 10, 2015 17:47:43.01 
+Nov 10, 2015 17:47:43.01 ** (firefox:725): WARNING **: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+
+Dec 03, 2015 08:11:12.24 NEW SESSION
+Dec 03, 2015 08:11:12.26 process 211: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 03, 2015 08:11:12.26 See the manual page for dbus-uuidgen to correct this issue.
+Dec 03, 2015 08:11:13.23 
+Dec 03, 2015 08:11:13.23 ** (firefox:211): WARNING **: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 03, 2015 08:11:18.46 process 290: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 03, 2015 08:11:18.46 See the manual page for dbus-uuidgen to correct this issue.
+Dec 03, 2015 08:11:19.19 
+Dec 03, 2015 08:11:19.19 ** (firefox:290): WARNING **: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 03, 2015 08:11:19.68 
+Dec 03, 2015 08:11:19.68 (firefox:290): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 03, 2015 08:11:58.21 process 410: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 03, 2015 08:11:58.21 See the manual page for dbus-uuidgen to correct this issue.
+Dec 03, 2015 08:12:04.12 process 482: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 03, 2015 08:12:04.12 See the manual page for dbus-uuidgen to correct this issue.
+Dec 03, 2015 08:12:04.95 
+Dec 03, 2015 08:12:04.95 (firefox:482): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 03, 2015 08:12:05.00 
+Dec 03, 2015 08:12:05.00 ** (firefox:482): WARNING **: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+
+Dec 09, 2015 16:39:24.78 NEW SESSION
+Dec 09, 2015 16:39:24.79 process 2685: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 09, 2015 16:39:24.79 See the manual page for dbus-uuidgen to correct this issue.
+Dec 09, 2015 16:39:30.77 process 2767: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 09, 2015 16:39:30.77 See the manual page for dbus-uuidgen to correct this issue.
+Dec 09, 2015 16:39:31.83 
+Dec 09, 2015 16:39:31.83 (firefox:2767): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 09, 2015 16:40:43.44 process 2878: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 09, 2015 16:40:43.44 See the manual page for dbus-uuidgen to correct this issue.
+Dec 09, 2015 16:40:44.20 process 2954: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 09, 2015 16:40:44.20 See the manual page for dbus-uuidgen to correct this issue.
+Dec 09, 2015 16:40:44.96 
+Dec 09, 2015 16:40:44.96 (firefox:2954): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+
+Dec 09, 2015 22:06:47.14 NEW SESSION
+Dec 09, 2015 22:06:47.14 process 214: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 09, 2015 22:06:47.14 See the manual page for dbus-uuidgen to correct this issue.
+Dec 09, 2015 22:06:53.51 process 271: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 09, 2015 22:06:53.51 See the manual page for dbus-uuidgen to correct this issue.
+Dec 09, 2015 22:06:54.86 
+Dec 09, 2015 22:06:54.86 (firefox:271): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 09, 2015 22:08:15.91 process 373: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 09, 2015 22:08:15.92 See the manual page for dbus-uuidgen to correct this issue.
+Dec 09, 2015 22:08:16.80 process 424: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 09, 2015 22:08:16.80 See the manual page for dbus-uuidgen to correct this issue.
+Dec 09, 2015 22:08:17.56 
+Dec 09, 2015 22:08:17.56 (firefox:424): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 09, 2015 22:10:01.99 process 513: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 09, 2015 22:10:01.99 See the manual page for dbus-uuidgen to correct this issue.
+Dec 09, 2015 22:10:02.90 process 565: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 09, 2015 22:10:02.90 See the manual page for dbus-uuidgen to correct this issue.
+Dec 09, 2015 22:10:03.68 
+Dec 09, 2015 22:10:03.68 (firefox:565): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 09, 2015 22:10:51.39 process 645: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 09, 2015 22:10:51.39 See the manual page for dbus-uuidgen to correct this issue.
+Dec 09, 2015 22:10:52.29 process 697: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 09, 2015 22:10:52.29 See the manual page for dbus-uuidgen to correct this issue.
+Dec 09, 2015 22:10:53.07 
+Dec 09, 2015 22:10:53.07 (firefox:697): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 09, 2015 22:11:49.88 process 782: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 09, 2015 22:11:49.88 See the manual page for dbus-uuidgen to correct this issue.
+Dec 09, 2015 22:11:50.80 process 833: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 09, 2015 22:11:50.80 See the manual page for dbus-uuidgen to correct this issue.
+Dec 09, 2015 22:11:51.58 
+Dec 09, 2015 22:11:51.58 (firefox:833): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 09, 2015 22:13:42.89 process 938: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 09, 2015 22:13:42.89 See the manual page for dbus-uuidgen to correct this issue.
+Dec 09, 2015 22:13:43.85 process 989: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 09, 2015 22:13:43.85 See the manual page for dbus-uuidgen to correct this issue.
+Dec 09, 2015 22:13:44.66 
+Dec 09, 2015 22:13:44.66 (firefox:989): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 09, 2015 22:14:59.43 process 1086: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 09, 2015 22:14:59.43 See the manual page for dbus-uuidgen to correct this issue.
+Dec 09, 2015 22:15:00.37 process 1136: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 09, 2015 22:15:00.37 See the manual page for dbus-uuidgen to correct this issue.
+Dec 09, 2015 22:15:01.14 
+Dec 09, 2015 22:15:01.14 (firefox:1136): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+
+Dec 10, 2015 11:08:49.93 NEW SESSION
+Dec 10, 2015 11:08:49.94 process 1228: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:08:49.94 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:08:56.08 process 1310: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:08:56.08 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:08:57.22 
+Dec 10, 2015 11:08:57.22 (firefox:1310): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 10, 2015 11:10:00.43 process 1429: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:10:00.43 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:10:01.22 process 1505: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:10:01.22 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:10:01.95 
+Dec 10, 2015 11:10:01.95 (firefox:1505): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 10, 2015 11:10:49.73 process 1608: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:10:49.73 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:10:50.52 process 1683: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:10:50.52 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:10:51.24 
+Dec 10, 2015 11:10:51.24 (firefox:1683): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 10, 2015 11:11:54.74 process 1799: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:11:54.74 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:11:55.54 process 1874: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:11:55.54 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:11:56.32 
+Dec 10, 2015 11:11:56.32 (firefox:1874): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 10, 2015 11:14:15.25 process 1995: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:14:15.25 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:14:16.06 process 2070: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:14:16.06 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:14:16.77 
+Dec 10, 2015 11:14:16.77 (firefox:2070): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 10, 2015 11:15:09.20 process 2177: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:15:09.20 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:15:10.04 process 2252: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:15:10.04 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:15:10.76 
+Dec 10, 2015 11:15:10.76 (firefox:2252): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 10, 2015 11:16:24.45 process 2375: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:16:24.45 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:16:25.29 process 2451: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:16:25.29 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:16:26.03 
+Dec 10, 2015 11:16:26.03 (firefox:2451): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 10, 2015 11:17:11.79 process 2557: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:17:11.79 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:17:12.63 process 2632: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:17:12.63 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:17:13.36 
+Dec 10, 2015 11:17:13.36 (firefox:2632): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 10, 2015 11:18:13.94 process 2745: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:18:13.94 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:18:14.76 process 2820: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:18:14.76 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:18:15.48 
+Dec 10, 2015 11:18:15.48 (firefox:2820): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 10, 2015 11:19:26.55 process 2926: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:19:26.55 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:19:27.39 process 3002: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:19:27.39 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:19:28.13 
+Dec 10, 2015 11:19:28.13 (firefox:3002): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 10, 2015 11:19:54.60 process 3115: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:19:54.60 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:19:55.44 process 3190: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:19:55.44 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:19:56.16 
+Dec 10, 2015 11:19:56.16 (firefox:3190): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 10, 2015 11:20:38.69 process 3295: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:20:38.69 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:20:39.54 process 3370: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:20:39.54 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:20:40.28 
+Dec 10, 2015 11:20:40.28 (firefox:3370): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 10, 2015 11:21:06.77 process 3472: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:21:06.77 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:21:07.63 process 3547: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:21:07.63 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:21:08.37 
+Dec 10, 2015 11:21:08.37 (firefox:3547): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 10, 2015 11:21:51.60 process 3664: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:21:51.60 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:21:52.43 process 3739: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:21:52.43 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:21:53.14 
+Dec 10, 2015 11:21:53.14 (firefox:3739): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 10, 2015 11:22:27.75 process 3842: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:22:27.75 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:22:28.61 process 3917: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:22:28.61 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:22:29.33 
+Dec 10, 2015 11:22:29.33 (firefox:3917): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 10, 2015 11:23:07.05 process 4021: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:23:07.05 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:23:07.92 process 4097: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:23:07.92 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:23:08.65 
+Dec 10, 2015 11:23:08.65 (firefox:4097): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 10, 2015 11:25:27.17 process 4224: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:25:27.17 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:25:28.01 process 4300: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:25:28.01 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:25:28.76 
+Dec 10, 2015 11:25:28.76 (firefox:4300): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 10, 2015 11:26:29.48 process 4417: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:26:29.48 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:26:30.37 process 4492: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:26:30.37 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:26:31.09 
+Dec 10, 2015 11:26:31.09 (firefox:4492): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 10, 2015 11:27:20.99 process 4599: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:27:20.99 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:27:21.87 process 4674: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:27:21.87 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:27:22.60 
+Dec 10, 2015 11:27:22.60 (firefox:4674): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 10, 2015 11:29:14.09 process 4798: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:29:14.09 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:29:14.99 process 4874: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:29:14.99 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:29:15.72 
+Dec 10, 2015 11:29:15.72 (firefox:4874): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 10, 2015 11:30:38.57 process 4998: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:30:38.57 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:30:39.46 process 5074: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:30:39.46 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:30:40.19 
+Dec 10, 2015 11:30:40.19 (firefox:5074): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 10, 2015 11:31:24.24 process 5183: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:31:24.24 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:31:25.09 process 5258: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:31:25.09 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:31:25.84 
+Dec 10, 2015 11:31:25.84 (firefox:5258): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 10, 2015 11:31:55.70 process 5374: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:31:55.70 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:31:56.58 process 5449: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:31:56.58 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:31:57.30 
+Dec 10, 2015 11:31:57.30 (firefox:5449): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 10, 2015 11:32:51.39 process 5561: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:32:51.39 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:32:52.30 process 5636: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:32:52.30 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:32:53.04 
+Dec 10, 2015 11:32:53.05 (firefox:5636): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 10, 2015 11:33:48.08 process 5757: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:33:48.08 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:33:48.96 process 5832: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:33:48.96 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:33:49.68 
+Dec 10, 2015 11:33:49.68 (firefox:5832): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 10, 2015 11:34:11.14 process 5937: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:34:11.14 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:34:12.05 process 6012: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 11:34:12.05 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 11:34:12.79 
+Dec 10, 2015 11:34:12.79 (firefox:6012): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+Dec 10, 2015 12:03:21.15 process 6795: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 12:03:21.15 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 12:03:22.03 process 6871: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+Dec 10, 2015 12:03:22.03 See the manual page for dbus-uuidgen to correct this issue.
+Dec 10, 2015 12:03:22.75 
+Dec 10, 2015 12:03:22.75 (firefox:6871): LIBDBUSMENU-GLIB-WARNING **: Unable to get session bus: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory
+
+May 24, 2016 15:21:51.35 NEW SESSION
+May 24, 2016 15:21:51.37 Gtk-Message: Failed to load module "canberra-gtk-module"
+May 24, 2016 15:21:51.37 Gtk-Message: Failed to load module "canberra-gtk-module"
+
+May 24, 2016 15:22:34.67 NEW SESSION
+May 24, 2016 15:22:34.69 Gtk-Message: Failed to load module "canberra-gtk-module"
+May 24, 2016 15:22:34.69 Gtk-Message: Failed to load module "canberra-gtk-module"

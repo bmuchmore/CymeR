@@ -1,0 +1,8 @@
+/home/developer/Data/Wishbone/waypoints.csv
+
+/home/developer/Data/TESTING/BendallDS/Wishbone/DiffusionEigenvalues.csv
+/home/developer/Data/FromLucas/formulaire.csv
+/home/developer/Data/FromLucas/Renamed_Panel_1/AsinH/OpenCyto/PopStats/PopStats/Panel_1_32141752_IRCCS_CANTOII_17NOV2015_17NOV2015.fcs _norm.fcs _comp.fcs.csv
+/home/developer/Data/FromLucas/Renamed_Panel_1/AsinH/OpenCyto/PopStats/MFIs/Panel_1_32141752_IRCCS_CANTOII_17NOV2015_17NOV2015.fcs _norm.fcs _comp.fcs.csv
+/home/developer/Data/FromLucas/Renamed_Panel_1/AsinH/OpenCyto/PopStats/All.MFIs.csv
+/home/developer/Data/FromLucas/Renamed_Panel_1/AsinH/OpenCyto/PopStats/Panel_1_32141752_IRCCS_CANTOII_17NOV2015_17NOV2015.fcs _norm.fcs _comp.fcs.csv

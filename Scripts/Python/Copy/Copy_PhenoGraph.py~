@@ -1,0 +1,17 @@
+import phenograph
+import numpy
+import networkx
+from scipy.sparse import coo_matrix
+from scipy.io import mmread, mmwrite
+from numpy import genfromtxt
+data = genfromtxt('/home/developer/Data/Preciseads/Panel2/Gates/DCs/FlowType/RchyOptimyxResults/PhenoGraph/Input/cell_proportions.csv', delimiter=',')
+communities, graph, Q = phenograph.cluster(data)
+numpy.savetxt('/home/developer/Data/Preciseads/Panel2/Gates/DCs/FlowType/RchyOptimyxResults/PhenoGraph/Communities/cell_proportions.csv', communities, delimiter=",")
+mmwrite('/home/developer/Data/Preciseads/Panel2/Gates/DCs/FlowType/RchyOptimyxResults/PhenoGraph/MTX/cell_proportions.csv.graph.mtx', graph)
+text_file = open('/home/developer/Data/Preciseads/Panel2/Gates/DCs/FlowType/RchyOptimyxResults/PhenoGraph/Q/cell_proportions.csv.Q.txt', "w")
+text_file.write(str(Q))
+text_file.close()
+G = networkx.Graph(graph)
+networkx.write_pajek(G, path = '/home/developer/Data/Preciseads/Panel2/Gates/DCs/FlowType/RchyOptimyxResults/PhenoGraph/NET/cell_proportions.csv.graph.net', encoding='UTF-8')
+networkx.write_gml(G, path = '/home/developer/Data/Preciseads/Panel2/Gates/DCs/FlowType/RchyOptimyxResults/PhenoGraph/GML/cell_proportions.csv.graph.gml')
+networkx.write_edgelist(G, path = '/home/developer/Data/Preciseads/Panel2/Gates/DCs/FlowType/RchyOptimyxResults/PhenoGraph/Edgelist/cell_proportions.csv.graph.edgelist', delimiter = '\t')

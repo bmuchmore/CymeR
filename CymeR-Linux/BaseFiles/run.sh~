@@ -1,0 +1,5 @@
+#!/bin/bash
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+parentDIR="$(dirname "$DIR")"
+xterm -e docker rm `docker ps --no-trunc -aq` && \
+xterm -e docker run -ti --rm -e DISPLAY=$DISPLAY -v $parentDIR/CymeR/knime-workspace:/home/developer/knime-workspace -v $parentDIR/CymeR/Scripts:/home/developer/Scripts -v $parentDIR/Data:/home/developer/Data:rw -v $parentDIR/CymeR/Xshift:/home/developer/Xshift:rw -v $parentDIR/CymeR/Templates:/home/developer/Templates:rw -v /tmp/.X11-unix:/tmp/.X11-unix:rw CymeR/brian

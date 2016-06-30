@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=commit
+Exec=/home/walnut/Desktop/CymeR/CymeR-Linux/BaseFiles/Run/commit.sh
+Icon=/home/walnut/Desktop/CymeR/CymeR-Linux/BaseFiles/Icons/commit.png

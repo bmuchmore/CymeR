@@ -1,0 +1,625 @@
+2016-06-30 16:25:33,864 : DEBUG : ModalContext : JavaSnippetNodeFactory : Some (of the many) useful KNIME nodes : 0 : Factory is already initialized. Nothing to do.
+2016-06-30 16:25:33,865 : DEBUG : ModalContext : ReadTableNodeFactory : Some (of the many) useful KNIME nodes : 0 : Factory is already initialized. Nothing to do.
+2016-06-30 16:25:33,866 : DEBUG : ModalContext : ReadImageFromUrlNodeFactory : Some (of the many) useful KNIME nodes : 0 : Factory is already initialized. Nothing to do.
+2016-06-30 16:25:33,866 : DEBUG : ModalContext : Bash : Bash : 0:4 : Configure succeeded. (Bash)
+2016-06-30 16:25:33,867 : WARN  : ModalContext : Table Reader : Table Reader : 0:516 : No file set.
+2016-06-30 16:25:33,867 : DEBUG : ModalContext : WorkflowManager :  :  : Loaded workflow from "/home/developer/knime-workspace/Functions for FCS files/Some (of the many) useful KNIME nodes"  with no errors
+2016-06-30 16:25:33,932 : DEBUG : main : ProjectWorkflowMap :  :  : Adding "file:/home/developer/knime-workspace/Functions%20for%20FCS%20files/Some%20(of%20the%20many)%20useful%20KNIME%20nodes/" to project map (2 in total)
+2016-06-30 16:25:33,933 : DEBUG : main : ProjectWorkflowMap :  :  : registering org.knime.workbench.editor2.WorkflowEditor@60683aff to file:/home/developer/knime-workspace/Functions%20for%20FCS%20files/Some%20(of%20the%20many)%20useful%20KNIME%20nodes/. 1 registered clients now.
+2016-06-30 16:25:33,936 : DEBUG : main : WorkflowRootEditPart :  :  : part: AnnotationEditPart( Scripting nodes: )
+2016-06-30 16:25:33,936 : DEBUG : main : WorkflowRootEditPart :  :  : part: AnnotationEditPart( Reporting related nodes: )
+2016-06-30 16:25:33,936 : DEBUG : main : WorkflowRootEditPart :  :  : part: AnnotationEditPart( Visualization nodes: )
+2016-06-30 16:25:33,936 : DEBUG : main : WorkflowRootEditPart :  :  : part: AnnotationEditPart( File manipulation nodes: )
+2016-06-30 16:25:33,937 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2016-06-30 16:25:33,937 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2016-06-30 16:25:33,937 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2016-06-30 16:25:33,937 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2016-06-30 16:25:33,937 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2016-06-30 16:25:33,937 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2016-06-30 16:25:33,937 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2016-06-30 16:25:33,937 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2016-06-30 16:25:33,937 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2016-06-30 16:25:33,937 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2016-06-30 16:25:33,937 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2016-06-30 16:25:33,937 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2016-06-30 16:25:33,937 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2016-06-30 16:25:33,937 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2016-06-30 16:25:33,937 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2016-06-30 16:25:33,937 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2016-06-30 16:25:33,937 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( 2D/3D Scatterplot 0:1 (IDLE) )
+2016-06-30 16:25:33,938 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( CSV Writer 0:2 (IDLE) )
+2016-06-30 16:25:33,938 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( R Snippet 0:3 (IDLE) )
+2016-06-30 16:25:33,938 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( Bash 0:4 (CONFIGURED) )
+2016-06-30 16:25:33,938 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( Image to Report 0:5 (IDLE) )
+2016-06-30 16:25:33,939 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( Data to Report 0:6 (IDLE) )
+2016-06-30 16:25:33,939 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( Table To Image 0:7 (IDLE) )
+2016-06-30 16:25:33,939 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( Histogram (interactive) 0:10 (IDLE) )
+2016-06-30 16:25:33,940 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( RapidMiner Viewer 0:461 (IDLE) )
+2016-06-30 16:25:33,940 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( Column Filter 0:491 (IDLE) )
+2016-06-30 16:25:33,940 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( Dumb Joiner (deprecated) 0:510 (IDLE) )
+2016-06-30 16:25:33,941 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( Python Script 0:512 (IDLE) )
+2016-06-30 16:25:33,941 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( Pie chart (interactive) 0:513 (IDLE) )
+2016-06-30 16:25:33,941 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( Java Snippet 0:515 (IDLE) )
+2016-06-30 16:25:33,942 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( Table Reader 0:516 (IDLE) )
+2016-06-30 16:25:33,942 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( Read Images 0:517 (IDLE) )
+2016-06-30 16:25:35,881 : DEBUG : main : WorkflowRootEditPart :  :  : WorkflowRootEditPart deactivated
+2016-06-30 16:25:35,883 : DEBUG : main : WorkflowEditor :  :  : Disposing editor...
+2016-06-30 16:25:35,883 : DEBUG : main : ProjectWorkflowMap :  :  : unregistering org.knime.workbench.editor2.WorkflowEditor@60683aff from file:/home/developer/knime-workspace/Functions%20for%20FCS%20files/Some%20(of%20the%20many)%20useful%20KNIME%20nodes/. 0 left.
+2016-06-30 16:25:35,883 : DEBUG : main : ProjectWorkflowMap :  :  : Removing "file:/home/developer/knime-workspace/Functions%20for%20FCS%20files/Some%20(of%20the%20many)%20useful%20KNIME%20nodes/" from project map (1 remaining)
+2016-06-30 16:25:35,883 : DEBUG : main : WorkflowManager :  :  : Removing project "Some (of the many) useful KNIME nodes 0"
+2016-06-30 16:25:35,884 : DEBUG : main : ReadImageFromUrlNodeModel : Read Images : 0:517 : Removing all (0) views from model.
+2016-06-30 16:25:35,884 : DEBUG : main : Read Images : Read Images : 0:517 : clean output ports.
+2016-06-30 16:25:35,884 : DEBUG : main : ReadTableNodeModel : Table Reader : 0:516 : Removing all (0) views from model.
+2016-06-30 16:25:35,884 : DEBUG : main : Table Reader : Table Reader : 0:516 : clean output ports.
+2016-06-30 16:25:35,885 : DEBUG : main : JavaSnippetNodeModel : Java Snippet : 0:515 : Removing all (0) views from model.
+2016-06-30 16:25:35,885 : DEBUG : main : Java Snippet : Java Snippet : 0:515 : clean output ports.
+2016-06-30 16:25:35,885 : DEBUG : main : InteractivePieNodeModel : Pie chart (interactive) : 0:513 : Removing all (0) views from model.
+2016-06-30 16:25:35,885 : DEBUG : main : Pie chart (interactive) : Pie chart (interactive) : 0:513 : clean output ports.
+2016-06-30 16:25:35,885 : DEBUG : main : PythonScriptNodeModel : Python Script : 0:512 : Removing all (0) views from model.
+2016-06-30 16:25:35,885 : DEBUG : main : Python Script : Python Script : 0:512 : clean output ports.
+2016-06-30 16:25:35,885 : DEBUG : main : DumbJoinerNodeModel : Dumb Joiner (deprecated) : 0:510 : Removing all (0) views from model.
+2016-06-30 16:25:35,885 : DEBUG : main : Dumb Joiner (deprecated) : Dumb Joiner (deprecated) : 0:510 : clean output ports.
+2016-06-30 16:25:35,885 : DEBUG : main : DataColumnSpecFilterNodeModel : Column Filter : 0:491 : Removing all (0) views from model.
+2016-06-30 16:25:35,885 : DEBUG : main : Column Filter : Column Filter : 0:491 : clean output ports.
+2016-06-30 16:25:35,885 : DEBUG : main : RapidMinerViewNodeModel : RapidMiner Viewer : 0:461 : Removing all (0) views from model.
+2016-06-30 16:25:35,885 : DEBUG : main : RapidMiner Viewer : RapidMiner Viewer : 0:461 : clean output ports.
+2016-06-30 16:25:35,885 : DEBUG : main : HistogramNodeModel : Histogram (interactive) : 0:10 : Removing all (0) views from model.
+2016-06-30 16:25:35,885 : DEBUG : main : Histogram (interactive) : Histogram (interactive) : 0:10 : clean output ports.
+2016-06-30 16:25:35,885 : DEBUG : main : TableRowToImageNodeModel : Table To Image : 0:7 : Removing all (0) views from model.
+2016-06-30 16:25:35,885 : DEBUG : main : Table To Image : Table To Image : 0:7 : clean output ports.
+2016-06-30 16:25:35,885 : DEBUG : main : ReportingDataSetNodeModel : Data to Report : 0:6 : Removing all (0) views from model.
+2016-06-30 16:25:35,885 : DEBUG : main : Data to Report : Data to Report : 0:6 : clean output ports.
+2016-06-30 16:25:35,885 : DEBUG : main : ReportingImageNodeModel : Image to Report : 0:5 : Removing all (0) views from model.
+2016-06-30 16:25:35,885 : DEBUG : main : Image to Report : Image to Report : 0:5 : clean output ports.
+2016-06-30 16:25:35,885 : DEBUG : main : BashNodeModel : Bash : 0:4 : Removing all (0) views from model.
+2016-06-30 16:25:35,885 : DEBUG : main : Bash : Bash : 0:4 : clean output ports.
+2016-06-30 16:25:35,885 : DEBUG : main : RSnippetNodeModel : R Snippet : 0:3 : Removing all (0) views from model.
+2016-06-30 16:25:35,885 : DEBUG : main : R Snippet : R Snippet : 0:3 : clean output ports.
+2016-06-30 16:25:35,885 : DEBUG : main : CSVWriterNodeModel : CSV Writer : 0:2 : Removing all (0) views from model.
+2016-06-30 16:25:35,885 : DEBUG : main : CSV Writer : CSV Writer : 0:2 : clean output ports.
+2016-06-30 16:25:35,885 : DEBUG : main : NGraphNodeModel : 2D/3D Scatterplot : 0:1 : Removing all (0) views from model.
+2016-06-30 16:25:35,885 : DEBUG : main : 2D/3D Scatterplot : 2D/3D Scatterplot : 0:1 : clean output ports.
+2016-06-30 16:25:35,885 : DEBUG : main : WorkflowManager :  :  : Project "Some (of the many) useful KNIME nodes 0" removed (2 remaining)
+2016-06-30 16:25:41,455 : DEBUG : KNIME-Node-Usage-Writer : NodeTimer$GlobalNodeStats :  :  : Successfully wrote node usage stats to file: /home/developer/knime-workspace/.metadata/knime/nodeusage_3.0.json
+2016-06-30 16:25:41,457 : DEBUG : KNIME-Node-Usage-Sender : NodeTimer$GlobalNodeStats :  :  : Sending of usage stats disabled.
+2016-06-30 16:25:41,551 : DEBUG : main : WorkflowRootEditPart :  :  : WorkflowRootEditPart deactivated
+2016-06-30 16:25:41,554 : DEBUG : main : WorkflowEditor :  :  : Disposing editor...
+2016-06-30 16:25:41,554 : DEBUG : main : ProjectWorkflowMap :  :  : unregistering org.knime.workbench.editor2.WorkflowEditor@61f2bf3a from file:/home/developer/knime-workspace/Workflows/PRECISESADS/Methylation/Guillermo_var95_cor8/. 0 left.
+2016-06-30 16:25:41,554 : DEBUG : main : ProjectWorkflowMap :  :  : Removing "file:/home/developer/knime-workspace/Workflows/PRECISESADS/Methylation/Guillermo_var95_cor8/" from project map (0 remaining)
+2016-06-30 16:25:41,554 : DEBUG : main : WorkflowManager :  :  : Removing project "Guillermo_var95_cor8 1"
+2016-06-30 16:25:41,555 : DEBUG : main : WorkflowFileStoreHandlerRepository : 2D/3D Scatterplot : 1:477 : Removing handler 2baea4e9-b72a-4a34-914c-6a493a4d01ea (2D/3D Scatterplot 1:477: <no directory>) - 163 remaining
+2016-06-30 16:25:41,555 : DEBUG : main : NGraphNodeModel : 2D/3D Scatterplot : 1:477 : Removing all (0) views from model.
+2016-06-30 16:25:41,555 : DEBUG : main : 2D/3D Scatterplot : 2D/3D Scatterplot : 1:477 : clean output ports.
+2016-06-30 16:25:41,555 : DEBUG : main : WorkflowFileStoreHandlerRepository : HeatMap (JFreeChart) : 1:517 : Removing handler 21d6904b-0a15-4a38-8ec1-2a67431efe0e (HeatMap (JFreeChart) 1:517: <no directory>) - 162 remaining
+2016-06-30 16:25:41,555 : DEBUG : main : JfcHeatMapNodeModel : HeatMap (JFreeChart) : 1:517 : Removing all (0) views from model.
+2016-06-30 16:25:41,555 : DEBUG : main : HeatMap (JFreeChart) : HeatMap (JFreeChart) : 1:517 : clean output ports.
+2016-06-30 16:25:41,555 : DEBUG : main : WorkflowFileStoreHandlerRepository : Dumb Joiner (deprecated) : 1:515 : Removing handler a8b055f4-9edd-4e87-8136-6137737b4a48 (Dumb Joiner (deprecated) 1:515: <no directory>) - 161 remaining
+2016-06-30 16:25:41,555 : DEBUG : main : DumbJoinerNodeModel : Dumb Joiner (deprecated) : 1:515 : Removing all (0) views from model.
+2016-06-30 16:25:41,555 : DEBUG : main : Dumb Joiner (deprecated) : Dumb Joiner (deprecated) : 1:515 : clean output ports.
+2016-06-30 16:25:41,556 : DEBUG : main : WorkflowFileStoreHandlerRepository : WrappedNode Output : 1:513:0:180 : Removing handler 6c369d0b-ba7a-47a5-af40-a35f9a533e61 (WrappedNode Output 1:513:0:180: <no directory>) - 160 remaining
+2016-06-30 16:25:41,556 : DEBUG : main : VirtualSubNodeOutputNodeModel : WrappedNode Output : 1:513:0:180 : Removing all (0) views from model.
+2016-06-30 16:25:41,556 : DEBUG : main : WrappedNode Output : WrappedNode Output : 1:513:0:180 : clean output ports.
+2016-06-30 16:25:41,556 : DEBUG : main : WorkflowFileStoreHandlerRepository : RowID : 1:513:0:69:68 : Removing handler 9ef38f8b-7665-4c01-baa9-f893634955a9 (RowID 1:513:0:69:68: <no directory>) - 159 remaining
+2016-06-30 16:25:41,556 : DEBUG : main : RowKeyNodeModel2 : RowID : 1:513:0:69:68 : Removing all (0) views from model.
+2016-06-30 16:25:41,556 : DEBUG : main : RowID : RowID : 1:513:0:69:68 : clean output ports.
+2016-06-30 16:25:41,556 : DEBUG : main : WorkflowFileStoreHandlerRepository : Column Appender : 1:513:0:69:65 : Removing handler a6ec52a2-4bbf-4d33-9d43-218888c58c57 (Column Appender 1:513:0:69:65: <no directory>) - 158 remaining
+2016-06-30 16:25:41,556 : DEBUG : main : ColumnAppenderNodeModel : Column Appender : 1:513:0:69:65 : Removing all (0) views from model.
+2016-06-30 16:25:41,556 : DEBUG : main : Column Appender : Column Appender : 1:513:0:69:65 : clean output ports.
+2016-06-30 16:25:41,556 : DEBUG : main : WorkflowFileStoreHandlerRepository : Column Filter : 1:513:0:69:66 : Removing handler 707f4e4b-081d-44f6-b312-032c7d761238 (Column Filter 1:513:0:69:66: <no directory>) - 157 remaining
+2016-06-30 16:25:41,556 : DEBUG : main : DataColumnSpecFilterNodeModel : Column Filter : 1:513:0:69:66 : Removing all (0) views from model.
+2016-06-30 16:25:41,556 : DEBUG : main : Column Filter : Column Filter : 1:513:0:69:66 : clean output ports.
+2016-06-30 16:25:41,556 : DEBUG : main : WorkflowFileStoreHandlerRepository : RowID : 1:513:0:69:67 : Removing handler e7dcf6d5-63bc-4e49-80cf-40fb7f11154e (RowID 1:513:0:69:67: <no directory>) - 156 remaining
+2016-06-30 16:25:41,556 : DEBUG : main : RowKeyNodeModel2 : RowID : 1:513:0:69:67 : Removing all (0) views from model.
+2016-06-30 16:25:41,556 : DEBUG : main : RowID : RowID : 1:513:0:69:67 : clean output ports.
+2016-06-30 16:25:41,556 : DEBUG : main : WorkflowFileStoreHandlerRepository : RowID : 1:513:0:69:64 : Removing handler 5fb82773-f8f5-496b-a1c2-21d73deab4b1 (RowID 1:513:0:69:64: <no directory>) - 155 remaining
+2016-06-30 16:25:41,556 : DEBUG : main : RowKeyNodeModel2 : RowID : 1:513:0:69:64 : Removing all (0) views from model.
+2016-06-30 16:25:41,556 : DEBUG : main : RowID : RowID : 1:513:0:69:64 : clean output ports.
+2016-06-30 16:25:41,556 : DEBUG : main : WorkflowFileStoreHandlerRepository : R Snippet : 1:513:0:170 : Removing handler d886a2b2-c44c-48d8-8f52-1b9c2d3185dd (R Snippet 1:513:0:170: <no directory>) - 154 remaining
+2016-06-30 16:25:41,556 : DEBUG : main : RSnippetNodeModel : R Snippet : 1:513:0:170 : Removing all (0) views from model.
+2016-06-30 16:25:41,556 : DEBUG : main : R Snippet : R Snippet : 1:513:0:170 : clean output ports.
+2016-06-30 16:25:41,556 : DEBUG : main : WorkflowFileStoreHandlerRepository : Reference Column Filter : 1:513:0:138 : Removing handler 69bbcfef-631d-42d1-8785-e0272e782330 (Reference Column Filter 1:513:0:138: <no directory>) - 153 remaining
+2016-06-30 16:25:41,556 : DEBUG : main : ColumnFilterRefNodeModel : Reference Column Filter : 1:513:0:138 : Removing all (0) views from model.
+2016-06-30 16:25:41,557 : DEBUG : main : Reference Column Filter : Reference Column Filter : 1:513:0:138 : clean output ports.
+2016-06-30 16:25:41,557 : DEBUG : main : WorkflowFileStoreHandlerRepository : Column Filter : 1:513:0:173 : Removing handler 420cd6c3-4607-486b-bfc3-881ea131b653 (Column Filter 1:513:0:173: <no directory>) - 152 remaining
+2016-06-30 16:25:41,557 : DEBUG : main : ColumnFilterQuickFormNodeModel : Column Filter : 1:513:0:173 : Removing all (0) views from model.
+2016-06-30 16:25:41,557 : DEBUG : main : Column Filter : Column Filter : 1:513:0:173 : clean output ports.
+2016-06-30 16:25:41,557 : DEBUG : main : WorkflowFileStoreHandlerRepository : Merge Variables : 1:513:0:172 : Removing handler 59248dc9-c4cf-430f-b86e-4eddc3a1c3d5 (Merge Variables 1:513:0:172: <no directory>) - 151 remaining
+2016-06-30 16:25:41,557 : DEBUG : main : MergeVariablesNodeModel : Merge Variables : 1:513:0:172 : Removing all (0) views from model.
+2016-06-30 16:25:41,557 : DEBUG : main : Merge Variables : Merge Variables : 1:513:0:172 : clean output ports.
+2016-06-30 16:25:41,557 : DEBUG : main : WorkflowFileStoreHandlerRepository : Merge Variables : 1:513:0:177 : Removing handler 9c613f46-c966-452c-bc55-e4a8cf42b33a (Merge Variables 1:513:0:177: <no directory>) - 150 remaining
+2016-06-30 16:25:41,557 : DEBUG : main : MergeVariablesNodeModel : Merge Variables : 1:513:0:177 : Removing all (0) views from model.
+2016-06-30 16:25:41,557 : DEBUG : main : Merge Variables : Merge Variables : 1:513:0:177 : clean output ports.
+2016-06-30 16:25:41,557 : DEBUG : main : WorkflowFileStoreHandlerRepository : WrappedNode Input : 1:513:0:179 : Removing handler bad1ad8d-a257-44c4-9728-e85a31c5ed13 (WrappedNode Input 1:513:0:179: <no directory>) - 149 remaining
+2016-06-30 16:25:41,557 : DEBUG : main : VirtualSubNodeInputNodeModel : WrappedNode Input : 1:513:0:179 : Removing all (0) views from model.
+2016-06-30 16:25:41,557 : DEBUG : main : WrappedNode Input : WrappedNode Input : 1:513:0:179 : clean output ports.
+2016-06-30 16:25:41,557 : DEBUG : main : WorkflowFileStoreHandlerRepository : String Input : 1:513:0:178 : Removing handler 6f7d55c0-9802-4167-abfb-a463b673b0d0 (String Input 1:513:0:178: <no directory>) - 148 remaining
+2016-06-30 16:25:41,557 : DEBUG : main : StringInputQuickFormNodeModel : String Input : 1:513:0:178 : Removing all (0) views from model.
+2016-06-30 16:25:41,557 : DEBUG : main : String Input : String Input : 1:513:0:178 : clean output ports.
+2016-06-30 16:25:41,557 : DEBUG : main : WorkflowFileStoreHandlerRepository : String Input : 1:513:0:176 : Removing handler 15a3df51-7f41-4f4b-8524-49831fe253b8 (String Input 1:513:0:176: <no directory>) - 147 remaining
+2016-06-30 16:25:41,557 : DEBUG : main : StringInputQuickFormNodeModel : String Input : 1:513:0:176 : Removing all (0) views from model.
+2016-06-30 16:25:41,557 : DEBUG : main : String Input : String Input : 1:513:0:176 : clean output ports.
+2016-06-30 16:25:41,557 : DEBUG : main : WorkflowFileStoreHandlerRepository : Integer Input : 1:513:0:175 : Removing handler d3d75df3-9159-4c8d-a183-8e0072dc4f57 (Integer Input 1:513:0:175: <no directory>) - 146 remaining
+2016-06-30 16:25:41,557 : DEBUG : main : IntInputQuickFormNodeModel : Integer Input : 1:513:0:175 : Removing all (0) views from model.
+2016-06-30 16:25:41,557 : DEBUG : main : Integer Input : Integer Input : 1:513:0:175 : clean output ports.
+2016-06-30 16:25:41,557 : DEBUG : main : WorkflowFileStoreHandlerRepository : String Input : 1:513:0:174 : Removing handler 59fdc0f5-868a-4a8b-a1a1-c27216e13273 (String Input 1:513:0:174: <no directory>) - 145 remaining
+2016-06-30 16:25:41,557 : DEBUG : main : StringInputQuickFormNodeModel : String Input : 1:513:0:174 : Removing all (0) views from model.
+2016-06-30 16:25:41,557 : DEBUG : main : String Input : String Input : 1:513:0:174 : clean output ports.
+2016-06-30 16:25:41,557 : DEBUG : main : WorkflowFileStoreHandlerRepository : CSV Writer : 1:511 : Removing handler c0aed801-d09d-49b6-b81b-63717621bfd7 (CSV Writer 1:511: <no directory>) - 144 remaining
+2016-06-30 16:25:41,558 : DEBUG : main : CSVWriterNodeModel : CSV Writer : 1:511 : Removing all (0) views from model.
+2016-06-30 16:25:41,558 : DEBUG : main : CSV Writer : CSV Writer : 1:511 : clean output ports.
+2016-06-30 16:25:41,558 : DEBUG : main : WorkflowFileStoreHandlerRepository : Dumb Joiner (deprecated) : 1:516 : Removing handler 4a0e1c12-de23-413a-910c-716dfb00df7e (Dumb Joiner (deprecated) 1:516: <no directory>) - 143 remaining
+2016-06-30 16:25:41,558 : DEBUG : main : DumbJoinerNodeModel : Dumb Joiner (deprecated) : 1:516 : Removing all (0) views from model.
+2016-06-30 16:25:41,558 : DEBUG : main : Dumb Joiner (deprecated) : Dumb Joiner (deprecated) : 1:516 : clean output ports.
+2016-06-30 16:25:41,558 : DEBUG : main : WorkflowFileStoreHandlerRepository : WrappedNode Output : 1:514:0:179 : Removing handler c3a23fdb-915b-4b41-8c5b-0c1998625750 (WrappedNode Output 1:514:0:179: <no directory>) - 142 remaining
+2016-06-30 16:25:41,558 : DEBUG : main : VirtualSubNodeOutputNodeModel : WrappedNode Output : 1:514:0:179 : Removing all (0) views from model.
+2016-06-30 16:25:41,558 : DEBUG : main : WrappedNode Output : WrappedNode Output : 1:514:0:179 : clean output ports.
+2016-06-30 16:25:41,558 : DEBUG : main : WorkflowFileStoreHandlerRepository : RowID : 1:514:0:69:68 : Removing handler 7bb3ce57-eb02-4764-9e99-38e861bcbe4f (RowID 1:514:0:69:68: <no directory>) - 141 remaining
+2016-06-30 16:25:41,559 : DEBUG : main : RowKeyNodeModel2 : RowID : 1:514:0:69:68 : Removing all (0) views from model.
+2016-06-30 16:25:41,559 : DEBUG : main : RowID : RowID : 1:514:0:69:68 : clean output ports.
+2016-06-30 16:25:41,559 : DEBUG : main : WorkflowFileStoreHandlerRepository : Column Appender : 1:514:0:69:65 : Removing handler 7497b404-391b-4afc-bec5-acf664288b95 (Column Appender 1:514:0:69:65: <no directory>) - 140 remaining
+2016-06-30 16:25:41,559 : DEBUG : main : ColumnAppenderNodeModel : Column Appender : 1:514:0:69:65 : Removing all (0) views from model.
+2016-06-30 16:25:41,559 : DEBUG : main : Column Appender : Column Appender : 1:514:0:69:65 : clean output ports.
+2016-06-30 16:25:41,559 : DEBUG : main : WorkflowFileStoreHandlerRepository : Column Filter : 1:514:0:69:66 : Removing handler cb58ad21-27b5-4774-b037-22b4dc636f61 (Column Filter 1:514:0:69:66: <no directory>) - 139 remaining
+2016-06-30 16:25:41,559 : DEBUG : main : DataColumnSpecFilterNodeModel : Column Filter : 1:514:0:69:66 : Removing all (0) views from model.
+2016-06-30 16:25:41,559 : DEBUG : main : Column Filter : Column Filter : 1:514:0:69:66 : clean output ports.
+2016-06-30 16:25:41,559 : DEBUG : main : WorkflowFileStoreHandlerRepository : RowID : 1:514:0:69:67 : Removing handler 2c0c5774-742a-4f70-8a2e-171baafaeb26 (RowID 1:514:0:69:67: <no directory>) - 138 remaining
+2016-06-30 16:25:41,559 : DEBUG : main : RowKeyNodeModel2 : RowID : 1:514:0:69:67 : Removing all (0) views from model.
+2016-06-30 16:25:41,559 : DEBUG : main : RowID : RowID : 1:514:0:69:67 : clean output ports.
+2016-06-30 16:25:41,559 : DEBUG : main : WorkflowFileStoreHandlerRepository : RowID : 1:514:0:69:64 : Removing handler 4548a432-50ca-47e2-b223-42fd01ea8a62 (RowID 1:514:0:69:64: <no directory>) - 137 remaining
+2016-06-30 16:25:41,559 : DEBUG : main : RowKeyNodeModel2 : RowID : 1:514:0:69:64 : Removing all (0) views from model.
+2016-06-30 16:25:41,559 : DEBUG : main : RowID : RowID : 1:514:0:69:64 : clean output ports.
+2016-06-30 16:25:41,559 : DEBUG : main : WorkflowFileStoreHandlerRepository : Column Rename : 1:514:0:99 : Removing handler ac70df47-b1ba-4269-9b73-a45c075bff9c (Column Rename 1:514:0:99: <no directory>) - 136 remaining
+2016-06-30 16:25:41,559 : DEBUG : main : RenameNodeModel : Column Rename : 1:514:0:99 : Removing all (0) views from model.
+2016-06-30 16:25:41,559 : DEBUG : main : Column Rename : Column Rename : 1:514:0:99 : clean output ports.
+2016-06-30 16:25:41,559 : DEBUG : main : WorkflowFileStoreHandlerRepository : R Snippet : 1:514:0:57 : Removing handler 44bf06ed-ede4-42bc-b865-142825ac6b32 (R Snippet 1:514:0:57: <no directory>) - 135 remaining
+2016-06-30 16:25:41,559 : DEBUG : main : RSnippetNodeModel : R Snippet : 1:514:0:57 : Removing all (0) views from model.
+2016-06-30 16:25:41,559 : DEBUG : main : R Snippet : R Snippet : 1:514:0:57 : clean output ports.
+2016-06-30 16:25:41,559 : DEBUG : main : WorkflowFileStoreHandlerRepository : Reference Column Filter : 1:514:0:168 : Removing handler 55ddda7f-ef1e-4bac-8722-59e45b78c9df (Reference Column Filter 1:514:0:168: <no directory>) - 134 remaining
+2016-06-30 16:25:41,559 : DEBUG : main : ColumnFilterRefNodeModel : Reference Column Filter : 1:514:0:168 : Removing all (0) views from model.
+2016-06-30 16:25:41,559 : DEBUG : main : Reference Column Filter : Reference Column Filter : 1:514:0:168 : clean output ports.
+2016-06-30 16:25:41,559 : DEBUG : main : WorkflowFileStoreHandlerRepository : Column Filter : 1:514:0:171 : Removing handler c12c1e92-f00a-4b02-bd60-0713f8b71872 (Column Filter 1:514:0:171: <no directory>) - 133 remaining
+2016-06-30 16:25:41,559 : DEBUG : main : ColumnFilterQuickFormNodeModel : Column Filter : 1:514:0:171 : Removing all (0) views from model.
+2016-06-30 16:25:41,559 : DEBUG : main : Column Filter : Column Filter : 1:514:0:171 : clean output ports.
+2016-06-30 16:25:41,559 : DEBUG : main : WorkflowFileStoreHandlerRepository : Inject Variables (Data) : 1:514:0:177 : Removing handler a295d98c-e79c-4d5e-8878-e3a8ec2f1025 (Inject Variables (Data) 1:514:0:177: <no directory>) - 132 remaining
+2016-06-30 16:25:41,560 : DEBUG : main : InjectVariablesNodeModel : Inject Variables (Data) : 1:514:0:177 : Removing all (0) views from model.
+2016-06-30 16:25:41,560 : DEBUG : main : Inject Variables (Data) : Inject Variables (Data) : 1:514:0:177 : clean output ports.
+2016-06-30 16:25:41,560 : DEBUG : main : WorkflowFileStoreHandlerRepository : Inject Variables (Data) : 1:514:0:175 : Removing handler 36f332d7-3526-4e90-920c-283a12605234 (Inject Variables (Data) 1:514:0:175: <no directory>) - 131 remaining
+2016-06-30 16:25:41,560 : DEBUG : main : InjectVariablesNodeModel : Inject Variables (Data) : 1:514:0:175 : Removing all (0) views from model.
+2016-06-30 16:25:41,560 : DEBUG : main : Inject Variables (Data) : Inject Variables (Data) : 1:514:0:175 : clean output ports.
+2016-06-30 16:25:41,560 : DEBUG : main : WorkflowFileStoreHandlerRepository : Inject Variables (Data) : 1:514:0:174 : Removing handler 762d6c4e-e3ba-459b-aac7-cc8221722997 (Inject Variables (Data) 1:514:0:174: <no directory>) - 130 remaining
+2016-06-30 16:25:41,560 : DEBUG : main : InjectVariablesNodeModel : Inject Variables (Data) : 1:514:0:174 : Removing all (0) views from model.
+2016-06-30 16:25:41,560 : DEBUG : main : Inject Variables (Data) : Inject Variables (Data) : 1:514:0:174 : clean output ports.
+2016-06-30 16:25:41,560 : DEBUG : main : WorkflowFileStoreHandlerRepository : Inject Variables (Data) : 1:514:0:112 : Removing handler 7e2b991d-47d8-4abc-bc8b-3222b22247d2 (Inject Variables (Data) 1:514:0:112: <no directory>) - 129 remaining
+2016-06-30 16:25:41,560 : DEBUG : main : InjectVariablesNodeModel : Inject Variables (Data) : 1:514:0:112 : Removing all (0) views from model.
+2016-06-30 16:25:41,560 : DEBUG : main : Inject Variables (Data) : Inject Variables (Data) : 1:514:0:112 : clean output ports.
+2016-06-30 16:25:41,560 : DEBUG : main : WorkflowFileStoreHandlerRepository : Inject Variables (Data) : 1:514:0:111 : Removing handler a38d9e69-e2b6-4bc8-b2b9-10a5cfdd8a82 (Inject Variables (Data) 1:514:0:111: <no directory>) - 128 remaining
+2016-06-30 16:25:41,560 : DEBUG : main : InjectVariablesNodeModel : Inject Variables (Data) : 1:514:0:111 : Removing all (0) views from model.
+2016-06-30 16:25:41,560 : DEBUG : main : Inject Variables (Data) : Inject Variables (Data) : 1:514:0:111 : clean output ports.
+2016-06-30 16:25:41,560 : DEBUG : main : WorkflowFileStoreHandlerRepository : WrappedNode Input : 1:514:0:178 : Removing handler a0bd63ab-9342-4c21-8543-6cb56fc38735 (WrappedNode Input 1:514:0:178: <no directory>) - 127 remaining
+2016-06-30 16:25:41,560 : DEBUG : main : VirtualSubNodeInputNodeModel : WrappedNode Input : 1:514:0:178 : Removing all (0) views from model.
+2016-06-30 16:25:41,560 : DEBUG : main : WrappedNode Input : WrappedNode Input : 1:514:0:178 : clean output ports.
+2016-06-30 16:25:41,560 : DEBUG : main : WorkflowFileStoreHandlerRepository : String Input : 1:514:0:176 : Removing handler c36f34c5-387f-4668-bbbf-88ffeac4120f (String Input 1:514:0:176: <no directory>) - 126 remaining
+2016-06-30 16:25:41,560 : DEBUG : main : StringInputQuickFormNodeModel : String Input : 1:514:0:176 : Removing all (0) views from model.
+2016-06-30 16:25:41,560 : DEBUG : main : String Input : String Input : 1:514:0:176 : clean output ports.
+2016-06-30 16:25:41,560 : DEBUG : main : WorkflowFileStoreHandlerRepository : Integer Input : 1:514:0:173 : Removing handler 525a5e77-3d97-42f7-b825-391d658d163d (Integer Input 1:514:0:173: <no directory>) - 125 remaining
+2016-06-30 16:25:41,560 : DEBUG : main : IntInputQuickFormNodeModel : Integer Input : 1:514:0:173 : Removing all (0) views from model.
+2016-06-30 16:25:41,560 : DEBUG : main : Integer Input : Integer Input : 1:514:0:173 : clean output ports.
+2016-06-30 16:25:41,560 : DEBUG : main : WorkflowFileStoreHandlerRepository : String Input : 1:514:0:172 : Removing handler dc036612-ec73-46b1-9027-577c72c79a70 (String Input 1:514:0:172: <no directory>) - 124 remaining
+2016-06-30 16:25:41,560 : DEBUG : main : StringInputQuickFormNodeModel : String Input : 1:514:0:172 : Removing all (0) views from model.
+2016-06-30 16:25:41,560 : DEBUG : main : String Input : String Input : 1:514:0:172 : clean output ports.
+2016-06-30 16:25:41,560 : DEBUG : main : WorkflowFileStoreHandlerRepository : Double Input : 1:514:0:170 : Removing handler 587800fc-1ea6-4c01-aa6e-37c20b649833 (Double Input 1:514:0:170: <no directory>) - 123 remaining
+2016-06-30 16:25:41,560 : DEBUG : main : DoubleInputQuickFormNodeModel : Double Input : 1:514:0:170 : Removing all (0) views from model.
+2016-06-30 16:25:41,560 : DEBUG : main : Double Input : Double Input : 1:514:0:170 : clean output ports.
+2016-06-30 16:25:41,560 : DEBUG : main : WorkflowFileStoreHandlerRepository : Integer Input : 1:514:0:169 : Removing handler 742d5814-522a-4ccc-b0eb-4df84abfd5cd (Integer Input 1:514:0:169: <no directory>) - 122 remaining
+2016-06-30 16:25:41,561 : DEBUG : main : IntInputQuickFormNodeModel : Integer Input : 1:514:0:169 : Removing all (0) views from model.
+2016-06-30 16:25:41,561 : DEBUG : main : Integer Input : Integer Input : 1:514:0:169 : clean output ports.
+2016-06-30 16:25:41,561 : DEBUG : main : WorkflowFileStoreHandlerRepository : Table Creator : 1:514:0:92 : Removing handler 1b6cef7b-63f1-4956-8f57-6426e6781607 (Table Creator 1:514:0:92: <no directory>) - 121 remaining
+2016-06-30 16:25:41,561 : DEBUG : main : TableCreator2NodeModel : Table Creator : 1:514:0:92 : Removing all (0) views from model.
+2016-06-30 16:25:41,561 : DEBUG : main : Table Creator : Table Creator : 1:514:0:92 : clean output ports.
+2016-06-30 16:25:41,561 : DEBUG : main : WorkflowFileStoreHandlerRepository : WrappedNode Output : 1:353:0:396 : Removing handler 3368c9e0-3c29-44da-b90b-0a895e5353b9 (WrappedNode Output 1:353:0:396: <no directory>) - 120 remaining
+2016-06-30 16:25:41,561 : DEBUG : main : VirtualSubNodeOutputNodeModel : WrappedNode Output : 1:353:0:396 : Removing all (0) views from model.
+2016-06-30 16:25:41,561 : DEBUG : main : WrappedNode Output : WrappedNode Output : 1:353:0:396 : clean output ports.
+2016-06-30 16:25:41,561 : DEBUG : main : WorkflowFileStoreHandlerRepository : Dumb Joiner (deprecated) : 1:353:0:353 : Removing handler cdac6cba-2dec-499f-a4a2-ad36f3da7ca3 (Dumb Joiner (deprecated) 1:353:0:353: <no directory>) - 119 remaining
+2016-06-30 16:25:41,561 : DEBUG : main : DumbJoinerNodeModel : Dumb Joiner (deprecated) : 1:353:0:353 : Removing all (0) views from model.
+2016-06-30 16:25:41,561 : DEBUG : main : Dumb Joiner (deprecated) : Dumb Joiner (deprecated) : 1:353:0:353 : clean output ports.
+2016-06-30 16:25:41,561 : DEBUG : main : WorkflowFileStoreHandlerRepository : R View (Workspace) : 1:353:0:394 : Removing handler 4ad1a63b-f7c3-4582-ba62-07195a341758 (R View (Workspace) 1:353:0:394: <no directory>) - 118 remaining
+2016-06-30 16:25:41,561 : DEBUG : main : RViewNodeModel : R View (Workspace) : 1:353:0:394 : Removing all (0) views from model.
+2016-06-30 16:25:41,561 : DEBUG : main : R View (Workspace) : R View (Workspace) : 1:353:0:394 : clean output ports.
+2016-06-30 16:25:41,561 : DEBUG : main : WorkflowFileStoreHandlerRepository : R to Table : 1:353:0:393 : Removing handler 5289fa54-080e-45ed-819c-957ac12fe0ec (R to Table 1:353:0:393: <no directory>) - 117 remaining
+2016-06-30 16:25:41,561 : DEBUG : main : RSnippetNodeModel : R to Table : 1:353:0:393 : Removing all (0) views from model.
+2016-06-30 16:25:41,561 : DEBUG : main : R to Table : R to Table : 1:353:0:393 : clean output ports.
+2016-06-30 16:25:41,561 : DEBUG : main : WorkflowFileStoreHandlerRepository : Table to R : 1:353:0:392 : Removing handler be7ae907-1e61-491b-a053-ba845e933510 (Table to R 1:353:0:392: <no directory>) - 116 remaining
+2016-06-30 16:25:41,561 : DEBUG : main : RSnippetNodeModel : Table to R : 1:353:0:392 : Removing all (0) views from model.
+2016-06-30 16:25:41,561 : DEBUG : main : Table to R : Table to R : 1:353:0:392 : clean output ports.
+2016-06-30 16:25:41,561 : DEBUG : main : WorkflowFileStoreHandlerRepository : Inject Variables (Data) : 1:353:0:381 : Removing handler e9cb6250-3a15-49aa-9330-4b8feac60a9e (Inject Variables (Data) 1:353:0:381: <no directory>) - 115 remaining
+2016-06-30 16:25:41,561 : DEBUG : main : InjectVariablesNodeModel : Inject Variables (Data) : 1:353:0:381 : Removing all (0) views from model.
+2016-06-30 16:25:41,562 : DEBUG : main : Inject Variables (Data) : Inject Variables (Data) : 1:353:0:381 : clean output ports.
+2016-06-30 16:25:41,562 : DEBUG : main : WorkflowFileStoreHandlerRepository : Inject Variables (Data) : 1:353:0:378 : Removing handler 6ad8fba2-4e37-4757-8d8e-04a4f1bafa15 (Inject Variables (Data) 1:353:0:378: <no directory>) - 114 remaining
+2016-06-30 16:25:41,562 : DEBUG : main : InjectVariablesNodeModel : Inject Variables (Data) : 1:353:0:378 : Removing all (0) views from model.
+2016-06-30 16:25:41,562 : DEBUG : main : Inject Variables (Data) : Inject Variables (Data) : 1:353:0:378 : clean output ports.
+2016-06-30 16:25:41,562 : DEBUG : main : WorkflowFileStoreHandlerRepository : Inject Variables (Data) : 1:353:0:379 : Removing handler c684080b-3800-4c8f-9b3d-f888d37fb747 (Inject Variables (Data) 1:353:0:379: <no directory>) - 113 remaining
+2016-06-30 16:25:41,562 : DEBUG : main : InjectVariablesNodeModel : Inject Variables (Data) : 1:353:0:379 : Removing all (0) views from model.
+2016-06-30 16:25:41,562 : DEBUG : main : Inject Variables (Data) : Inject Variables (Data) : 1:353:0:379 : clean output ports.
+2016-06-30 16:25:41,562 : DEBUG : main : WorkflowFileStoreHandlerRepository : Inject Variables (Data) : 1:353:0:389 : Removing handler 6a907e73-4cc4-4c1f-9335-a47bec7b99ce (Inject Variables (Data) 1:353:0:389: <no directory>) - 112 remaining
+2016-06-30 16:25:41,562 : DEBUG : main : InjectVariablesNodeModel : Inject Variables (Data) : 1:353:0:389 : Removing all (0) views from model.
+2016-06-30 16:25:41,562 : DEBUG : main : Inject Variables (Data) : Inject Variables (Data) : 1:353:0:389 : clean output ports.
+2016-06-30 16:25:41,562 : DEBUG : main : WorkflowFileStoreHandlerRepository : Inject Variables (Data) : 1:353:0:384 : Removing handler 7a3af55d-2f35-4967-8e59-d2009d953022 (Inject Variables (Data) 1:353:0:384: <no directory>) - 111 remaining
+2016-06-30 16:25:41,562 : DEBUG : main : InjectVariablesNodeModel : Inject Variables (Data) : 1:353:0:384 : Removing all (0) views from model.
+2016-06-30 16:25:41,562 : DEBUG : main : Inject Variables (Data) : Inject Variables (Data) : 1:353:0:384 : clean output ports.
+2016-06-30 16:25:41,562 : DEBUG : main : WorkflowFileStoreHandlerRepository : Reference Column Filter : 1:353:0:168 : Removing handler 8c5a4463-d777-4c9b-baef-c8be4574a06f (Reference Column Filter 1:353:0:168: <no directory>) - 110 remaining
+2016-06-30 16:25:41,562 : DEBUG : main : ColumnFilterRefNodeModel : Reference Column Filter : 1:353:0:168 : Removing all (0) views from model.
+2016-06-30 16:25:41,562 : DEBUG : main : Reference Column Filter : Reference Column Filter : 1:353:0:168 : clean output ports.
+2016-06-30 16:25:41,562 : DEBUG : main : WorkflowFileStoreHandlerRepository : Column Filter : 1:353:0:171 : Removing handler dc1d1642-7b70-4ac7-95db-98b1289301ad (Column Filter 1:353:0:171: <no directory>) - 109 remaining
+2016-06-30 16:25:41,562 : DEBUG : main : ColumnFilterQuickFormNodeModel : Column Filter : 1:353:0:171 : Removing all (0) views from model.
+2016-06-30 16:25:41,562 : DEBUG : main : Column Filter : Column Filter : 1:353:0:171 : clean output ports.
+2016-06-30 16:25:41,562 : DEBUG : main : WorkflowFileStoreHandlerRepository : Inject Variables (Data) : 1:353:0:387 : Removing handler 35b6e1d4-babb-47b1-aefd-5c4fc87c8ecc (Inject Variables (Data) 1:353:0:387: <no directory>) - 108 remaining
+2016-06-30 16:25:41,562 : DEBUG : main : InjectVariablesNodeModel : Inject Variables (Data) : 1:353:0:387 : Removing all (0) views from model.
+2016-06-30 16:25:41,562 : DEBUG : main : Inject Variables (Data) : Inject Variables (Data) : 1:353:0:387 : clean output ports.
+2016-06-30 16:25:41,562 : DEBUG : main : WorkflowFileStoreHandlerRepository : Inject Variables (Data) : 1:353:0:382 : Removing handler ad101b3a-868b-4e13-a8dc-fcd623444ba6 (Inject Variables (Data) 1:353:0:382: <no directory>) - 107 remaining
+2016-06-30 16:25:41,562 : DEBUG : main : InjectVariablesNodeModel : Inject Variables (Data) : 1:353:0:382 : Removing all (0) views from model.
+2016-06-30 16:25:41,562 : DEBUG : main : Inject Variables (Data) : Inject Variables (Data) : 1:353:0:382 : clean output ports.
+2016-06-30 16:25:41,562 : DEBUG : main : WorkflowFileStoreHandlerRepository : Inject Variables (Data) : 1:353:0:374 : Removing handler e0cb1791-0c17-4426-9aa5-577731aea31a (Inject Variables (Data) 1:353:0:374: <no directory>) - 106 remaining
+2016-06-30 16:25:41,562 : DEBUG : main : InjectVariablesNodeModel : Inject Variables (Data) : 1:353:0:374 : Removing all (0) views from model.
+2016-06-30 16:25:41,562 : DEBUG : main : Inject Variables (Data) : Inject Variables (Data) : 1:353:0:374 : clean output ports.
+2016-06-30 16:25:41,562 : DEBUG : main : WorkflowFileStoreHandlerRepository : Inject Variables (Data) : 1:353:0:372 : Removing handler cb6f8a28-406b-45be-8386-ae0a9171effa (Inject Variables (Data) 1:353:0:372: <no directory>) - 105 remaining
+2016-06-30 16:25:41,562 : DEBUG : main : InjectVariablesNodeModel : Inject Variables (Data) : 1:353:0:372 : Removing all (0) views from model.
+2016-06-30 16:25:41,562 : DEBUG : main : Inject Variables (Data) : Inject Variables (Data) : 1:353:0:372 : clean output ports.
+2016-06-30 16:25:41,562 : DEBUG : main : WorkflowFileStoreHandlerRepository : WrappedNode Input : 1:353:0:395 : Removing handler 326fffb8-5f33-42e6-b450-707b3ae07ede (WrappedNode Input 1:353:0:395: <no directory>) - 104 remaining
+2016-06-30 16:25:41,562 : DEBUG : main : VirtualSubNodeInputNodeModel : WrappedNode Input : 1:353:0:395 : Removing all (0) views from model.
+2016-06-30 16:25:41,562 : DEBUG : main : WrappedNode Input : WrappedNode Input : 1:353:0:395 : clean output ports.
+2016-06-30 16:25:41,562 : DEBUG : main : WorkflowFileStoreHandlerRepository : Double Input : 1:353:0:391 : Removing handler 109cbd4c-4603-4b3d-ac53-572e41dda879 (Double Input 1:353:0:391: <no directory>) - 103 remaining
+2016-06-30 16:25:41,563 : DEBUG : main : DoubleInputQuickFormNodeModel : Double Input : 1:353:0:391 : Removing all (0) views from model.
+2016-06-30 16:25:41,563 : DEBUG : main : Double Input : Double Input : 1:353:0:391 : clean output ports.
+2016-06-30 16:25:41,563 : DEBUG : main : WorkflowFileStoreHandlerRepository : Integer Input : 1:353:0:390 : Removing handler 91e43888-0293-40f1-b848-e9e8b4d13365 (Integer Input 1:353:0:390: <no directory>) - 102 remaining
+2016-06-30 16:25:41,563 : DEBUG : main : IntInputQuickFormNodeModel : Integer Input : 1:353:0:390 : Removing all (0) views from model.
+2016-06-30 16:25:41,563 : DEBUG : main : Integer Input : Integer Input : 1:353:0:390 : clean output ports.
+2016-06-30 16:25:41,563 : DEBUG : main : WorkflowFileStoreHandlerRepository : Integer Input : 1:353:0:388 : Removing handler 311cff20-e064-4aa4-99d0-a67013cd4840 (Integer Input 1:353:0:388: <no directory>) - 101 remaining
+2016-06-30 16:25:41,563 : DEBUG : main : IntInputQuickFormNodeModel : Integer Input : 1:353:0:388 : Removing all (0) views from model.
+2016-06-30 16:25:41,563 : DEBUG : main : Integer Input : Integer Input : 1:353:0:388 : clean output ports.
+2016-06-30 16:25:41,563 : DEBUG : main : WorkflowFileStoreHandlerRepository : String Input : 1:353:0:385 : Removing handler 2d9f0870-a6bd-462c-85bf-247397c739f5 (String Input 1:353:0:385: <no directory>) - 100 remaining
+2016-06-30 16:25:41,563 : DEBUG : main : StringInputQuickFormNodeModel : String Input : 1:353:0:385 : Removing all (0) views from model.
+2016-06-30 16:25:41,563 : DEBUG : main : String Input : String Input : 1:353:0:385 : clean output ports.
+2016-06-30 16:25:41,563 : DEBUG : main : WorkflowFileStoreHandlerRepository : String Input : 1:353:0:383 : Removing handler 99469b49-6d3e-4fe4-81bd-48618430db02 (String Input 1:353:0:383: <no directory>) - 99 remaining
+2016-06-30 16:25:41,563 : DEBUG : main : StringInputQuickFormNodeModel : String Input : 1:353:0:383 : Removing all (0) views from model.
+2016-06-30 16:25:41,563 : DEBUG : main : String Input : String Input : 1:353:0:383 : clean output ports.
+2016-06-30 16:25:41,563 : DEBUG : main : WorkflowFileStoreHandlerRepository : Integer Input : 1:353:0:377 : Removing handler 15862621-5f39-41f7-8f13-39ab3a3fd8b3 (Integer Input 1:353:0:377: <no directory>) - 98 remaining
+2016-06-30 16:25:41,563 : DEBUG : main : IntInputQuickFormNodeModel : Integer Input : 1:353:0:377 : Removing all (0) views from model.
+2016-06-30 16:25:41,563 : DEBUG : main : Integer Input : Integer Input : 1:353:0:377 : clean output ports.
+2016-06-30 16:25:41,563 : DEBUG : main : WorkflowFileStoreHandlerRepository : Integer Input : 1:353:0:375 : Removing handler cf7ae8bb-7ee8-4eaa-9984-16b7f6cc937d (Integer Input 1:353:0:375: <no directory>) - 97 remaining
+2016-06-30 16:25:41,563 : DEBUG : main : IntInputQuickFormNodeModel : Integer Input : 1:353:0:375 : Removing all (0) views from model.
+2016-06-30 16:25:41,563 : DEBUG : main : Integer Input : Integer Input : 1:353:0:375 : clean output ports.
+2016-06-30 16:25:41,563 : DEBUG : main : WorkflowFileStoreHandlerRepository : String Input : 1:353:0:373 : Removing handler d28045e3-febc-44f7-97f0-28c3dd5b933c (String Input 1:353:0:373: <no directory>) - 96 remaining
+2016-06-30 16:25:41,563 : DEBUG : main : StringInputQuickFormNodeModel : String Input : 1:353:0:373 : Removing all (0) views from model.
+2016-06-30 16:25:41,563 : DEBUG : main : String Input : String Input : 1:353:0:373 : clean output ports.
+2016-06-30 16:25:41,563 : DEBUG : main : WorkflowFileStoreHandlerRepository : Table Creator : 1:353:0:370 : Removing handler 0943700a-2dc5-4801-b365-3352f6194ea9 (Table Creator 1:353:0:370: <no directory>) - 95 remaining
+2016-06-30 16:25:41,563 : DEBUG : main : TableCreator2NodeModel : Table Creator : 1:353:0:370 : Removing all (0) views from model.
+2016-06-30 16:25:41,563 : DEBUG : main : Table Creator : Table Creator : 1:353:0:370 : clean output ports.
+2016-06-30 16:25:41,563 : DEBUG : main : WorkflowFileStoreHandlerRepository : String Input : 1:353:0:369 : Removing handler 8c013a50-7555-45e6-9da0-2d08609c786c (String Input 1:353:0:369: <no directory>) - 94 remaining
+2016-06-30 16:25:41,563 : DEBUG : main : StringInputQuickFormNodeModel : String Input : 1:353:0:369 : Removing all (0) views from model.
+2016-06-30 16:25:41,563 : DEBUG : main : String Input : String Input : 1:353:0:369 : clean output ports.
+2016-06-30 16:25:41,564 : DEBUG : main : WorkflowFileStoreHandlerRepository : Line Reader : 1:495:402 : Removing handler 10609526-33b2-4349-96b5-f9264884760c (Line Reader 1:495:402: <no directory>) - 93 remaining
+2016-06-30 16:25:41,564 : DEBUG : main : LineReaderNodeModel : Line Reader : 1:495:402 : Removing all (0) views from model.
+2016-06-30 16:25:41,564 : DEBUG : main : Line Reader : Line Reader : 1:495:402 : clean output ports.
+2016-06-30 16:25:41,564 : DEBUG : main : Buffer : Line Reader : 1:495:402 : Closing input stream on "/tmp/knime_Guillermo_var9598174/knime_container_20160630_1119515457069268825.bin.gz", 0 remaining
+2016-06-30 16:25:41,565 : DEBUG : main : WorkflowFileStoreHandlerRepository : Table Row to Variable : 1:495:401 : Removing handler ad8b13ca-aabe-4e85-beba-5e3f7226a4aa (Table Row to Variable 1:495:401: <no directory>) - 92 remaining
+2016-06-30 16:25:41,566 : DEBUG : main : TableToVariableNodeModel : Table Row to Variable : 1:495:401 : Removing all (0) views from model.
+2016-06-30 16:25:41,566 : DEBUG : main : Table Row to Variable : Table Row to Variable : 1:495:401 : clean output ports.
+2016-06-30 16:25:41,566 : DEBUG : main : WorkflowFileStoreHandlerRepository : R to Table : 1:495:400 : Removing handler 1d45a85f-1951-4747-8a65-c75ac1e79e46 (R to Table 1:495:400: <no directory>) - 91 remaining
+2016-06-30 16:25:41,566 : DEBUG : main : RSnippetNodeModel : R to Table : 1:495:400 : Removing all (0) views from model.
+2016-06-30 16:25:41,566 : DEBUG : main : R to Table : R to Table : 1:495:400 : clean output ports.
+2016-06-30 16:25:41,566 : DEBUG : main : WorkflowFileStoreHandlerRepository : Add Table To R : 1:495:398 : Removing handler 25e47779-c765-477a-9b68-c5d5cbbe6185 (Add Table To R 1:495:398: <no directory>) - 90 remaining
+2016-06-30 16:25:41,566 : DEBUG : main : RSnippetNodeModel : Add Table To R : 1:495:398 : Removing all (0) views from model.
+2016-06-30 16:25:41,566 : DEBUG : main : Add Table To R : Add Table To R : 1:495:398 : clean output ports.
+2016-06-30 16:25:41,566 : DEBUG : main : WorkflowFileStoreHandlerRepository : Inject Variables (Data) : 1:495:374 : Removing handler 2b60222d-683b-4645-a93e-3a09b030ef1a (Inject Variables (Data) 1:495:374: <no directory>) - 89 remaining
+2016-06-30 16:25:41,566 : DEBUG : main : InjectVariablesNodeModel : Inject Variables (Data) : 1:495:374 : Removing all (0) views from model.
+2016-06-30 16:25:41,566 : DEBUG : main : Inject Variables (Data) : Inject Variables (Data) : 1:495:374 : clean output ports.
+2016-06-30 16:25:41,566 : DEBUG : main : WorkflowFileStoreHandlerRepository : Table to R : 1:495:399 : Removing handler a37d7724-3f25-41fc-b9ce-4387ab4055ca (Table to R 1:495:399: <no directory>) - 88 remaining
+2016-06-30 16:25:41,566 : DEBUG : main : RSnippetNodeModel : Table to R : 1:495:399 : Removing all (0) views from model.
+2016-06-30 16:25:41,566 : DEBUG : main : Table to R : Table to R : 1:495:399 : clean output ports.
+2016-06-30 16:25:41,566 : DEBUG : main : WorkflowFileStoreHandlerRepository : String Input : 1:495:394 : Removing handler bf58533d-882f-462d-9b21-1c95d7f02611 (String Input 1:495:394: <no directory>) - 87 remaining
+2016-06-30 16:25:41,566 : DEBUG : main : StringInputQuickFormNodeModel : String Input : 1:495:394 : Removing all (0) views from model.
+2016-06-30 16:25:41,566 : DEBUG : main : String Input : String Input : 1:495:394 : clean output ports.
+2016-06-30 16:25:41,566 : DEBUG : main : WorkflowFileStoreHandlerRepository : Table Creator : 1:495:92 : Removing handler ab3c93a5-1790-4980-9c4c-1823896f1863 (Table Creator 1:495:92: <no directory>) - 86 remaining
+2016-06-30 16:25:41,566 : DEBUG : main : TableCreator2NodeModel : Table Creator : 1:495:92 : Removing all (0) views from model.
+2016-06-30 16:25:41,566 : DEBUG : main : Table Creator : Table Creator : 1:495:92 : clean output ports.
+2016-06-30 16:25:41,566 : DEBUG : main : WorkflowFileStoreHandlerRepository : WrappedNode Output : 1:367:0:435 : Removing handler e5cb24d2-12a3-4c87-bb68-b7eca7086a2c (WrappedNode Output 1:367:0:435: <no directory>) - 85 remaining
+2016-06-30 16:25:41,567 : DEBUG : main : VirtualSubNodeOutputNodeModel : WrappedNode Output : 1:367:0:435 : Removing all (0) views from model.
+2016-06-30 16:25:41,567 : DEBUG : main : WrappedNode Output : WrappedNode Output : 1:367:0:435 : clean output ports.
+2016-06-30 16:25:41,567 : DEBUG : main : WorkflowFileStoreHandlerRepository : R Snippet : 1:367:0:363 : Removing handler 20e2edf8-9228-4b65-887b-a7d915d5830a (R Snippet 1:367:0:363: <no directory>) - 84 remaining
+2016-06-30 16:25:41,567 : DEBUG : main : RSnippetNodeModel : R Snippet : 1:367:0:363 : Removing all (0) views from model.
+2016-06-30 16:25:41,567 : DEBUG : main : R Snippet : R Snippet : 1:367:0:363 : clean output ports.
+2016-06-30 16:25:41,567 : DEBUG : main : WorkflowFileStoreHandlerRepository : Inject Variables (Data) : 1:367:0:113 : Removing handler 6d9456ce-4eb6-412c-b3de-1caddccef2f2 (Inject Variables (Data) 1:367:0:113: <no directory>) - 83 remaining
+2016-06-30 16:25:41,567 : DEBUG : main : InjectVariablesNodeModel : Inject Variables (Data) : 1:367:0:113 : Removing all (0) views from model.
+2016-06-30 16:25:41,567 : DEBUG : main : Inject Variables (Data) : Inject Variables (Data) : 1:367:0:113 : clean output ports.
+2016-06-30 16:25:41,567 : DEBUG : main : WorkflowFileStoreHandlerRepository : Inject Variables (Data) : 1:367:0:111 : Removing handler ab096b15-2610-4352-b19a-60a2c3cd5690 (Inject Variables (Data) 1:367:0:111: <no directory>) - 82 remaining
+2016-06-30 16:25:41,567 : DEBUG : main : InjectVariablesNodeModel : Inject Variables (Data) : 1:367:0:111 : Removing all (0) views from model.
+2016-06-30 16:25:41,567 : DEBUG : main : Inject Variables (Data) : Inject Variables (Data) : 1:367:0:111 : clean output ports.
+2016-06-30 16:25:41,567 : DEBUG : main : WorkflowFileStoreHandlerRepository : WrappedNode Input : 1:367:0:434 : Removing handler b20b2115-0a8d-4389-b1c4-04c1965edc8b (WrappedNode Input 1:367:0:434: <no directory>) - 81 remaining
+2016-06-30 16:25:41,567 : DEBUG : main : VirtualSubNodeInputNodeModel : WrappedNode Input : 1:367:0:434 : Removing all (0) views from model.
+2016-06-30 16:25:41,567 : DEBUG : main : WrappedNode Input : WrappedNode Input : 1:367:0:434 : clean output ports.
+2016-06-30 16:25:41,567 : DEBUG : main : WorkflowFileStoreHandlerRepository : String Input : 1:367:0:433 : Removing handler 783fd7ec-191c-4ede-a40c-38d376ecd267 (String Input 1:367:0:433: <no directory>) - 80 remaining
+2016-06-30 16:25:41,567 : DEBUG : main : StringInputQuickFormNodeModel : String Input : 1:367:0:433 : Removing all (0) views from model.
+2016-06-30 16:25:41,567 : DEBUG : main : String Input : String Input : 1:367:0:433 : clean output ports.
+2016-06-30 16:25:41,567 : DEBUG : main : WorkflowFileStoreHandlerRepository : String Input : 1:367:0:175 : Removing handler 07198ac7-f0f8-4fd2-9c32-a1f541a2ddcc (String Input 1:367:0:175: <no directory>) - 79 remaining
+2016-06-30 16:25:41,567 : DEBUG : main : StringInputQuickFormNodeModel : String Input : 1:367:0:175 : Removing all (0) views from model.
+2016-06-30 16:25:41,567 : DEBUG : main : String Input : String Input : 1:367:0:175 : clean output ports.
+2016-06-30 16:25:41,567 : DEBUG : main : WorkflowFileStoreHandlerRepository : Table Creator : 1:367:0:92 : Removing handler 738ae33c-030c-4949-b241-feff7bbfb045 (Table Creator 1:367:0:92: <no directory>) - 78 remaining
+2016-06-30 16:25:41,567 : DEBUG : main : TableCreator2NodeModel : Table Creator : 1:367:0:92 : Removing all (0) views from model.
+2016-06-30 16:25:41,568 : DEBUG : main : Table Creator : Table Creator : 1:367:0:92 : clean output ports.
+2016-06-30 16:25:41,568 : DEBUG : main : WorkflowFileStoreHandlerRepository : WrappedNode Output : 1:387:0:407 : Removing handler bef161fe-3f12-477c-adfc-2bd6bdf91fb9 (WrappedNode Output 1:387:0:407: <no directory>) - 77 remaining
+2016-06-30 16:25:41,568 : DEBUG : main : VirtualSubNodeOutputNodeModel : WrappedNode Output : 1:387:0:407 : Removing all (0) views from model.
+2016-06-30 16:25:41,568 : DEBUG : main : WrappedNode Output : WrappedNode Output : 1:387:0:407 : clean output ports.
+2016-06-30 16:25:41,568 : DEBUG : main : WorkflowFileStoreHandlerRepository : R to Table : 1:387:0:404 : Removing handler f18ab483-5883-4287-9580-0561807b203b (R to Table 1:387:0:404: <no directory>) - 76 remaining
+2016-06-30 16:25:41,568 : DEBUG : main : RSnippetNodeModel : R to Table : 1:387:0:404 : Removing all (0) views from model.
+2016-06-30 16:25:41,568 : DEBUG : main : R to Table : R to Table : 1:387:0:404 : clean output ports.
+2016-06-30 16:25:41,568 : DEBUG : main : WorkflowFileStoreHandlerRepository : R to Table : 1:387:0:405 : Removing handler b9b66c43-6a1e-4740-be63-cecd7c296970 (R to Table 1:387:0:405: <no directory>) - 75 remaining
+2016-06-30 16:25:41,568 : DEBUG : main : RSnippetNodeModel : R to Table : 1:387:0:405 : Removing all (0) views from model.
+2016-06-30 16:25:41,568 : DEBUG : main : R to Table : R to Table : 1:387:0:405 : clean output ports.
+2016-06-30 16:25:41,568 : DEBUG : main : WorkflowFileStoreHandlerRepository : Table to R : 1:387:0:403 : Removing handler d53481f9-99a0-4c87-82dc-9f36f351a456 (Table to R 1:387:0:403: <no directory>) - 74 remaining
+2016-06-30 16:25:41,568 : DEBUG : main : RSnippetNodeModel : Table to R : 1:387:0:403 : Removing all (0) views from model.
+2016-06-30 16:25:41,568 : DEBUG : main : Table to R : Table to R : 1:387:0:403 : clean output ports.
+2016-06-30 16:25:41,568 : DEBUG : main : WorkflowFileStoreHandlerRepository : Reference Column Filter : 1:387:0:168 : Removing handler 652e4863-7c14-46a4-a90a-b1055fba45d6 (Reference Column Filter 1:387:0:168: <no directory>) - 73 remaining
+2016-06-30 16:25:41,568 : DEBUG : main : ColumnFilterRefNodeModel : Reference Column Filter : 1:387:0:168 : Removing all (0) views from model.
+2016-06-30 16:25:41,568 : DEBUG : main : Reference Column Filter : Reference Column Filter : 1:387:0:168 : clean output ports.
+2016-06-30 16:25:41,568 : DEBUG : main : WorkflowFileStoreHandlerRepository : Column Filter : 1:387:0:387 : Removing handler bc6caf9c-9391-44bc-b28b-58a6588a189a (Column Filter 1:387:0:387: <no directory>) - 72 remaining
+2016-06-30 16:25:41,568 : DEBUG : main : ColumnFilterQuickFormNodeModel : Column Filter : 1:387:0:387 : Removing all (0) views from model.
+2016-06-30 16:25:41,568 : DEBUG : main : Column Filter : Column Filter : 1:387:0:387 : clean output ports.
+2016-06-30 16:25:41,568 : DEBUG : main : WorkflowFileStoreHandlerRepository : Inject Variables (Data) : 1:387:0:401 : Removing handler 112edc04-6537-4cd2-bbef-4973d2d495c3 (Inject Variables (Data) 1:387:0:401: <no directory>) - 71 remaining
+2016-06-30 16:25:41,568 : DEBUG : main : InjectVariablesNodeModel : Inject Variables (Data) : 1:387:0:401 : Removing all (0) views from model.
+2016-06-30 16:25:41,569 : DEBUG : main : Inject Variables (Data) : Inject Variables (Data) : 1:387:0:401 : clean output ports.
+2016-06-30 16:25:41,569 : DEBUG : main : WorkflowFileStoreHandlerRepository : Inject Variables (Data) : 1:387:0:400 : Removing handler 8136c545-6bc2-48f2-9337-a39989e20bc6 (Inject Variables (Data) 1:387:0:400: <no directory>) - 70 remaining
+2016-06-30 16:25:41,569 : DEBUG : main : InjectVariablesNodeModel : Inject Variables (Data) : 1:387:0:400 : Removing all (0) views from model.
+2016-06-30 16:25:41,569 : DEBUG : main : Inject Variables (Data) : Inject Variables (Data) : 1:387:0:400 : clean output ports.
+2016-06-30 16:25:41,569 : DEBUG : main : WorkflowFileStoreHandlerRepository : Inject Variables (Data) : 1:387:0:390 : Removing handler 2fa94af3-0d45-4433-9972-e65f687a7c21 (Inject Variables (Data) 1:387:0:390: <no directory>) - 69 remaining
+2016-06-30 16:25:41,569 : DEBUG : main : InjectVariablesNodeModel : Inject Variables (Data) : 1:387:0:390 : Removing all (0) views from model.
+2016-06-30 16:25:41,569 : DEBUG : main : Inject Variables (Data) : Inject Variables (Data) : 1:387:0:390 : clean output ports.
+2016-06-30 16:25:41,569 : DEBUG : main : WorkflowFileStoreHandlerRepository : Inject Variables (Data) : 1:387:0:389 : Removing handler 5152cf13-b1b0-4000-87d1-404bab66aee2 (Inject Variables (Data) 1:387:0:389: <no directory>) - 68 remaining
+2016-06-30 16:25:41,569 : DEBUG : main : InjectVariablesNodeModel : Inject Variables (Data) : 1:387:0:389 : Removing all (0) views from model.
+2016-06-30 16:25:41,569 : DEBUG : main : Inject Variables (Data) : Inject Variables (Data) : 1:387:0:389 : clean output ports.
+2016-06-30 16:25:41,569 : DEBUG : main : WorkflowFileStoreHandlerRepository : Inject Variables (Data) : 1:387:0:383 : Removing handler fb6b8530-2d8a-4ac4-8ef9-0541a3b3541e (Inject Variables (Data) 1:387:0:383: <no directory>) - 67 remaining
+2016-06-30 16:25:41,569 : DEBUG : main : InjectVariablesNodeModel : Inject Variables (Data) : 1:387:0:383 : Removing all (0) views from model.
+2016-06-30 16:25:41,569 : DEBUG : main : Inject Variables (Data) : Inject Variables (Data) : 1:387:0:383 : clean output ports.
+2016-06-30 16:25:41,569 : DEBUG : main : WorkflowFileStoreHandlerRepository : Inject Variables (Data) : 1:387:0:44 : Removing handler f8a69007-fbb8-41e3-84df-46c92e0a8b0d (Inject Variables (Data) 1:387:0:44: <no directory>) - 66 remaining
+2016-06-30 16:25:41,570 : DEBUG : main : InjectVariablesNodeModel : Inject Variables (Data) : 1:387:0:44 : Removing all (0) views from model.
+2016-06-30 16:25:41,570 : DEBUG : main : Inject Variables (Data) : Inject Variables (Data) : 1:387:0:44 : clean output ports.
+2016-06-30 16:25:41,570 : DEBUG : main : WorkflowFileStoreHandlerRepository : WrappedNode Input : 1:387:0:406 : Removing handler 40ff5688-3d32-4f02-81eb-45cf582d43df (WrappedNode Input 1:387:0:406: <no directory>) - 65 remaining
+2016-06-30 16:25:41,570 : DEBUG : main : VirtualSubNodeInputNodeModel : WrappedNode Input : 1:387:0:406 : Removing all (0) views from model.
+2016-06-30 16:25:41,570 : DEBUG : main : WrappedNode Input : WrappedNode Input : 1:387:0:406 : clean output ports.
+2016-06-30 16:25:41,570 : DEBUG : main : WorkflowFileStoreHandlerRepository : Integer Input : 1:387:0:402 : Removing handler f6408781-fa5c-4e64-8c36-8140e8c95195 (Integer Input 1:387:0:402: <no directory>) - 64 remaining
+2016-06-30 16:25:41,570 : DEBUG : main : IntInputQuickFormNodeModel : Integer Input : 1:387:0:402 : Removing all (0) views from model.
+2016-06-30 16:25:41,570 : DEBUG : main : Integer Input : Integer Input : 1:387:0:402 : clean output ports.
+2016-06-30 16:25:41,570 : DEBUG : main : WorkflowFileStoreHandlerRepository : Integer Input : 1:387:0:399 : Removing handler 2fedde7a-4912-469d-a618-570a8dad6ec8 (Integer Input 1:387:0:399: <no directory>) - 63 remaining
+2016-06-30 16:25:41,570 : DEBUG : main : IntInputQuickFormNodeModel : Integer Input : 1:387:0:399 : Removing all (0) views from model.
+2016-06-30 16:25:41,570 : DEBUG : main : Integer Input : Integer Input : 1:387:0:399 : clean output ports.
+2016-06-30 16:25:41,570 : DEBUG : main : WorkflowFileStoreHandlerRepository : Double Input : 1:387:0:397 : Removing handler a5f13544-e3e6-4891-9e35-ee516fa5c70d (Double Input 1:387:0:397: <no directory>) - 62 remaining
+2016-06-30 16:25:41,570 : DEBUG : main : DoubleInputQuickFormNodeModel : Double Input : 1:387:0:397 : Removing all (0) views from model.
+2016-06-30 16:25:41,570 : DEBUG : main : Double Input : Double Input : 1:387:0:397 : clean output ports.
+2016-06-30 16:25:41,570 : DEBUG : KNIME-Temp-File-Deleter : Buffer :  :  : Deleted temporary file "/tmp/knime_Guillermo_var9598174/knime_container_20160630_1119515457069268825.bin.gz"
+2016-06-30 16:25:41,570 : DEBUG : main : WorkflowFileStoreHandlerRepository : Integer Input : 1:387:0:396 : Removing handler 5967a838-f69d-4d87-b1af-58a48810147c (Integer Input 1:387:0:396: <no directory>) - 61 remaining
+2016-06-30 16:25:41,570 : DEBUG : main : IntInputQuickFormNodeModel : Integer Input : 1:387:0:396 : Removing all (0) views from model.
+2016-06-30 16:25:41,570 : DEBUG : main : Integer Input : Integer Input : 1:387:0:396 : clean output ports.
+2016-06-30 16:25:41,570 : DEBUG : main : WorkflowFileStoreHandlerRepository : Integer Input : 1:387:0:395 : Removing handler 3c7ab49a-8efe-4e17-910f-afa482a543a6 (Integer Input 1:387:0:395: <no directory>) - 60 remaining
+2016-06-30 16:25:41,570 : DEBUG : main : IntInputQuickFormNodeModel : Integer Input : 1:387:0:395 : Removing all (0) views from model.
+2016-06-30 16:25:41,570 : DEBUG : main : Integer Input : Integer Input : 1:387:0:395 : clean output ports.
+2016-06-30 16:25:41,570 : DEBUG : main : WorkflowFileStoreHandlerRepository : String Input : 1:387:0:388 : Removing handler 9cc63fdc-1ca5-4916-91f2-297a79cb8737 (String Input 1:387:0:388: <no directory>) - 59 remaining
+2016-06-30 16:25:41,570 : DEBUG : main : StringInputQuickFormNodeModel : String Input : 1:387:0:388 : Removing all (0) views from model.
+2016-06-30 16:25:41,570 : DEBUG : main : String Input : String Input : 1:387:0:388 : clean output ports.
+2016-06-30 16:25:41,570 : DEBUG : main : WorkflowFileStoreHandlerRepository : Table Creator : 1:387:0:92 : Removing handler ec240098-4098-462a-99c7-e4ef94d22aa0 (Table Creator 1:387:0:92: <no directory>) - 58 remaining
+2016-06-30 16:25:41,570 : DEBUG : main : TableCreator2NodeModel : Table Creator : 1:387:0:92 : Removing all (0) views from model.
+2016-06-30 16:25:41,570 : DEBUG : main : Table Creator : Table Creator : 1:387:0:92 : clean output ports.
+2016-06-30 16:25:41,570 : DEBUG : main : WorkflowFileStoreHandlerRepository : WrappedNode Output : 1:476:0:179 : Removing handler 0a1b9818-5eb5-4a73-bd46-b9ac29e35847 (WrappedNode Output 1:476:0:179: <no directory>) - 57 remaining
+2016-06-30 16:25:41,570 : DEBUG : main : VirtualSubNodeOutputNodeModel : WrappedNode Output : 1:476:0:179 : Removing all (0) views from model.
+2016-06-30 16:25:41,570 : DEBUG : main : WrappedNode Output : WrappedNode Output : 1:476:0:179 : clean output ports.
+2016-06-30 16:25:41,571 : DEBUG : main : WorkflowFileStoreHandlerRepository : RowID : 1:476:0:69:68 : Removing handler d35180f6-dc54-4b86-aa74-726542d742cd (RowID 1:476:0:69:68: <no directory>) - 56 remaining
+2016-06-30 16:25:41,571 : DEBUG : main : RowKeyNodeModel2 : RowID : 1:476:0:69:68 : Removing all (0) views from model.
+2016-06-30 16:25:41,571 : DEBUG : main : RowID : RowID : 1:476:0:69:68 : clean output ports.
+2016-06-30 16:25:41,571 : DEBUG : main : WorkflowFileStoreHandlerRepository : Column Appender : 1:476:0:69:65 : Removing handler d2da09b2-97a1-490a-bafa-79feaeb4c066 (Column Appender 1:476:0:69:65: <no directory>) - 55 remaining
+2016-06-30 16:25:41,571 : DEBUG : main : ColumnAppenderNodeModel : Column Appender : 1:476:0:69:65 : Removing all (0) views from model.
+2016-06-30 16:25:41,571 : DEBUG : main : Column Appender : Column Appender : 1:476:0:69:65 : clean output ports.
+2016-06-30 16:25:41,571 : DEBUG : main : WorkflowFileStoreHandlerRepository : Column Filter : 1:476:0:69:66 : Removing handler 4c89a0b6-9351-428a-a970-4a2de01c5a08 (Column Filter 1:476:0:69:66: <no directory>) - 54 remaining
+2016-06-30 16:25:41,571 : DEBUG : main : DataColumnSpecFilterNodeModel : Column Filter : 1:476:0:69:66 : Removing all (0) views from model.
+2016-06-30 16:25:41,571 : DEBUG : main : Column Filter : Column Filter : 1:476:0:69:66 : clean output ports.
+2016-06-30 16:25:41,571 : DEBUG : main : WorkflowFileStoreHandlerRepository : RowID : 1:476:0:69:67 : Removing handler 4275393b-a469-492c-87ab-6f23dbc11cb9 (RowID 1:476:0:69:67: <no directory>) - 53 remaining
+2016-06-30 16:25:41,571 : DEBUG : main : RowKeyNodeModel2 : RowID : 1:476:0:69:67 : Removing all (0) views from model.
+2016-06-30 16:25:41,571 : DEBUG : main : RowID : RowID : 1:476:0:69:67 : clean output ports.
+2016-06-30 16:25:41,571 : DEBUG : main : WorkflowFileStoreHandlerRepository : RowID : 1:476:0:69:64 : Removing handler cf41d46c-ef75-4966-9fef-04aeb1781282 (RowID 1:476:0:69:64: <no directory>) - 52 remaining
+2016-06-30 16:25:41,571 : DEBUG : main : RowKeyNodeModel2 : RowID : 1:476:0:69:64 : Removing all (0) views from model.
+2016-06-30 16:25:41,571 : DEBUG : main : RowID : RowID : 1:476:0:69:64 : clean output ports.
+2016-06-30 16:25:41,571 : DEBUG : main : WorkflowFileStoreHandlerRepository : Column Rename : 1:476:0:99 : Removing handler 2dd2ce09-96f6-4ec6-9e10-2674129259e0 (Column Rename 1:476:0:99: <no directory>) - 51 remaining
+2016-06-30 16:25:41,571 : DEBUG : main : RenameNodeModel : Column Rename : 1:476:0:99 : Removing all (0) views from model.
+2016-06-30 16:25:41,571 : DEBUG : main : Column Rename : Column Rename : 1:476:0:99 : clean output ports.
+2016-06-30 16:25:41,571 : DEBUG : main : WorkflowFileStoreHandlerRepository : R Snippet : 1:476:0:57 : Removing handler e55a8c68-0d58-4963-b762-180092145867 (R Snippet 1:476:0:57: <no directory>) - 50 remaining
+2016-06-30 16:25:41,571 : DEBUG : main : RSnippetNodeModel : R Snippet : 1:476:0:57 : Removing all (0) views from model.
+2016-06-30 16:25:41,571 : DEBUG : main : R Snippet : R Snippet : 1:476:0:57 : clean output ports.
+2016-06-30 16:25:41,571 : DEBUG : main : WorkflowFileStoreHandlerRepository : Reference Column Filter : 1:476:0:168 : Removing handler 836303be-8a9e-4ca2-b3bb-586ed04414a0 (Reference Column Filter 1:476:0:168: <no directory>) - 49 remaining
+2016-06-30 16:25:41,571 : DEBUG : main : ColumnFilterRefNodeModel : Reference Column Filter : 1:476:0:168 : Removing all (0) views from model.
+2016-06-30 16:25:41,571 : DEBUG : main : Reference Column Filter : Reference Column Filter : 1:476:0:168 : clean output ports.
+2016-06-30 16:25:41,572 : DEBUG : main : WorkflowFileStoreHandlerRepository : Column Filter : 1:476:0:171 : Removing handler 692f194a-844b-4e78-91f3-0e6a2a2c4c2c (Column Filter 1:476:0:171: <no directory>) - 48 remaining
+2016-06-30 16:25:41,572 : DEBUG : main : ColumnFilterQuickFormNodeModel : Column Filter : 1:476:0:171 : Removing all (0) views from model.
+2016-06-30 16:25:41,572 : DEBUG : main : Column Filter : Column Filter : 1:476:0:171 : clean output ports.
+2016-06-30 16:25:41,572 : DEBUG : main : WorkflowFileStoreHandlerRepository : Inject Variables (Data) : 1:476:0:177 : Removing handler 2ba75529-8e28-4dff-a62d-664aa4809220 (Inject Variables (Data) 1:476:0:177: <no directory>) - 47 remaining
+2016-06-30 16:25:41,572 : DEBUG : main : InjectVariablesNodeModel : Inject Variables (Data) : 1:476:0:177 : Removing all (0) views from model.
+2016-06-30 16:25:41,572 : DEBUG : main : Inject Variables (Data) : Inject Variables (Data) : 1:476:0:177 : clean output ports.
+2016-06-30 16:25:41,572 : DEBUG : main : WorkflowFileStoreHandlerRepository : Inject Variables (Data) : 1:476:0:175 : Removing handler 19ee6c03-64d2-408a-917b-e5aaa9923888 (Inject Variables (Data) 1:476:0:175: <no directory>) - 46 remaining
+2016-06-30 16:25:41,572 : DEBUG : main : InjectVariablesNodeModel : Inject Variables (Data) : 1:476:0:175 : Removing all (0) views from model.
+2016-06-30 16:25:41,572 : DEBUG : main : Inject Variables (Data) : Inject Variables (Data) : 1:476:0:175 : clean output ports.
+2016-06-30 16:25:41,572 : DEBUG : main : WorkflowFileStoreHandlerRepository : Inject Variables (Data) : 1:476:0:174 : Removing handler aa50803c-9943-406d-9977-3e6778c0c7b3 (Inject Variables (Data) 1:476:0:174: <no directory>) - 45 remaining
+2016-06-30 16:25:41,572 : DEBUG : main : InjectVariablesNodeModel : Inject Variables (Data) : 1:476:0:174 : Removing all (0) views from model.
+2016-06-30 16:25:41,572 : DEBUG : main : Inject Variables (Data) : Inject Variables (Data) : 1:476:0:174 : clean output ports.
+2016-06-30 16:25:41,572 : DEBUG : main : WorkflowFileStoreHandlerRepository : Inject Variables (Data) : 1:476:0:112 : Removing handler 574ef40f-783c-4d24-8941-6f14c019a5a7 (Inject Variables (Data) 1:476:0:112: <no directory>) - 44 remaining
+2016-06-30 16:25:41,572 : DEBUG : main : InjectVariablesNodeModel : Inject Variables (Data) : 1:476:0:112 : Removing all (0) views from model.
+2016-06-30 16:25:41,572 : DEBUG : main : Inject Variables (Data) : Inject Variables (Data) : 1:476:0:112 : clean output ports.
+2016-06-30 16:25:41,572 : DEBUG : main : WorkflowFileStoreHandlerRepository : Inject Variables (Data) : 1:476:0:111 : Removing handler de61555d-983d-4100-8dd5-1552a4403e7c (Inject Variables (Data) 1:476:0:111: <no directory>) - 43 remaining
+2016-06-30 16:25:41,572 : DEBUG : main : InjectVariablesNodeModel : Inject Variables (Data) : 1:476:0:111 : Removing all (0) views from model.
+2016-06-30 16:25:41,572 : DEBUG : main : Inject Variables (Data) : Inject Variables (Data) : 1:476:0:111 : clean output ports.
+2016-06-30 16:25:41,572 : DEBUG : main : WorkflowFileStoreHandlerRepository : WrappedNode Input : 1:476:0:178 : Removing handler 095cd7d7-ff1f-4a55-ba63-5bbec6bf14e1 (WrappedNode Input 1:476:0:178: <no directory>) - 42 remaining
+2016-06-30 16:25:41,572 : DEBUG : main : VirtualSubNodeInputNodeModel : WrappedNode Input : 1:476:0:178 : Removing all (0) views from model.
+2016-06-30 16:25:41,572 : DEBUG : main : WrappedNode Input : WrappedNode Input : 1:476:0:178 : clean output ports.
+2016-06-30 16:25:41,572 : DEBUG : main : WorkflowFileStoreHandlerRepository : String Input : 1:476:0:176 : Removing handler df25778c-6ac8-44b7-be84-0bc122ffce70 (String Input 1:476:0:176: <no directory>) - 41 remaining
+2016-06-30 16:25:41,572 : DEBUG : main : StringInputQuickFormNodeModel : String Input : 1:476:0:176 : Removing all (0) views from model.
+2016-06-30 16:25:41,572 : DEBUG : main : String Input : String Input : 1:476:0:176 : clean output ports.
+2016-06-30 16:25:41,572 : DEBUG : main : WorkflowFileStoreHandlerRepository : Integer Input : 1:476:0:173 : Removing handler f9afe3a6-bafa-4ede-8dd1-28c5a4e448ac (Integer Input 1:476:0:173: <no directory>) - 40 remaining
+2016-06-30 16:25:41,572 : DEBUG : main : IntInputQuickFormNodeModel : Integer Input : 1:476:0:173 : Removing all (0) views from model.
+2016-06-30 16:25:41,572 : DEBUG : main : Integer Input : Integer Input : 1:476:0:173 : clean output ports.
+2016-06-30 16:25:41,572 : DEBUG : main : WorkflowFileStoreHandlerRepository : String Input : 1:476:0:172 : Removing handler 69ee063a-317f-4e60-b961-6b18f52ac7fa (String Input 1:476:0:172: <no directory>) - 39 remaining
+2016-06-30 16:25:41,572 : DEBUG : main : StringInputQuickFormNodeModel : String Input : 1:476:0:172 : Removing all (0) views from model.
+2016-06-30 16:25:41,572 : DEBUG : main : String Input : String Input : 1:476:0:172 : clean output ports.
+2016-06-30 16:25:41,572 : DEBUG : main : WorkflowFileStoreHandlerRepository : Double Input : 1:476:0:170 : Removing handler 71f4e5b0-fe2c-4cbe-ada4-1e11ec84f062 (Double Input 1:476:0:170: <no directory>) - 38 remaining
+2016-06-30 16:25:41,572 : DEBUG : main : DoubleInputQuickFormNodeModel : Double Input : 1:476:0:170 : Removing all (0) views from model.
+2016-06-30 16:25:41,572 : DEBUG : main : Double Input : Double Input : 1:476:0:170 : clean output ports.
+2016-06-30 16:25:41,572 : DEBUG : main : WorkflowFileStoreHandlerRepository : Integer Input : 1:476:0:169 : Removing handler 5a569fae-d692-4c7e-91bd-3a82e38dd1b7 (Integer Input 1:476:0:169: <no directory>) - 37 remaining
+2016-06-30 16:25:41,572 : DEBUG : main : IntInputQuickFormNodeModel : Integer Input : 1:476:0:169 : Removing all (0) views from model.
+2016-06-30 16:25:41,572 : DEBUG : main : Integer Input : Integer Input : 1:476:0:169 : clean output ports.
+2016-06-30 16:25:41,572 : DEBUG : main : WorkflowFileStoreHandlerRepository : Table Creator : 1:476:0:92 : Removing handler e3daceda-a852-4d8e-a366-ef0be2476902 (Table Creator 1:476:0:92: <no directory>) - 36 remaining
+2016-06-30 16:25:41,572 : DEBUG : main : TableCreator2NodeModel : Table Creator : 1:476:0:92 : Removing all (0) views from model.
+2016-06-30 16:25:41,572 : DEBUG : main : Table Creator : Table Creator : 1:476:0:92 : clean output ports.
+2016-06-30 16:25:41,572 : DEBUG : main : WorkflowFileStoreHandlerRepository : WrappedNode Output : 1:497:0:410 : Removing handler 18e58469-388d-4262-8587-21e07c996f89 (WrappedNode Output 1:497:0:410: <no directory>) - 35 remaining
+2016-06-30 16:25:41,572 : DEBUG : main : VirtualSubNodeOutputNodeModel : WrappedNode Output : 1:497:0:410 : Removing all (0) views from model.
+2016-06-30 16:25:41,572 : DEBUG : main : WrappedNode Output : WrappedNode Output : 1:497:0:410 : clean output ports.
+2016-06-30 16:25:41,572 : DEBUG : main : WorkflowFileStoreHandlerRepository : Line Reader : 1:497:0:406 : Removing handler 2cbb9436-3b5f-4300-b8f8-483c8b2d8868 (Line Reader 1:497:0:406: <no directory>) - 34 remaining
+2016-06-30 16:25:41,572 : DEBUG : main : LineReaderNodeModel : Line Reader : 1:497:0:406 : Removing all (0) views from model.
+2016-06-30 16:25:41,572 : DEBUG : main : Line Reader : Line Reader : 1:497:0:406 : clean output ports.
+2016-06-30 16:25:41,573 : DEBUG : main : Buffer : Line Reader : 1:497:0:406 : Closing input stream on "/tmp/knime_Guillermo_var9598174/knime_container_20160630_97761179335405434.bin.gz", 0 remaining
+2016-06-30 16:25:41,573 : DEBUG : main : WorkflowFileStoreHandlerRepository : R Snippet : 1:497:0:408 : Removing handler 6d9f39bd-192a-477a-ae43-b33c0017898d (R Snippet 1:497:0:408: <no directory>) - 33 remaining
+2016-06-30 16:25:41,573 : DEBUG : main : RSnippetNodeModel : R Snippet : 1:497:0:408 : Removing all (0) views from model.
+2016-06-30 16:25:41,573 : DEBUG : main : R Snippet : R Snippet : 1:497:0:408 : clean output ports.
+2016-06-30 16:25:41,573 : DEBUG : main : WorkflowFileStoreHandlerRepository : Dumb Joiner (deprecated) : 1:497:0:399 : Removing handler 2a9efb9f-d7fd-4910-a553-568f383c4729 (Dumb Joiner (deprecated) 1:497:0:399: <no directory>) - 32 remaining
+2016-06-30 16:25:41,573 : DEBUG : main : DumbJoinerNodeModel : Dumb Joiner (deprecated) : 1:497:0:399 : Removing all (0) views from model.
+2016-06-30 16:25:41,573 : DEBUG : main : Dumb Joiner (deprecated) : Dumb Joiner (deprecated) : 1:497:0:399 : clean output ports.
+2016-06-30 16:25:41,573 : DEBUG : main : Buffer : Dumb Joiner (deprecated) : 1:497:0:399 : Closing input stream on "/tmp/knime_Guillermo_var9598174/knime_container_20160630_3444604706637052712.bin.gz", 0 remaining
+2016-06-30 16:25:41,573 : DEBUG : main : WorkflowFileStoreHandlerRepository : R Snippet : 1:497:0:397 : Removing handler 21a4fbd4-8bc5-4cfd-b6a3-34f5af6b6b14 (R Snippet 1:497:0:397: <no directory>) - 31 remaining
+2016-06-30 16:25:41,574 : DEBUG : main : RSnippetNodeModel : R Snippet : 1:497:0:397 : Removing all (0) views from model.
+2016-06-30 16:25:41,574 : DEBUG : main : R Snippet : R Snippet : 1:497:0:397 : clean output ports.
+2016-06-30 16:25:41,574 : DEBUG : main : WorkflowFileStoreHandlerRepository : Column Filter : 1:497:0:396 : Removing handler e1b45162-db2b-4647-a301-85757598114e (Column Filter 1:497:0:396: <no directory>) - 30 remaining
+2016-06-30 16:25:41,574 : DEBUG : main : DataColumnSpecFilterNodeModel : Column Filter : 1:497:0:396 : Removing all (0) views from model.
+2016-06-30 16:25:41,574 : DEBUG : main : Column Filter : Column Filter : 1:497:0:396 : clean output ports.
+2016-06-30 16:25:41,574 : DEBUG : main : WorkflowFileStoreHandlerRepository : RowID : 1:497:0:395 : Removing handler 97e7ec84-6ba6-432e-8d25-c3ffae72ba4d (RowID 1:497:0:395: <no directory>) - 29 remaining
+2016-06-30 16:25:41,574 : DEBUG : main : RowKeyNodeModel2 : RowID : 1:497:0:395 : Removing all (0) views from model.
+2016-06-30 16:25:41,574 : DEBUG : main : RowID : RowID : 1:497:0:395 : clean output ports.
+2016-06-30 16:25:41,574 : DEBUG : main : WorkflowFileStoreHandlerRepository : Bash : 1:497:0:367 : Removing handler 1bdd0756-4619-4bb2-8696-d35b728322fb (Bash 1:497:0:367: <no directory>) - 28 remaining
+2016-06-30 16:25:41,574 : DEBUG : main : BashNodeModel : Bash : 1:497:0:367 : Removing all (0) views from model.
+2016-06-30 16:25:41,574 : DEBUG : main : Bash : Bash : 1:497:0:367 : clean output ports.
+2016-06-30 16:25:41,574 : DEBUG : main : WorkflowFileStoreHandlerRepository : CSV Writer : 1:497:0:46 : Removing handler 577eb7dc-859a-41e9-a24e-8e4c618303c8 (CSV Writer 1:497:0:46: <no directory>) - 27 remaining
+2016-06-30 16:25:41,574 : DEBUG : main : CSVWriterNodeModel : CSV Writer : 1:497:0:46 : Removing all (0) views from model.
+2016-06-30 16:25:41,574 : DEBUG : main : CSV Writer : CSV Writer : 1:497:0:46 : clean output ports.
+2016-06-30 16:25:41,574 : DEBUG : main : WorkflowFileStoreHandlerRepository : String Manipulation : 1:497:0:392 : Removing handler 03e95bbb-da69-4899-ba09-8f373a6f3030 (String Manipulation 1:497:0:392: <no directory>) - 26 remaining
+2016-06-30 16:25:41,574 : DEBUG : main : StringManipulationNodeModel : String Manipulation : 1:497:0:392 : Removing all (0) views from model.
+2016-06-30 16:25:41,574 : DEBUG : main : String Manipulation : String Manipulation : 1:497:0:392 : clean output ports.
+2016-06-30 16:25:41,574 : DEBUG : main : WorkflowFileStoreHandlerRepository : Table Column to Variable : 1:497:0:393 : Removing handler e7e1e46e-d202-4d49-a45f-19fead9f0f3d (Table Column to Variable 1:497:0:393: <no directory>) - 25 remaining
+2016-06-30 16:25:41,574 : DEBUG : main : TableColumnToVariableNodeModel : Table Column to Variable : 1:497:0:393 : Removing all (0) views from model.
+2016-06-30 16:25:41,574 : DEBUG : main : Table Column to Variable : Table Column to Variable : 1:497:0:393 : clean output ports.
+2016-06-30 16:25:41,574 : DEBUG : main : WorkflowFileStoreHandlerRepository : R Snippet : 1:497:0:394 : Removing handler c19b20d3-5e02-4a48-8943-f4fdcbb9a5ce (R Snippet 1:497:0:394: <no directory>) - 24 remaining
+2016-06-30 16:25:41,574 : DEBUG : main : RSnippetNodeModel : R Snippet : 1:497:0:394 : Removing all (0) views from model.
+2016-06-30 16:25:41,574 : DEBUG : main : R Snippet : R Snippet : 1:497:0:394 : clean output ports.
+2016-06-30 16:25:41,574 : DEBUG : main : WorkflowFileStoreHandlerRepository : String Manipulation : 1:497:0:381 : Removing handler 52954a18-f219-4303-9cfd-308428ab1f23 (String Manipulation 1:497:0:381: <no directory>) - 23 remaining
+2016-06-30 16:25:41,574 : DEBUG : main : StringManipulationNodeModel : String Manipulation : 1:497:0:381 : Removing all (0) views from model.
+2016-06-30 16:25:41,574 : DEBUG : main : String Manipulation : String Manipulation : 1:497:0:381 : clean output ports.
+2016-06-30 16:25:41,574 : DEBUG : main : WorkflowFileStoreHandlerRepository : Table Column to Variable : 1:497:0:385 : Removing handler dc5a5758-12c6-4dc6-b3ff-3a30a2a45275 (Table Column to Variable 1:497:0:385: <no directory>) - 22 remaining
+2016-06-30 16:25:41,574 : DEBUG : main : TableColumnToVariableNodeModel : Table Column to Variable : 1:497:0:385 : Removing all (0) views from model.
+2016-06-30 16:25:41,574 : DEBUG : main : Table Column to Variable : Table Column to Variable : 1:497:0:385 : clean output ports.
+2016-06-30 16:25:41,574 : DEBUG : main : WorkflowFileStoreHandlerRepository : R Snippet : 1:497:0:384 : Removing handler d5ca577f-0524-4525-a0bf-97d647d60eae (R Snippet 1:497:0:384: <no directory>) - 21 remaining
+2016-06-30 16:25:41,574 : DEBUG : main : RSnippetNodeModel : R Snippet : 1:497:0:384 : Removing all (0) views from model.
+2016-06-30 16:25:41,575 : DEBUG : main : R Snippet : R Snippet : 1:497:0:384 : clean output ports.
+2016-06-30 16:25:41,575 : DEBUG : main : WorkflowFileStoreHandlerRepository : String Manipulation : 1:497:0:380 : Removing handler 8fb85c06-3e8d-4c46-a772-f7e5aad77a7d (String Manipulation 1:497:0:380: <no directory>) - 20 remaining
+2016-06-30 16:25:41,575 : DEBUG : main : StringManipulationNodeModel : String Manipulation : 1:497:0:380 : Removing all (0) views from model.
+2016-06-30 16:25:41,575 : DEBUG : main : String Manipulation : String Manipulation : 1:497:0:380 : clean output ports.
+2016-06-30 16:25:41,575 : DEBUG : main : WorkflowFileStoreHandlerRepository : Table Column to Variable : 1:497:0:383 : Removing handler 00018a1d-2063-4dec-a28e-60f0a2aac8ec (Table Column to Variable 1:497:0:383: <no directory>) - 19 remaining
+2016-06-30 16:25:41,575 : DEBUG : main : TableColumnToVariableNodeModel : Table Column to Variable : 1:497:0:383 : Removing all (0) views from model.
+2016-06-30 16:25:41,575 : DEBUG : main : Table Column to Variable : Table Column to Variable : 1:497:0:383 : clean output ports.
+2016-06-30 16:25:41,575 : DEBUG : main : WorkflowFileStoreHandlerRepository : R Snippet : 1:497:0:382 : Removing handler f111eb15-3820-493b-9603-bea3017d5463 (R Snippet 1:497:0:382: <no directory>) - 18 remaining
+2016-06-30 16:25:41,575 : DEBUG : main : RSnippetNodeModel : R Snippet : 1:497:0:382 : Removing all (0) views from model.
+2016-06-30 16:25:41,575 : DEBUG : main : R Snippet : R Snippet : 1:497:0:382 : clean output ports.
+2016-06-30 16:25:41,575 : DEBUG : main : WorkflowFileStoreHandlerRepository : String Manipulation : 1:497:0:377 : Removing handler 585f2a9f-b3eb-4532-b370-0dea896f47cc (String Manipulation 1:497:0:377: <no directory>) - 17 remaining
+2016-06-30 16:25:41,575 : DEBUG : main : StringManipulationNodeModel : String Manipulation : 1:497:0:377 : Removing all (0) views from model.
+2016-06-30 16:25:41,575 : DEBUG : main : String Manipulation : String Manipulation : 1:497:0:377 : clean output ports.
+2016-06-30 16:25:41,575 : DEBUG : main : WorkflowFileStoreHandlerRepository : Table Column to Variable : 1:497:0:379 : Removing handler a315dbf1-9246-4014-8088-3eecfed4de3c (Table Column to Variable 1:497:0:379: <no directory>) - 16 remaining
+2016-06-30 16:25:41,575 : DEBUG : main : TableColumnToVariableNodeModel : Table Column to Variable : 1:497:0:379 : Removing all (0) views from model.
+2016-06-30 16:25:41,575 : DEBUG : main : Table Column to Variable : Table Column to Variable : 1:497:0:379 : clean output ports.
+2016-06-30 16:25:41,575 : DEBUG : main : WorkflowFileStoreHandlerRepository : R Snippet : 1:497:0:378 : Removing handler 248f3f4c-9a1a-44fb-8d48-e82dbaf33f47 (R Snippet 1:497:0:378: <no directory>) - 15 remaining
+2016-06-30 16:25:41,575 : DEBUG : main : RSnippetNodeModel : R Snippet : 1:497:0:378 : Removing all (0) views from model.
+2016-06-30 16:25:41,575 : DEBUG : main : R Snippet : R Snippet : 1:497:0:378 : clean output ports.
+2016-06-30 16:25:41,575 : DEBUG : main : WorkflowFileStoreHandlerRepository : String Manipulation : 1:497:0:372 : Removing handler be437c18-2c44-4eb1-b392-c0d2a67e6909 (String Manipulation 1:497:0:372: <no directory>) - 14 remaining
+2016-06-30 16:25:41,575 : DEBUG : main : StringManipulationNodeModel : String Manipulation : 1:497:0:372 : Removing all (0) views from model.
+2016-06-30 16:25:41,575 : DEBUG : main : String Manipulation : String Manipulation : 1:497:0:372 : clean output ports.
+2016-06-30 16:25:41,576 : DEBUG : main : WorkflowFileStoreHandlerRepository : Table Column to Variable : 1:497:0:373 : Removing handler 15bfee1e-88a9-49fd-a2eb-9338f5051584 (Table Column to Variable 1:497:0:373: <no directory>) - 13 remaining
+2016-06-30 16:25:41,576 : DEBUG : main : TableColumnToVariableNodeModel : Table Column to Variable : 1:497:0:373 : Removing all (0) views from model.
+2016-06-30 16:25:41,576 : DEBUG : main : Table Column to Variable : Table Column to Variable : 1:497:0:373 : clean output ports.
+2016-06-30 16:25:41,576 : DEBUG : main : WorkflowFileStoreHandlerRepository : R Snippet : 1:497:0:376 : Removing handler 610bacbe-26a7-48ad-bae9-ed21328bc5ea (R Snippet 1:497:0:376: <no directory>) - 12 remaining
+2016-06-30 16:25:41,576 : DEBUG : main : RSnippetNodeModel : R Snippet : 1:497:0:376 : Removing all (0) views from model.
+2016-06-30 16:25:41,576 : DEBUG : main : R Snippet : R Snippet : 1:497:0:376 : clean output ports.
+2016-06-30 16:25:41,576 : DEBUG : main : WorkflowFileStoreHandlerRepository : String Manipulation : 1:497:0:371 : Removing handler 076966d5-60a2-4b7d-af64-0173e34ab0bd (String Manipulation 1:497:0:371: <no directory>) - 11 remaining
+2016-06-30 16:25:41,576 : DEBUG : main : StringManipulationNodeModel : String Manipulation : 1:497:0:371 : Removing all (0) views from model.
+2016-06-30 16:25:41,576 : DEBUG : main : String Manipulation : String Manipulation : 1:497:0:371 : clean output ports.
+2016-06-30 16:25:41,576 : DEBUG : main : WorkflowFileStoreHandlerRepository : Table Column to Variable : 1:497:0:370 : Removing handler 53b2eccc-f833-4773-861d-1018e7407fef (Table Column to Variable 1:497:0:370: <no directory>) - 10 remaining
+2016-06-30 16:25:41,576 : DEBUG : main : TableColumnToVariableNodeModel : Table Column to Variable : 1:497:0:370 : Removing all (0) views from model.
+2016-06-30 16:25:41,576 : DEBUG : main : Table Column to Variable : Table Column to Variable : 1:497:0:370 : clean output ports.
+2016-06-30 16:25:41,576 : DEBUG : main : WorkflowFileStoreHandlerRepository : R Snippet : 1:497:0:375 : Removing handler 550e019e-239c-49fe-91fa-e7ac343f0ee2 (R Snippet 1:497:0:375: <no directory>) - 9 remaining
+2016-06-30 16:25:41,576 : DEBUG : main : RSnippetNodeModel : R Snippet : 1:497:0:375 : Removing all (0) views from model.
+2016-06-30 16:25:41,576 : DEBUG : main : R Snippet : R Snippet : 1:497:0:375 : clean output ports.
+2016-06-30 16:25:41,576 : DEBUG : main : WorkflowFileStoreHandlerRepository : String Manipulation : 1:497:0:364 : Removing handler e2ca51b5-2fc5-4ee9-a74c-8ff03cb89cc3 (String Manipulation 1:497:0:364: <no directory>) - 8 remaining
+2016-06-30 16:25:41,576 : DEBUG : main : StringManipulationNodeModel : String Manipulation : 1:497:0:364 : Removing all (0) views from model.
+2016-06-30 16:25:41,576 : DEBUG : main : String Manipulation : String Manipulation : 1:497:0:364 : clean output ports.
+2016-06-30 16:25:41,576 : DEBUG : main : WorkflowFileStoreHandlerRepository : Line Reader : 1:497:0:1 : Removing handler 14c51f03-a225-4195-8cbb-694ff636ffca (Line Reader 1:497:0:1: <no directory>) - 7 remaining
+2016-06-30 16:25:41,576 : DEBUG : main : LineReaderNodeModel : Line Reader : 1:497:0:1 : Removing all (0) views from model.
+2016-06-30 16:25:41,576 : DEBUG : main : Line Reader : Line Reader : 1:497:0:1 : clean output ports.
+2016-06-30 16:25:41,576 : DEBUG : main : WorkflowFileStoreHandlerRepository : Table Column to Variable : 1:497:0:366 : Removing handler 8cab1541-bc58-4a0b-a1df-b35a4fc44f49 (Table Column to Variable 1:497:0:366: <no directory>) - 6 remaining
+2016-06-30 16:25:41,576 : DEBUG : main : TableColumnToVariableNodeModel : Table Column to Variable : 1:497:0:366 : Removing all (0) views from model.
+2016-06-30 16:25:41,576 : DEBUG : main : Table Column to Variable : Table Column to Variable : 1:497:0:366 : clean output ports.
+2016-06-30 16:25:41,576 : DEBUG : main : WorkflowFileStoreHandlerRepository : R Snippet : 1:497:0:354 : Removing handler 0c979771-2898-4a91-9bc9-7c4833d99c78 (R Snippet 1:497:0:354: <no directory>) - 5 remaining
+2016-06-30 16:25:41,576 : DEBUG : main : RSnippetNodeModel : R Snippet : 1:497:0:354 : Removing all (0) views from model.
+2016-06-30 16:25:41,576 : DEBUG : main : R Snippet : R Snippet : 1:497:0:354 : clean output ports.
+2016-06-30 16:25:41,576 : DEBUG : main : WorkflowFileStoreHandlerRepository : Reference Column Filter : 1:497:0:138 : Removing handler a43ca9c9-4c26-445a-b91a-f23eb53fb617 (Reference Column Filter 1:497:0:138: <no directory>) - 4 remaining
+2016-06-30 16:25:41,576 : DEBUG : main : ColumnFilterRefNodeModel : Reference Column Filter : 1:497:0:138 : Removing all (0) views from model.
+2016-06-30 16:25:41,576 : DEBUG : main : Reference Column Filter : Reference Column Filter : 1:497:0:138 : clean output ports.
+2016-06-30 16:25:41,576 : DEBUG : main : WorkflowFileStoreHandlerRepository : Column Filter : 1:497:0:398 : Removing handler fa82bc01-eba8-4bee-ab74-675859df82c2 (Column Filter 1:497:0:398: <no directory>) - 3 remaining
+2016-06-30 16:25:41,576 : DEBUG : main : ColumnFilterQuickFormNodeModel : Column Filter : 1:497:0:398 : Removing all (0) views from model.
+2016-06-30 16:25:41,576 : DEBUG : main : Column Filter : Column Filter : 1:497:0:398 : clean output ports.
+2016-06-30 16:25:41,576 : DEBUG : KNIME-Temp-File-Deleter : Buffer :  :  : Deleted temporary file "/tmp/knime_Guillermo_var9598174/knime_container_20160630_97761179335405434.bin.gz"
+2016-06-30 16:25:41,576 : DEBUG : main : WorkflowFileStoreHandlerRepository : WrappedNode Input : 1:497:0:409 : Removing handler 6a3a5573-4c95-4074-83c6-2dacd57b254a (WrappedNode Input 1:497:0:409: <no directory>) - 2 remaining
+2016-06-30 16:25:41,576 : DEBUG : main : VirtualSubNodeInputNodeModel : WrappedNode Input : 1:497:0:409 : Removing all (0) views from model.
+2016-06-30 16:25:41,576 : DEBUG : main : WrappedNode Input : WrappedNode Input : 1:497:0:409 : clean output ports.
+2016-06-30 16:25:41,577 : DEBUG : main : WorkflowFileStoreHandlerRepository : Dumb Joiner (deprecated) : 1:510 : Removing handler c6f42955-a3fc-4630-bc6c-13e97371773c (Dumb Joiner (deprecated) 1:510: <no directory>) - 1 remaining
+2016-06-30 16:25:41,577 : DEBUG : main : DumbJoinerNodeModel : Dumb Joiner (deprecated) : 1:510 : Removing all (0) views from model.
+2016-06-30 16:25:41,577 : DEBUG : main : Dumb Joiner (deprecated) : Dumb Joiner (deprecated) : 1:510 : clean output ports.
+2016-06-30 16:25:41,577 : DEBUG : main : WorkflowFileStoreHandlerRepository : Dumb Joiner (deprecated) : 1:518 : Removing handler 1dfde041-2b05-4221-98e1-0ec37763217f (Dumb Joiner (deprecated) 1:518: <no directory>) - 0 remaining
+2016-06-30 16:25:41,577 : DEBUG : KNIME-Temp-File-Deleter : Buffer :  :  : Deleted temporary file "/tmp/knime_Guillermo_var9598174/knime_container_20160630_6995124838691966603.bin.gz"
+2016-06-30 16:25:41,577 : DEBUG : main : DumbJoinerNodeModel : Dumb Joiner (deprecated) : 1:518 : Removing all (0) views from model.
+2016-06-30 16:25:41,577 : DEBUG : main : Dumb Joiner (deprecated) : Dumb Joiner (deprecated) : 1:518 : clean output ports.
+2016-06-30 16:25:41,577 : DEBUG : main : VirtualSubNodeOutputNodeModel : WrappedNode Output : 1:328:0:174 : Removing all (0) views from model.
+2016-06-30 16:25:41,577 : DEBUG : main : WrappedNode Output : WrappedNode Output : 1:328:0:174 : clean output ports.
+2016-06-30 16:25:41,577 : DEBUG : main : RSnippetNodeModel : R Snippet : 1:328:0:135 : Removing all (0) views from model.
+2016-06-30 16:25:41,577 : DEBUG : main : R Snippet : R Snippet : 1:328:0:135 : clean output ports.
+2016-06-30 16:25:41,577 : DEBUG : main : Buffer : R Snippet : 1:328:0:135 : Closing input stream on "/tmp/knime_Guillermo_var9598174/knime_container_20160630_8941581498793095088.bin.gz", 0 remaining
+2016-06-30 16:25:41,577 : DEBUG : main : ColumnFilterRefNodeModel : Reference Column Filter : 1:328:0:168 : Removing all (0) views from model.
+2016-06-30 16:25:41,577 : DEBUG : main : Reference Column Filter : Reference Column Filter : 1:328:0:168 : clean output ports.
+2016-06-30 16:25:41,577 : DEBUG : main : ColumnFilterRefNodeModel : Reference Column Filter : 1:328:0:169 : Removing all (0) views from model.
+2016-06-30 16:25:41,577 : DEBUG : main : Reference Column Filter : Reference Column Filter : 1:328:0:169 : clean output ports.
+2016-06-30 16:25:41,577 : DEBUG : main : MissingValueHandlerNodeModel : Missing Value : 1:328:0:170 : Removing all (0) views from model.
+2016-06-30 16:25:41,577 : DEBUG : main : Missing Value : Missing Value : 1:328:0:170 : clean output ports.
+2016-06-30 16:25:41,577 : DEBUG : main : ColumnFilterQuickFormNodeModel : Column Filter : 1:328:0:171 : Removing all (0) views from model.
+2016-06-30 16:25:41,577 : DEBUG : main : Column Filter : Column Filter : 1:328:0:171 : clean output ports.
+2016-06-30 16:25:41,577 : DEBUG : main : VirtualSubNodeInputNodeModel : WrappedNode Input : 1:328:0:173 : Removing all (0) views from model.
+2016-06-30 16:25:41,577 : DEBUG : main : WrappedNode Input : WrappedNode Input : 1:328:0:173 : clean output ports.
+2016-06-30 16:25:41,577 : DEBUG : main : IntInputQuickFormNodeModel : Integer Input : 1:328:0:172 : Removing all (0) views from model.
+2016-06-30 16:25:41,577 : DEBUG : main : Integer Input : Integer Input : 1:328:0:172 : clean output ports.
+2016-06-30 16:25:41,577 : DEBUG : main : RowKeyNodeModel2 : RowID : 1:330 : Removing all (0) views from model.
+2016-06-30 16:25:41,577 : DEBUG : main : RowID : RowID : 1:330 : clean output ports.
+2016-06-30 16:25:41,578 : DEBUG : main : TransposeTableNodeModel : Transpose : 1:2 : Removing all (0) views from model.
+2016-06-30 16:25:41,578 : DEBUG : main : Transpose : Transpose : 1:2 : clean output ports.
+2016-06-30 16:25:41,577 : DEBUG : KNIME-Temp-File-Deleter : Buffer :  :  : Deleted temporary file "/tmp/knime_Guillermo_var9598174/knime_container_20160630_3444604706637052712.bin.gz"
+2016-06-30 16:25:41,578 : DEBUG : main : FileReaderNodeModel : File Reader : 1:329 : Removing all (0) views from model.
+2016-06-30 16:25:41,578 : DEBUG : main : File Reader : File Reader : 1:329 : clean output ports.
+2016-06-30 16:25:41,578 : DEBUG : main : FileReaderNodeModel : File Reader : 1:1 : Removing all (0) views from model.
+2016-06-30 16:25:41,578 : DEBUG : main : File Reader : File Reader : 1:1 : clean output ports.
+2016-06-30 16:25:41,578 : DEBUG : KNIME-Temp-File-Deleter : Buffer :  :  : Deleted temporary file "/tmp/knime_Guillermo_var9598174/knime_container_20160630_2010039488816030486.bin.gz"
+2016-06-30 16:25:41,579 : DEBUG : main : Buffer : File Reader : 1:1 : Closing input stream on "/tmp/knime_Guillermo_var9598174/knime_container_20160630_7392069809960450836.bin.gz", 0 remaining
+2016-06-30 16:25:41,579 : DEBUG : main : WorkflowManager :  :  : Project "Guillermo_var95_cor8 1" removed (1 remaining)
+2016-06-30 16:25:41,579 : DEBUG : KNIME-Temp-File-Deleter : Buffer :  :  : Deleted temporary file "/tmp/knime_Guillermo_var9598174/knime_container_20160630_387042478183999306.bin.gz"
+2016-06-30 16:25:41,579 : DEBUG : KNIME-Temp-File-Deleter : Buffer :  :  : Deleted temporary file "/tmp/knime_Guillermo_var9598174/knime_container_20160630_8941581498793095088.bin.gz"
+2016-06-30 16:25:41,579 : DEBUG : KNIME-Temp-File-Deleter : Buffer :  :  : Deleted temporary file "/tmp/knime_Guillermo_var9598174/knime_container_20160630_5922277536522691159.bin.gz"
+2016-06-30 16:25:41,580 : DEBUG : KNIME-Temp-File-Deleter : Buffer :  :  : Deleted temporary file "/tmp/knime_Guillermo_var9598174/knime_container_20160630_8001246505533845094.bin.gz"
+2016-06-30 16:25:41,580 : DEBUG : KNIME-Temp-File-Deleter : Buffer :  :  : Deleted temporary file "/tmp/knime_Guillermo_var9598174/knime_container_20160630_6326045748439847710.bin.gz"
+2016-06-30 16:25:41,580 : DEBUG : KNIME-Temp-File-Deleter : Buffer :  :  : Failed to delete temporary directory "/tmp/knime_Guillermo_var9598174/knime_container_20160630_7392069809960450836.bin.gz"
+2016-06-30 16:25:42,468 : DEBUG : Thread-8 : PoolingPhantomJSWebDriverFactory :  :  : Killed PhantomJS process http://127.0.0.1:15223/wd/hub
+2016-06-30 16:25:42,468 : DEBUG : Thread-8 : PoolingPhantomJSWebDriverFactory :  :  : Killed PhantomJS process http://127.0.0.1:8082/wd/hub
+2016-06-30 16:25:42,468 : DEBUG : Thread-8 : PoolingPhantomJSWebDriverFactory :  :  : Killed PhantomJS process http://127.0.0.1:26311/wd/hub

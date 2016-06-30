@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="script" type="xstring" value="library(flowCore)%%00010library(rCUR)%%00010library(Biobase)%%00010library(foreach)%%00010library(doParallel)%%00010library(parallel)%%00010numCores &lt;- knime.flow.in[[&quot;num.cores&quot;]]%%00010cl &lt;- makeCluster(numCores)%%00010registerDoParallel(cl)%%00010dir.create(paste(knime.flow.in[[&quot;dirname&quot;]], &quot;/CUR&quot;, sep = &quot;&quot;))%%00010processInput &lt;- function(i) {  %%00010  cols &lt;- knime.in%%00010  fs &lt;- read.flowSet(files = NULL, path = knime.flow.in[[&quot;dirname&quot;]], pattern = &quot;fcs&quot;)%%00010  df &lt;- as.data.frame(exprs(fs[[i]]))%%00010  df2 &lt;- as.matrix(df[, which(names(df) %in% c(as.character(t(cols))))])%%00010  df3 &lt;- as.matrix(df[, -which(names(df) %in% c(as.character(t(cols))))])%%00010  df3_frame &lt;- as.data.frame(df3)%%00010  df3_frame$row &lt;- as.numeric(rownames(df3_frame))%%00010  CURmatrix &lt;- CUR(df2, r = knime.flow.in[[&quot;CUR_rows&quot;]], k = NULL, sv = NULL, method = &quot;exact.num.random&quot;)%%00010  CUR &lt;- getR(CURmatrix)%%00010  CUR_frame &lt;- as.data.frame(CUR)%%00010  CUR_frame$row &lt;- as.numeric(rownames(CUR_frame))%%00010  output &lt;- merge(CUR_frame, df3_frame, by = &quot;row&quot;)%%00010  output$row &lt;- NULL%%00010  cols &lt;- colnames(fs[[i]])%%00010  new.order &lt;- c(cols)%%00010  output &lt;- output[,new.order]%%00010  out_frame &lt;- flowFrame(as.matrix(output), parameters = parameters(fs[[i]]), description = description(fs[[i]]));%%00010  write.FCS(out_frame, paste(knime.flow.in[[&quot;dirname&quot;]], &quot;/CUR/&quot;, sampleNames(fs[i]), sep = &quot;&quot;), what=&quot;numeric&quot;)%%00010}%%00010file_number &lt;- length(list.files(path = knime.flow.in[[&quot;dirname&quot;]], pattern = &quot;.fcs&quot;))%%00010results &lt;- foreach(i = 1:file_number, .packages = c(&quot;flowCore&quot;, &quot;Biobase&quot;, &quot;rCUR&quot;)) %dopar% {  %%00010  processInput(i)%%00010}%%00010knime.out &lt;- as.data.frame(exprs(read.FCS(paste(knime.flow.in[[&quot;dirname&quot;]], &quot;/CUR/&quot;, knime.flow.in[[&quot;basename&quot;]], sep = &quot;&quot;))))%%00010%%00010  "/>
+<entry key="templateUUID" type="xstring" isnull="true" value=""/>
+<entry key="version" type="xstring" value="version 1.x"/>
+<entry key="Output non numbers (NaN, Inf, -Inf) as missing cells" type="xboolean" value="false"/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="CUR"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="860"/>
+<entry key="y-coordinate" type="xint" value="373"/>
+<entry key="width" type="xint" value="134"/>
+<entry key="height" type="xint" value="18"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="0"/>
+<entry key="defFontSize" type="xint" value="-1"/>
+<entry key="annotation-version" type="xint" value="-1"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="factory" type="xstring" value="org.knime.r.RSnippetNodeFactory"/>
+<entry key="node-name" type="xstring" value="R Snippet"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME R-Project nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.r"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-bundle-version" type="xstring" value="3.1.3.v201604221432"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Interactive R Statistics Integration"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.r.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-feature-version" type="xstring" value="3.1.3.v201604221432"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="R Snippet"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

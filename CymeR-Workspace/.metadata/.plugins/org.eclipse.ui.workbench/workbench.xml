@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="17" version="2.0">
+<workbenchAdvisor/>
+<window height="780" maximized="true" width="1016" x="2" y="25">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar/>
+<coolbarLayout>
+<coolItem id="main" itemType="typeToolBarContribution" x="132" y="26"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="de.walware.statet.r.menus.RunToolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="54" y="26"/>
+<coolItem id="org.eclipse.birt.report.designer.ui.editors.ReportEditor" itemType="typePlaceholder" x="159" y="26"/>
+<coolItem id="org.knime.workbench.editor.WorkflowEditor" itemType="typeToolBarContribution" x="793" y="26"/>
+<coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.birt.report.designer.ui.previewActionSet" itemType="typeToolBarContribution" x="54" y="26"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+</coolbarLayout>
+<page focus="true" label="&lt;Unknown Label&gt; - KNIME">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" partName="0: Testing" title="0: Testing" tooltip="0: Testing" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="knime://LOCAL/Workflows/Testing/workflow.knime"/>
+</editor>
+<editor id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" partName="3: 2. Automated gating with openCyto" title="3: 2. Automated gating with openCyto" tooltip="3: 2. Automated gating with openCyto" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="knime://LOCAL/Functions%20for%20FCS%20files/5%20-%20Gating/A.%20Automated%20gating/2.%20Automated%20gating%20with%20openCyto/workflow.knime"/>
+</editor>
+<editor activePart="true" focus="true" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" partName="2: Concatenate all files in a directory" title="2: Concatenate all files in a directory" tooltip="2: Concatenate all files in a directory" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="knime://LOCAL/Other%20functions/Miscellaneous/Concatenate%20all%20files%20in%20a%20directory/workflow.knime"/>
+</editor>
+<editor id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" partName="4: Append columns" title="4: Append columns" tooltip="4: Append columns" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="knime://LOCAL/Functions%20for%20knime%20data%20frames/Miscellaneous/Append%20columns/workflow.knime"/>
+</editor>
+</editors>
+<views>
+<view id="org.knime.workbench.ui.startupMessages" partName="Startup Messages">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.knime.workbench.explorer.view" partName="KNIME Explorer">
+<viewState>
+<content/>
+</viewState>
+</view>
+<view id="org.knime.workbench.repository.view.RepositoryView" partName="Node Repository">
+<viewState/>
+</view>
+<view id="org.knime.workbench.helpview" partName="Node Description">
+<viewState/>
+</view>
+<view id="org.eclipse.birt.report.designer.ui.views.data.DataView" partName="Data Explorer">
+<viewState/>
+</view>
+<view id="org.eclipse.gef.ui.palette_view" partName="Palette">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.knime.workbench.editor.WorkflowEditor" activePerspective="org.knime.workbench.ui.ModellerPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.knime.workbench.ui.perspective.ModellerPerspectiveFactory" id="org.knime.workbench.ui.ModellerPerspective" label="KNIME"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.knime.workbench.ui.global"/>
+<alwaysOnActionSet id="com.pervasive.datarush.knime.base.ui.actionSet"/>
+<show_view_action id="com.pervasive.datarush.coreui.monitoring.GraphDetailsViewer"/>
+<show_view_action id="com.pervasive.datarush.coreui.monitoring.ClusterView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.knime.workbench.explorer.view"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.knime.workbench.helpview"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.knime.workbench.ui.navigator.KnimeResourceNavigator"/>
+<show_view_action id="org.knime.workbench.repository.view.RepositoryView"/>
+<show_view_action id="org.knime.workbench.ui.favorites"/>
+<new_wizard_action id="com.pervasive.datarush.knime.coreui.krunner.project.NewDRWorkflowWizard"/>
+<new_wizard_action id="org.knime.workbench.explorer.view.actions.NewWorkflowWizard"/>
+<new_wizard_action id="org.knime.workbench.explorer.view.actions.NewWorkflowGroupWizard"/>
+<new_wizard_action id="org.knime.workbench.ui.wizards.project.NewProjectWizard"/>
+<new_wizard_action id="org.knime.workbench.ui.newworkflowgroup"/>
+<perspective_action id="com.knime.reporting.designer.perspective.ReportingDesignerPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.pde.ui.PDEPerspective"/>
+<perspective_action id="org.knime.workbench.ui.ModellerPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.knime.workbench.helpview"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.knime.workbench.ui.startupMessages"/>
+<view id="org.knime.workbench.repository.view.RepositoryView"/>
+<view id="org.knime.workbench.explorer.view"/>
+<fastViewBars/>
+<viewLayoutRec closeable="false" id="org.knime.workbench.repository.view.RepositoryView"/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@24925aae">
+<folder appearance="2" expanded="2">
+<page content="org.knime.workbench.ui.navigator.KnimeResourceNavigator" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7497382" ratioLeft="1432" ratioRight="478" relationship="2" relative="org.eclipse.ui.internal.ViewStack@24925aae">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.30624017" ratioLeft="584" ratioRight="1323" relationship="2" relative="org.eclipse.ui.internal.ViewStack@24925aae"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@48964aaa" ratio="0.73010755" ratioLeft="679" ratioRight="251" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.knime.workbench.helpview" label="Node Description"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.knime.workbench.ui.startupMessages" label="Startup Messages"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@28399f4e" ratio="0.29904306" ratioLeft="250" ratioRight="586" relationship="4" relative="org.eclipse.ui.internal.ViewStack@24925aae">
+<folder activePageID="org.knime.workbench.explorer.view" appearance="2" expanded="2">
+<page content="org.knime.workbench.repository.view.RepositoryView" label="Node Repository"/>
+<page content="org.knime.workbench.explorer.view" label="KNIME Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@47f6844" ratio="0.4994641" ratioLeft="466" ratioRight="467" relationship="4" relative="org.eclipse.ui.internal.ViewStack@28399f4e">
+<folder appearance="2" expanded="2">
+<page content="org.knime.workbench.ui.favorites" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.knime.reporting.designer.perspective.ReportingDesignerPerspective" id="com.knime.reporting.designer.perspective.ReportingDesignerPerspective" label="KNIME Report Designer"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.knime.workbench.ui.global"/>
+<alwaysOnActionSet id="com.pervasive.datarush.knime.base.ui.actionSet"/>
+<show_view_action id="org.knime.workbench.helpview"/>
+<show_view_action id="org.knime.workbench.ui.favorites"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.birt.report.designer.ui.lib.explorer.view"/>
+<show_view_action id="org.eclipse.birt.report.designer.ui.views.data.DataView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.knime.workbench.explorer.view"/>
+<perspective_action id="org.knime.workbench.ui.ModellerPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.knime.workbench.explorer.view"/>
+<view id="org.eclipse.gef.ui.palette_view"/>
+<view id="org.eclipse.birt.report.designer.ui.views.data.DataView"/>
+<fastViewBars/>
+<viewLayoutRec closeable="false" id="org.eclipse.birt.report.designer.ui.attributes.AttributeView" showTitle="true" standalone="true"/>
+<viewLayoutRec closeable="false" id="org.eclipse.gef.ui.palette_view"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.ui.internal.ViewStack@22115d4e">&#x0A;<folder activePageID="org.knime.workbench.explorer.view" appearance="2" expanded="2">&#x0A;<page content="org.knime.workbench.explorer.view" label="KNIME Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7497382" ratioLeft="1432" ratioRight="478" relationship="2" relative="org.eclipse.ui.internal.ViewStack@22115d4e">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.knime.workbench.ui.navigator.KnimeResourceNavigator" ratio="0.2" ratioLeft="382" ratioRight="1528" relationship="2" relative="org.eclipse.ui.internal.ViewStack@22115d4e"/>
+<info part="org.eclipse.ui.editorss" ratio="0.19960733" ratioLeft="305" ratioRight="1223" relationship="2" relative="org.knime.workbench.ui.navigator.KnimeResourceNavigator"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@17e867ed" ratio="0.65909094" ratioLeft="551" ratioRight="285" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.birt.report.designer.ui.attributes.AttributeView" appearance="3" expanded="2">&#x0A;<page content="org.eclipse.birt.report.designer.ui.attributes.AttributeView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@652bb2cf" ratio="0.3492823" ratioLeft="292" ratioRight="544" relationship="4" relative="org.eclipse.ui.internal.ViewStack@22115d4e">&#x0A;<folder activePageID="org.eclipse.gef.ui.palette_view" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.gef.ui.palette_view" label="Palette"/>
+<page content="org.eclipse.birt.report.designer.ui.views.data.DataView" label="Data Explorer"/>
+<page content="com.knime.reporting.designer.view.dataset.explorer" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/Functions%20for%20FCS%20files/5%20-%20Gating/A.%20Automated%20gating/2.%20Automated%20gating%20with%20openCyto/workflow.knime"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/Functions%20for%20FCS%20files/4%20-%20Transformations/a.%20ArcSinH%20transform/workflow.knime"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/Functions%20for%20FCS%20files/1%20-%20Compensation/c.%20Compensation%20using%20spillover%20matrix%20in%20FCS%20file/workflow.knime"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/Functions%20for%20FCS%20files/0%20-%20Data%20import%20and%20download/c.%20Import%20FCS%20file/workflow.knime"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/Workflows/Testing/workflow.knime"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/Other%20functions/Miscellaneous/Concatenate%20all%20files%20in%20a%20directory/workflow.knime"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/Functions%20for%20FCS%20files/5%20-%20Gating/A.%20Automated%20gating/2.%20Automated%20gating%20with%20openCyto/workflow.knime"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/Functions%20for%20knime%20data%20frames/Miscellaneous/Append%20rows/workflow.knime"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/Functions%20for%20knime%20data%20frames/Miscellaneous/Append%20columns/workflow.knime"/>
+</editors>
+<item historyLabel="0: 2. Automated gating with openCyto" index="0"/>
+<item historyLabel="1: a. ArcSinH transform" index="1"/>
+<item historyLabel="2: c. Compensation using spillover matrix in FCS file" index="2"/>
+<item historyLabel="1: a. ArcSinH transform" index="1"/>
+<item historyLabel="0: 2. Automated gating with openCyto" index="0"/>
+<item historyLabel="2: c. Compensation using spillover matrix in FCS file" index="2"/>
+<item historyLabel="1: a. ArcSinH transform" index="1"/>
+<item historyLabel="0: 2. Automated gating with openCyto" index="0"/>
+<item historyLabel="3: c. Import FCS file" index="3"/>
+<item historyLabel="0: 2. Automated gating with openCyto" index="0"/>
+<item historyLabel="2: c. Compensation using spillover matrix in FCS file" index="2"/>
+<item historyLabel="1: a. ArcSinH transform" index="1"/>
+<item historyLabel="3: c. Import FCS file" index="3"/>
+<item historyLabel="1: a. ArcSinH transform" index="1"/>
+<item historyLabel="0: 2. Automated gating with openCyto" index="0"/>
+<item historyLabel="3: c. Import FCS file" index="3"/>
+<item historyLabel="1: a. ArcSinH transform" index="1"/>
+<item historyLabel="2: c. Compensation using spillover matrix in FCS file" index="2"/>
+<item historyLabel="0: 2. Automated gating with openCyto" index="0"/>
+<item historyLabel="3: c. Import FCS file" index="3"/>
+<item historyLabel="0: 2. Automated gating with openCyto" index="0"/>
+<item historyLabel="2: Testing" index="4"/>
+<item historyLabel="0: 2. Automated gating with openCyto" index="0"/>
+<item historyLabel="2: Testing" index="4"/>
+<item historyLabel="2: Testing" index="4"/>
+<item historyLabel="0: 2. Automated gating with openCyto" index="0"/>
+<item historyLabel="2: Testing" index="4"/>
+<item historyLabel="0: 2. Automated gating with openCyto" index="0"/>
+<item historyLabel="2: Testing" index="4"/>
+<item historyLabel="0: 2. Automated gating with openCyto" index="0"/>
+<item historyLabel="2: Testing" index="4"/>
+<item historyLabel="0: 2. Automated gating with openCyto" index="0"/>
+<item historyLabel="2: Testing" index="4"/>
+<item historyLabel="0: 2. Automated gating with openCyto" index="0"/>
+<item historyLabel="2: Testing" index="4"/>
+<item historyLabel="2: Concatenate all files in a directory" index="5"/>
+<item historyLabel="3: 2. Automated gating with openCyto" index="6"/>
+<item historyLabel="2: Concatenate all files in a directory" index="5"/>
+<item historyLabel="4: Append rows" index="7"/>
+<item historyLabel="2: Concatenate all files in a directory" index="5"/>
+<item historyLabel="4: Append rows" index="7"/>
+<item historyLabel="2: Concatenate all files in a directory" index="5"/>
+<item historyLabel="4: Append columns" index="8"/>
+<item historyLabel="2: Concatenate all files in a directory" index="5"/>
+<item historyLabel="4: Append columns" index="8"/>
+<item historyLabel="2: Concatenate all files in a directory" index="5"/>
+<item historyLabel="4: Append columns" index="8"/>
+<item active="true" historyLabel="2: Concatenate all files in a directory" index="5"/>
+</navigationHistory>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" tooltip="knime://LOCAL/Functions%20for%20knime%20data%20frames/Miscellaneous/Append%20columns/workflow.knime">
+<persistable uri="knime://LOCAL/Functions%20for%20knime%20data%20frames/Miscellaneous/Append%20columns/workflow.knime"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" tooltip="knime://LOCAL/Functions%20for%20knime%20data%20frames/Miscellaneous/Append%20rows/workflow.knime">
+<persistable uri="knime://LOCAL/Functions%20for%20knime%20data%20frames/Miscellaneous/Append%20rows/workflow.knime"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" tooltip="knime://LOCAL/Other%20functions/Miscellaneous/Concatenate%20all%20files%20in%20a%20directory/workflow.knime">
+<persistable uri="knime://LOCAL/Other%20functions/Miscellaneous/Concatenate%20all%20files%20in%20a%20directory/workflow.knime"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" tooltip="knime://LOCAL/Workflows/Testing/workflow.knime">
+<persistable uri="knime://LOCAL/Workflows/Testing/workflow.knime"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" tooltip="knime://LOCAL/Functions%20for%20FCS%20files/0%20-%20Data%20import%20and%20download/c.%20Import%20FCS%20file/workflow.knime">
+<persistable uri="knime://LOCAL/Functions%20for%20FCS%20files/0%20-%20Data%20import%20and%20download/c.%20Import%20FCS%20file/workflow.knime"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" tooltip="knime://LOCAL/Functions%20for%20FCS%20files/1%20-%20Compensation/c.%20Compensation%20using%20spillover%20matrix%20in%20FCS%20file/workflow.knime">
+<persistable uri="knime://LOCAL/Functions%20for%20FCS%20files/1%20-%20Compensation/c.%20Compensation%20using%20spillover%20matrix%20in%20FCS%20file/workflow.knime"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" tooltip="knime://LOCAL/Functions%20for%20FCS%20files/4%20-%20Transformations/a.%20ArcSinH%20transform/workflow.knime">
+<persistable uri="knime://LOCAL/Functions%20for%20FCS%20files/4%20-%20Transformations/a.%20ArcSinH%20transform/workflow.knime"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" tooltip="knime://LOCAL/Workflows/Reference%20row%20filter/workflow.knime">
+<persistable uri="knime://LOCAL/Workflows/Reference%20row%20filter/workflow.knime"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" tooltip="knime://LOCAL/Other%20functions/Miscellaneous/Row%20filter%20by%20row%20value/workflow.knime">
+<persistable uri="knime://LOCAL/Other%20functions/Miscellaneous/Row%20filter%20by%20row%20value/workflow.knime"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" tooltip="knime://LOCAL/Other%20functions/Miscellaneous/Write%20out%20file%20names%20in%20directory%20to%20csv/workflow.knime">
+<persistable uri="knime://LOCAL/Other%20functions/Miscellaneous/Write%20out%20file%20names%20in%20directory%20to%20csv/workflow.knime"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" tooltip="knime://LOCAL/Functions%20for%20FCS%20files/5%20-%20Gating/A.%20Automated%20gating/2.%20Automated%20gating%20with%20openCyto/workflow.knime">
+<persistable uri="knime://LOCAL/Functions%20for%20FCS%20files/5%20-%20Gating/A.%20Automated%20gating/2.%20Automated%20gating%20with%20openCyto/workflow.knime"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" tooltip="knime://LOCAL/Workflows/Merge%20tables%20by%20RowID/workflow.knime">
+<persistable uri="knime://LOCAL/Workflows/Merge%20tables%20by%20RowID/workflow.knime"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" tooltip="knime://LOCAL/Other%20functions/Miscellaneous/Truncate%20File%20Names/workflow.knime">
+<persistable uri="knime://LOCAL/Other%20functions/Miscellaneous/Truncate%20File%20Names/workflow.knime"/>
+</file>
+</mruList>
+</workbench>

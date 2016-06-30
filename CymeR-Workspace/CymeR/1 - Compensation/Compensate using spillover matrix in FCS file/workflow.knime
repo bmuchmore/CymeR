@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="workflow.knime">
+<entry key="created_by" type="xstring" value="3.1.2.v201603311235"/>
+<entry key="version" type="xstring" value="3.1.0"/>
+<entry key="name" type="xstring" isnull="true" value=""/>
+<config key="authorInformation">
+<entry key="authored-by" type="xstring" value="brian"/>
+<entry key="authored-when" type="xstring" value="2015-06-26 09:18:15 +0000"/>
+<entry key="lastEdited-by" type="xstring" value="developer"/>
+<entry key="lastEdited-when" type="xstring" value="2016-06-30 16:21:36 +0000"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<config key="workflow_credentials"/>
+<config key="annotations">
+<config key="annotation_0">
+<entry key="text" type="xstring" value="This node will apply the compensation matrix contained in an FCS file (contained in either keyword SPILL or SPILLOVER) and then write out a new FCS file with the compensation matrix applied as well as the compensation matrix. "/>
+<entry key="bgcolor" type="xint" value="13433343"/>
+<entry key="x-coordinate" type="xint" value="20"/>
+<entry key="y-coordinate" type="xint" value="151"/>
+<entry key="width" type="xint" value="999"/>
+<entry key="height" type="xint" value="349"/>
+<entry key="alignment" type="xstring" value="LEFT"/>
+<entry key="borderSize" type="xint" value="3"/>
+<entry key="borderColor" type="xint" value="13369344"/>
+<entry key="defFontSize" type="xint" value="11"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+</config>
+<config key="nodes">
+<config key="node_399">
+<entry key="id" type="xint" value="399"/>
+<entry key="node_settings_file" type="xstring" value="Compensation (#399)/settings.xml"/>
+<entry key="node_is_meta" type="xboolean" value="true"/>
+<entry key="node_type" type="xstring" value="SubNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="653"/>
+<entry key="1" type="xint" value="322"/>
+<entry key="2" type="xint" value="229"/>
+<entry key="3" type="xint" value="99"/>
+</config>
+</config>
+</config>
+<config key="node_406">
+<entry key="id" type="xint" value="406"/>
+<entry key="node_settings_file" type="xstring" value="Compensation (#406)/settings.xml"/>
+<entry key="node_is_meta" type="xboolean" value="true"/>
+<entry key="node_type" type="xstring" value="SubNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="141"/>
+<entry key="1" type="xint" value="322"/>
+<entry key="2" type="xint" value="174"/>
+<entry key="3" type="xint" value="99"/>
+</config>
+</config>
+</config>
+</config>
+<config key="connections">
+<config key="connection_0">
+<entry key="sourceID" type="xint" value="406"/>
+<entry key="destID" type="xint" value="399"/>
+<entry key="sourcePort" type="xint" value="1"/>
+<entry key="destPort" type="xint" value="1"/>
+</config>
+<config key="connection_1">
+<entry key="sourceID" type="xint" value="406"/>
+<entry key="destID" type="xint" value="399"/>
+<entry key="sourcePort" type="xint" value="2"/>
+<entry key="destPort" type="xint" value="2"/>
+</config>
+</config>
+<config key="workflow_editor_settings">
+<entry key="workflow.editor.snapToGrid" type="xboolean" value="false"/>
+<entry key="workflow.editor.ShowGrid" type="xboolean" value="false"/>
+<entry key="workflow.editor.gridX" type="xint" value="90"/>
+<entry key="workflow.editor.gridY" type="xint" value="120"/>
+<entry key="workflow.editor.zoomLevel" type="xdouble" value="1.0"/>
+</config>
+</config>
