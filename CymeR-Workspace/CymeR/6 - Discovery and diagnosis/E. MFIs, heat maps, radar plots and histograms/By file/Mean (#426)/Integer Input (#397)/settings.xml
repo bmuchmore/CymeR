@@ -8,12 +8,6 @@
 <entry key="class" type="xstring" value="INTEGER"/>
 <entry key="value" type="xint" value="4"/>
 </config>
-<config key="Variable_1">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="num.cores"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="4"/>
-</config>
 </config>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>

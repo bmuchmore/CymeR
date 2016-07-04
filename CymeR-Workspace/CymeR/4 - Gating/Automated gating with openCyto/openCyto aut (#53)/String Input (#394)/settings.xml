@@ -8,12 +8,6 @@
 <entry key="class" type="xstring" value="STRING"/>
 <entry key="value" type="xstring" value=","/>
 </config>
-<config key="Variable_1">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="delimiter"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value=","/>
-</config>
 </config>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
@@ -47,7 +41,7 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
 <entry key="factory" type="xstring" value="org.knime.js.base.node.quickform.input.string.StringInputQuickFormNodeFactory"/>
 <entry key="node-name" type="xstring" value="String Input"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Quick Form Nodes"/>
@@ -60,21 +54,16 @@
 <entry key="node-feature-version" type="xstring" value="3.1.1.v201601281239"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="String Input"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
-<entry key="port_object_summary" type="xstring" value="Variables connection"/>
-<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
-<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="20e08a14-c621-4f04-a0e8-0919bcfaaec8"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>

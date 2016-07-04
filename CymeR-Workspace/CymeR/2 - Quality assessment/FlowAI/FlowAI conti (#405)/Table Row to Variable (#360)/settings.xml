@@ -26,30 +26,6 @@
 <entry key="class" type="xstring" value="STRING"/>
 <entry key="value" type="xstring" value=""/>
 </config>
-<config key="Variable_4">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="RowID"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="1"/>
-</config>
-<config key="Variable_5">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="basename"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="a.fcs"/>
-</config>
-<config key="Variable_6">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="dirname"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="/home/developer/Data/TESTING/ControlsDS"/>
-</config>
-<config key="Variable_7">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="Location"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="/home/developer/Data/TESTING/ControlsDS/a.fcs"/>
-</config>
 </config>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>

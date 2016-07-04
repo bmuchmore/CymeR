@@ -6,13 +6,13 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="dirname"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="/home/developer/Data/PRECISESADS/FLOW/FromLucas/Panel_1_2/LMD/IRCCS/Panel_1/Panel_1_32141766_IRCCS_CANTOII_27OCT2015_27OCT2015.fcs _norm.fcs _comp.fcs"/>
+<entry key="value" type="xstring" value="/home/developer/Data"/>
 </config>
 <config key="Variable_1">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="dirname (URL)"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="file:/home/developer/Data/PRECISESADS/FLOW/FromLucas/Panel_1_2/LMD/IRCCS/Panel_1/Panel_1_32141766_IRCCS_CANTOII_27OCT2015_27OCT2015.fcs%20_norm.fcs%20_comp.fcs"/>
+<entry key="value" type="xstring" value="file:/home/developer/Data/"/>
 </config>
 </config>
 <config key="internal_node_subsettings">

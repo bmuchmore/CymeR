@@ -6,7 +6,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="delim"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value=" "/>
+<entry key="value" type="xstring" value=","/>
 </config>
 </config>
 <config key="internal_node_subsettings">

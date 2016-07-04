@@ -6,13 +6,13 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="dirname"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="/home/developer/Data/TESTING/BendallDS/Bendall.DDD.fcs"/>
+<entry key="value" type="xstring" value="/home/developer/Data"/>
 </config>
 <config key="Variable_1">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="dirname (URL)"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="file:/home/developer/Data/TESTING/BendallDS/Bendall.DDD.fcs"/>
+<entry key="value" type="xstring" value="file:/home/developer/Data/"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -20,7 +20,7 @@
 </config>
 <config key="model">
 <config key="defaultValue">
-<entry key="path" type="xstring" value="/home/developer/Data/TESTING/BendallDS/Bendall.fcs.DDD.fcs"/>
+<entry key="path" type="xstring" value="/home/developer/Data"/>
 </config>
 <entry key="label" type="xstring" value="Choose a single FCS file in the directory containing the files you want to run Destiny on. You must choose a FCS file and not just the directory:"/>
 <entry key="description" type="xstring" value="Enter Description"/>

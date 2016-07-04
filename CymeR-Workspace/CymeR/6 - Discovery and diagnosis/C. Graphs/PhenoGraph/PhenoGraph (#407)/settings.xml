@@ -7,7 +7,7 @@
 </config>
 <config key="model">
 <config key="file-upload-359">
-<entry key="path" type="xstring" value="/home/developer/Data/TESTING/BendallDS/Bendall.DDD.fcs"/>
+<entry key="path" type="xstring" value="/home/developer/Data"/>
 </config>
 </config>
 <config key="nodeAnnotation">

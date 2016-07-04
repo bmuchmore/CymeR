@@ -8,12 +8,6 @@
 <entry key="class" type="xstring" value="STRING"/>
 <entry key="value" type="xstring" value="FSC-A,FSC-W,FSC-H,SSC-A,SSC-W,SSC-H"/>
 </config>
-<config key="Variable_1">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="ChRemoveFS"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="FSC-A,FSC-W,FSC-H,SSC-A,SSC-W,SSC-H"/>
-</config>
 </config>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>

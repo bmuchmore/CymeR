@@ -7,7 +7,7 @@
 <entry key="authored-by" type="xstring" value="developer"/>
 <entry key="authored-when" type="xstring" value="2016-01-27 12:33:31 +0000"/>
 <entry key="lastEdited-by" type="xstring" value="developer"/>
-<entry key="lastEdited-when" type="xstring" value="2016-06-30 16:23:37 +0000"/>
+<entry key="lastEdited-when" type="xstring" value="2016-07-04 11:51:29 +0000"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="IDLE"/>
@@ -16,8 +16,8 @@
 <config key="annotation_0">
 <entry key="text" type="xstring" value="This function runs Destiny, which calculates diffusion maps. The output is written to a folder called &quot;Destiny&quot; in the same folder as the files you are processing. Sub-folder &quot;FCS&quot; contains new FCS file(s) that have five new columns corresponding to the first 5 eigen values of the diffusion map while sub-folder &quot;PNG&quot; contains plots of eigen value versus diffusion componet for each file.%%00010"/>
 <entry key="bgcolor" type="xint" value="13433343"/>
-<entry key="x-coordinate" type="xint" value="60"/>
-<entry key="y-coordinate" type="xint" value="20"/>
+<entry key="x-coordinate" type="xint" value="7"/>
+<entry key="y-coordinate" type="xint" value="7"/>
 <entry key="width" type="xint" value="1061"/>
 <entry key="height" type="xint" value="441"/>
 <entry key="alignment" type="xstring" value="LEFT"/>
@@ -30,8 +30,8 @@
 <config key="annotation_1">
 <entry key="text" type="xstring" value="RESOURCES:%%00010https://www.bioconductor.org/packages/devel/bioc/html/destiny.html%%00010https://www.helmholtz-muenchen.de/icb/research/groups/quantitative-single-cell-dynamics/software/destiny/index.html"/>
 <entry key="bgcolor" type="xint" value="16574799"/>
-<entry key="x-coordinate" type="xint" value="320"/>
-<entry key="y-coordinate" type="xint" value="380"/>
+<entry key="x-coordinate" type="xint" value="280"/>
+<entry key="y-coordinate" type="xint" value="381"/>
 <entry key="width" type="xint" value="781"/>
 <entry key="height" type="xint" value="61"/>
 <entry key="alignment" type="xstring" value="LEFT"/>
@@ -52,8 +52,8 @@
 <config key="ui_settings">
 <config key="extrainfo.node.bounds">
 <entry key="array-size" type="xint" value="4"/>
-<entry key="0" type="xint" value="544"/>
-<entry key="1" type="xint" value="217"/>
+<entry key="0" type="xint" value="513"/>
+<entry key="1" type="xint" value="208"/>
 <entry key="2" type="xint" value="139"/>
 <entry key="3" type="xint" value="99"/>
 </config>
@@ -68,8 +68,8 @@
 <config key="ui_settings">
 <config key="extrainfo.node.bounds">
 <entry key="array-size" type="xint" value="4"/>
-<entry key="0" type="xint" value="224"/>
-<entry key="1" type="xint" value="217"/>
+<entry key="0" type="xint" value="193"/>
+<entry key="1" type="xint" value="208"/>
 <entry key="2" type="xint" value="129"/>
 <entry key="3" type="xint" value="81"/>
 </config>
@@ -84,8 +84,8 @@
 <config key="ui_settings">
 <config key="extrainfo.node.bounds">
 <entry key="array-size" type="xint" value="4"/>
-<entry key="0" type="xint" value="864"/>
-<entry key="1" type="xint" value="217"/>
+<entry key="0" type="xint" value="833"/>
+<entry key="1" type="xint" value="208"/>
 <entry key="2" type="xint" value="135"/>
 <entry key="3" type="xint" value="81"/>
 </config>
@@ -113,7 +113,7 @@
 </config>
 </config>
 <config key="workflow_editor_settings">
-<entry key="workflow.editor.snapToGrid" type="xboolean" value="true"/>
+<entry key="workflow.editor.snapToGrid" type="xboolean" value="false"/>
 <entry key="workflow.editor.ShowGrid" type="xboolean" value="false"/>
 <entry key="workflow.editor.gridX" type="xint" value="20"/>
 <entry key="workflow.editor.gridY" type="xint" value="20"/>

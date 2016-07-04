@@ -6,13 +6,13 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="dirname"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="/home/developer/Data/TESTING/ControlsDS16/SPADE/Final_FCS_Files/aPanel_2_32140646_FPS_VERSE_17APR2015_17APR2015.fcs.random.fcs"/>
+<entry key="value" type="xstring" value="/home/developer/Data"/>
 </config>
 <config key="Variable_1">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="dirname (URL)"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="file:/home/developer/Data/TESTING/ControlsDS16/SPADE/Final_FCS_Files/aPanel_2_32140646_FPS_VERSE_17APR2015_17APR2015.fcs.random.fcs"/>
+<entry key="value" type="xstring" value="file:/home/developer/Data/"/>
 </config>
 </config>
 <config key="internal_node_subsettings">

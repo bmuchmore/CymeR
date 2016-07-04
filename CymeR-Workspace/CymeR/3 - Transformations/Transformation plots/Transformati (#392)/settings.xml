@@ -6,18 +6,44 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<config key="int-input-400">
-<entry key="integer" type="xint" value="150"/>
+<config key="column-filter-398">
+<config key="columns">
+<entry key="array-size" type="xint" value="0"/>
 </config>
-<config key="double-input-401">
-<entry key="double" type="xdouble" value="0.5"/>
+<config key="columnFilter">
+<config key="columnFilter">
+<entry key="filter-type" type="xstring" value="STANDARD"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=""/>
+<entry key="type" type="xstring" value="Wildcard"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
 </config>
 </config>
 <config key="nodeAnnotation">
 <entry key="text" type="xstring" value="Port 1 = Plots of each channel for each file and each transformation"/>
 <entry key="bgcolor" type="xint" value="16777215"/>
-<entry key="x-coordinate" type="xint" value="494"/>
-<entry key="y-coordinate" type="xint" value="395"/>
+<entry key="x-coordinate" type="xint" value="351"/>
+<entry key="y-coordinate" type="xint" value="226"/>
 <entry key="width" type="xint" value="430"/>
 <entry key="height" type="xint" value="18"/>
 <entry key="alignment" type="xstring" value="CENTER"/>

@@ -8,12 +8,6 @@
 <entry key="class" type="xstring" value="DOUBLE"/>
 <entry key="value" type="xdouble" value="0.5"/>
 </config>
-<config key="Variable_1">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="alphaFR"/>
-<entry key="class" type="xstring" value="DOUBLE"/>
-<entry key="value" type="xdouble" value="0.5"/>
-</config>
 </config>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>

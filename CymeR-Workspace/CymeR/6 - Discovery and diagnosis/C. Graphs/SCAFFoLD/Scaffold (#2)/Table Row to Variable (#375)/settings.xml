@@ -24,7 +24,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Concatenate"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="xdg-open http://127.0.0.1:5556"/>
+<entry key="value" type="xstring" value="xdg-open http://127.0.0.1:6040"/>
 </config>
 </config>
 <config key="internal_node_subsettings">

@@ -8,12 +8,6 @@
 <entry key="class" type="xstring" value="STRING"/>
 <entry key="value" type="xstring" value="FSC-A,FSC-W,FSC-H,SSC-A,SSC-W,SSC-H,FITC-A,PE-A,PC5-5-A,PC7-A,APC-A,APC-AF750-A,PB-A,KO-A,Time"/>
 </config>
-<config key="Variable_1">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="chFM"/>
-<entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="FSC-A,FSC-W,FSC-H,SSC-A,SSC-W,SSC-H,FITC-A,PE-A,PC5-5-A,PC7-A,APC-A,APC-AF750-A,PB-A,KO-A,Time"/>
-</config>
 </config>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>

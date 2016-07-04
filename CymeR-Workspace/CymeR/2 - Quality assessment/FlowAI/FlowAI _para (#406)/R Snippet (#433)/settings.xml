@@ -26,7 +26,7 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
 <entry key="factory" type="xstring" value="org.knime.r.RSnippetNodeFactory"/>
 <entry key="node-name" type="xstring" value="R Snippet"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME R-Project nodes"/>

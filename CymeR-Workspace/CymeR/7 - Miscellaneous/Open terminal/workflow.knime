@@ -7,7 +7,7 @@
 <entry key="authored-by" type="xstring" value="developer"/>
 <entry key="authored-when" type="xstring" value="2016-06-20 17:30:41 +0000"/>
 <entry key="lastEdited-by" type="xstring" value="developer"/>
-<entry key="lastEdited-when" type="xstring" value="2016-06-30 16:25:07 +0000"/>
+<entry key="lastEdited-when" type="xstring" value="2016-07-04 11:02:02 +0000"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="CONFIGURED"/>
@@ -16,10 +16,10 @@
 <config key="annotation_0">
 <entry key="text" type="xstring" value="This function opens an xterm terminal for the CymeR operating system. While &quot;sudo&quot; is installed, there is no password. It is very important to note though, that any changes you make will not be saved unless you run the &quot;commit&quot; button after the changes have been implemented."/>
 <entry key="bgcolor" type="xint" value="13433343"/>
-<entry key="x-coordinate" type="xint" value="60"/>
-<entry key="y-coordinate" type="xint" value="40"/>
-<entry key="width" type="xint" value="858"/>
-<entry key="height" type="xint" value="492"/>
+<entry key="x-coordinate" type="xint" value="0"/>
+<entry key="y-coordinate" type="xint" value="0"/>
+<entry key="width" type="xint" value="701"/>
+<entry key="height" type="xint" value="381"/>
 <entry key="alignment" type="xstring" value="LEFT"/>
 <entry key="borderSize" type="xint" value="3"/>
 <entry key="borderColor" type="xint" value="13369344"/>
@@ -38,8 +38,8 @@
 <config key="ui_settings">
 <config key="extrainfo.node.bounds">
 <entry key="array-size" type="xint" value="4"/>
-<entry key="0" type="xint" value="444"/>
-<entry key="1" type="xint" value="257"/>
+<entry key="0" type="xint" value="304"/>
+<entry key="1" type="xint" value="197"/>
 <entry key="2" type="xint" value="107"/>
 <entry key="3" type="xint" value="81"/>
 </config>

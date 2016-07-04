@@ -6,13 +6,13 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="directory"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="/home/developer/Data/TESTING/Lucas/OpenCyto/Hierarchy/Panel_1_32140193_FPS_VERSE_12MAR2015_12MAR2015.fcs.png"/>
+<entry key="value" type="xstring" value="/home/developer/Data"/>
 </config>
 <config key="Variable_1">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="directory (URL)"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="file:/home/developer/Data/TESTING/Lucas/OpenCyto/Hierarchy/Panel_1_32140193_FPS_VERSE_12MAR2015_12MAR2015.fcs.png"/>
+<entry key="value" type="xstring" value="file:/home/developer/Data/"/>
 </config>
 </config>
 <config key="internal_node_subsettings">

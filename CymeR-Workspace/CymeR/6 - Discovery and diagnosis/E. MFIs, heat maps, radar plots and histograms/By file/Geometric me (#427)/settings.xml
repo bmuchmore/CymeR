@@ -8,38 +8,16 @@
 <config key="model">
 <config key="column-filter-398">
 <config key="columns">
-<entry key="array-size" type="xint" value="7"/>
-<entry key="0" type="xstring" value="FITC-A"/>
-<entry key="1" type="xstring" value="PE-A"/>
-<entry key="2" type="xstring" value="PC5-5-A"/>
-<entry key="3" type="xstring" value="PC7-A"/>
-<entry key="4" type="xstring" value="APC-A"/>
-<entry key="5" type="xstring" value="PB-A"/>
-<entry key="6" type="xstring" value="KO-A"/>
+<entry key="array-size" type="xint" value="0"/>
 </config>
 <config key="columnFilter">
 <config key="columnFilter">
 <entry key="filter-type" type="xstring" value="STANDARD"/>
 <config key="included_names">
-<entry key="array-size" type="xint" value="7"/>
-<entry key="0" type="xstring" value="FITC-A"/>
-<entry key="1" type="xstring" value="PE-A"/>
-<entry key="2" type="xstring" value="PC5-5-A"/>
-<entry key="3" type="xstring" value="PC7-A"/>
-<entry key="4" type="xstring" value="APC-A"/>
-<entry key="5" type="xstring" value="PB-A"/>
-<entry key="6" type="xstring" value="KO-A"/>
+<entry key="array-size" type="xint" value="0"/>
 </config>
 <config key="excluded_names">
-<entry key="array-size" type="xint" value="8"/>
-<entry key="0" type="xstring" value="FSC-A"/>
-<entry key="1" type="xstring" value="FSC-W"/>
-<entry key="2" type="xstring" value="FSC-H"/>
-<entry key="3" type="xstring" value="SSC-A"/>
-<entry key="4" type="xstring" value="SSC-W"/>
-<entry key="5" type="xstring" value="SSC-H"/>
-<entry key="6" type="xstring" value="APC-AF750-A"/>
-<entry key="7" type="xstring" value="Time"/>
+<entry key="array-size" type="xint" value="0"/>
 </config>
 <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
 <config key="name_pattern">
@@ -62,11 +40,11 @@
 </config>
 </config>
 <config key="nodeAnnotation">
-<entry key="text" type="xstring" value=""/>
+<entry key="text" type="xstring" value="Port 1 = Geometric mean values for the chosen columns in every FCS file"/>
 <entry key="bgcolor" type="xint" value="16777215"/>
-<entry key="x-coordinate" type="xint" value="302"/>
+<entry key="x-coordinate" type="xint" value="115"/>
 <entry key="y-coordinate" type="xint" value="611"/>
-<entry key="width" type="xint" value="134"/>
+<entry key="width" type="xint" value="469"/>
 <entry key="height" type="xint" value="18"/>
 <entry key="alignment" type="xstring" value="CENTER"/>
 <entry key="borderSize" type="xint" value="0"/>

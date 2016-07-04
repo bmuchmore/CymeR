@@ -32,7 +32,7 @@
 </config>
 <config key="model">
 <config key="defaultValue">
-<entry key="path" type="xstring" value="/home/developer/Data/TESTING/Lucas/Panel_1_32141766_IRCCS_CANTOII_27OCT2015_27OCT2015.fcs"/>
+<entry key="path" type="xstring" value="/home/developer/Data"/>
 </config>
 <entry key="label" type="xstring" value="Choose the fcs file you want to compensate:"/>
 <entry key="description" type="xstring" value="Enter Description"/>

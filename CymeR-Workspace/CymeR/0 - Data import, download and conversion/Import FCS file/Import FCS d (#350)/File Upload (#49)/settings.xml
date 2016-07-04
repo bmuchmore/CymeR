@@ -6,13 +6,13 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="FCS"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="/home/developer/Data/TESTING/ControlsDS16/SPADE/Final_FCS_Files/ColumnsRemoved/bPanel_2_32141698_FPS_VERSE_25MAR2015_25MAR2015.fcs.random.fcs"/>
+<entry key="value" type="xstring" value="/home/developer/Data"/>
 </config>
 <config key="Variable_1">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="FCS (URL)"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="file:/home/developer/Data/TESTING/ControlsDS16/SPADE/Final_FCS_Files/ColumnsRemoved/bPanel_2_32141698_FPS_VERSE_25MAR2015_25MAR2015.fcs.random.fcs"/>
+<entry key="value" type="xstring" value="file:/home/developer/Data/"/>
 </config>
 </config>
 <config key="internal_node_subsettings">

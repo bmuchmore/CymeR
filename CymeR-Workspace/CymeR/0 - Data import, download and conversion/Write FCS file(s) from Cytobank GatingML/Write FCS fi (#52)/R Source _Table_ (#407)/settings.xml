@@ -40,7 +40,7 @@
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="R Source (Table)"/>
 <entry key="hasContent" type="xboolean" value="false"/>
-<entry key="isInactive" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="true"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
