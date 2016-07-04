@@ -1,5 +1,6 @@
 FROM ubuntu:14.04
 MAINTAINER Brian Muchmore "brian.muchmore@genyo.es"
+##Build with: docker build -t bmuchmore/cymer /Path/to/Dockerfile
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV DEBCONF_NONINTERACTIVE_SEEN true
@@ -82,25 +83,13 @@ RUN add-apt-repository ppa:webupd8team/java && \
 ##Get Python working with KNIME. This installs R, so it must be run before the R version you want installed systemwide.
 RUN apt-get install python-numpy python-pandas python-protobuf -y
 
-##Install R from source with Atlas (OpenBLAS doesn't seem to play nice with library(parallel))
-##It seems the "make check" fails on the 'utils' part when R is built --with-recommended-packages=no by calling some packages which are not built.
-RUN wget https://stat.ethz.ch/R/daily/R-devel.tar.gz --no-check-certificate -O /tmp/R.tar.gz -q && \
-    tar -xf /tmp/R.tar.gz -C /home/developer && \
-    rm /tmp/R.tar.gz && \
-    cd /home/developer/R-devel && \
-    xvfb-run -a ./configure --with-recommended-packages=yes --with-x=yes --with-tcltk --with-aqua --with-ICU --with-cairo --with-libpng --with-libtiff --with-jpeglib --enable-R-shlib --enable-BLAS-shlib && \
-    xvfb-run -a make && \
-    xvfb-run -a make check && \
-    xvfb-run -a make install && \
-    apt-get install libatlas3gf-base liblapack3gf xclip xsel -y
-
 ##Install R with Atlas (OpenBLAS doesn't seem to play nice with library(parallel))
-##RUN echo 'deb http://lib.stat.cmu.edu/R/CRAN/bin/linux/ubuntu trusty/' >> /etc/apt/sources.list && \ 
-##    apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9 && \ 
-##    xvfb-run -a apt-get update -y && \
-##    xvfb-run -a apt-get install r-base -y && \
-##    xvfb-run -a apt-get install r-base-dev -y && \
-##    xvfb-run -a apt-get install libatlas3gf-base liblapack3gf xclip xsel -y
+RUN echo 'deb http://lib.stat.cmu.edu/R/CRAN/bin/linux/ubuntu trusty/' >> /etc/apt/sources.list && \ 
+    apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9 && \ 
+    xvfb-run -a apt-get update -y && \
+    xvfb-run -a apt-get install r-base -y && \
+    xvfb-run -a apt-get install r-base-dev -y && \
+    xvfb-run -a apt-get install libatlas3gf-base liblapack3gf xclip xsel -y
 
 ##Download KNIME
 RUN echo 'Installing knime' && \
@@ -111,7 +100,7 @@ RUN echo 'Installing knime' && \
 
 ##Install needed KNIME extensions
 RUN cd /home/developer/knime_3.1.2 && \
-    ./knime -clean -purgeHistory -application org.eclipse.equinox.p2.director -noSplash -repository http://seleniumnodes.com/download/3.1 -repository http://update.knime.org/analytics-platform/3.1 -repository http://update.knime.org/community-contributions/trunk -repository http://update.knime.org/community-contributions/trusted/3.1 -repository http://update.knime.org/community-contributions/3.1 -installIUs org.pasteur.pf2.ngs -installIUs com.mind_era.knime_rapidminer.knime.feature.feature.group -installIUs org.knime.features.dbdrivers.feature.group -installIUs org.knime.features.ext.birt.feature.group -installIUs org.knime.ext.jfreechart -installIUs org.knime.python.nodes -installIUs org.knime.features.js.views.feature.group -installIUs com.knime.features.reporting.designer.feature.group -installIUs org.knime.features.r.feature.group -installIUs org.erlwood.features.core.base.feature.group -installIUs org.knime.features.arima.feature.group -installIUs org.knime.features.activelearning.feature.group -installIUs org.knime.features.stats2.feature.group -installIUs org.knime.features.virtual.feature.group -installIUs org.knime.features.distmatrix.feature.group -installIUs org.knime.features.ext.itemset.feature.group -installIUs org.knime.features.exttool.feature.group -installIUs org.knime.features.base.filehandling.feature.group -installIUs org.lhasalimited.knime.public.feature.feature.group -installIUs org.knime.features.core.streaming.feature.group -installIUs es.unican.knime.stark.feature.feature.group -installIUs ws.palladian.nodes.selenium.feature.feature.group -vmargs -Declipse.p2.mirrors=true -Djava.net.preferIPv4Stack=true
+    ./knime -clean -purgeHistory -application org.eclipse.equinox.p2.director -noSplash -repository http://seleniumnodes.com/download/3.1 -repository http://update.knime.org/analytics-platform/3.1 -repository http://update.knime.org/community-contributions/trunk -repository http://update.knime.org/community-contributions/trusted/3.1 -repository http://update.knime.org/community-contributions/3.1 -installIUs org.pasteur.pf2.ngs -installIUs com.mind_era.knime_rapidminer.knime.feature.feature.group -installIUs org.knime.features.dbdrivers.feature.group -installIUs org.knime.features.ext.birt.feature.group -installIUs org.knime.ext.jfreechart -installIUs org.knime.python.nodes -installIUs org.knime.features.js.views.feature.group -installIUs com.knime.features.reporting.designer.feature.group -installIUs org.knime.features.r.feature.group -installIUs org.erlwood.features.core.base.feature.group -installIUs org.knime.features.arima.feature.group -installIUs org.knime.features.activelearning.feature.group -installIUs org.knime.features.stats2.feature.group -installIUs org.knime.features.virtual.feature.group -installIUs org.knime.features.distmatrix.feature.group -installIUs org.knime.features.ext.itemset.feature.group -installIUs org.knime.features.exttool.feature.group -installIUs org.knime.features.base.filehandling.feature.group -installIUs org.lhasalimited.knime.public.feature.feature.group -installIUs org.knime.features.core.streaming.feature.group -installIUs es.unican.knime.stark.feature.feature.group -vmargs -Declipse.p2.mirrors=true -Djava.net.preferIPv4Stack=true
 ##Repository: http://update.knime.org/community-contributions/trunk
 ##Repository: http://update.knime.org/community-contributions/trusted/3.1
 ##Repository: http://update.knime.org/community-contributions/3.1
@@ -137,7 +126,7 @@ RUN cd /home/developer/knime_3.1.2 && \
 ##Dumb joiner etc: org.lhasalimited.knime.public.feature.feature.group
 ##Self-Tuning Association Rules: es.unican.knime.stark.feature.feature.group
 ##KNIME Streaming Execution (Beta):  org.knime.features.core.streaming.feature.group
-##!!! - REPOSITORY ADDED BUT NOT INSTALLED - !!! Selenium nodes: ws.palladian.nodes.selenium.feature.feature.group
+##Repository added but not currently installed - Selenium nodes: ws.palladian.nodes.selenium.feature.feature.group
 
 ##Get the correct verion of R working with KNIME and put KNIME in expert mode
 ##RUN R CMD javareconf && \
@@ -161,48 +150,48 @@ RUN echo 'source("http://bioconductor.org/biocLite.R")' > /home/developer/prepac
     xvfb-run -a Rscript /home/developer/prepackages.R
 
 ##Install R packages. The snapshot is set as YYYY-MM-DD
-RUN echo 'install.packages("rJava", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' > /home/developer/packages.R && \
-    echo 'install.packages("checkpoint", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("RGtk2", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("RGtk2Extras", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("tcltk2", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("BH", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("rCUR", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("foreach", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("doParallel", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("glmnet", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("pamr", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("shiny", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("brew", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("devtools", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("tabplot", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("googleVis", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("matrixStats", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("Rtsne", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("FeaLect", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("apcluster", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("doMC", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("loe", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \  
-    echo 'install.packages("KODAMA", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("tpe", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("ROCR", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("RFOC", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("linkcomm", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("SNFtool", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("densityClust", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("Rserve", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("rChoiceDialogs", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("png", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("jpeg", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("tm", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("rtiff", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("gWidgets", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("gWidgets2RGtk2", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("propagate", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("caret", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("corrplot", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("psych", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
-    echo 'install.packages("fpc", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/packages.R && \
+RUN echo 'install.packages("rJava", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' > /home/developer/packages.R && \
+    echo 'install.packages("checkpoint", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("RGtk2", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("RGtk2Extras", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("tcltk2", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("BH", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("rCUR", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("foreach", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("doParallel", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("glmnet", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("pamr", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("shiny", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("brew", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("devtools", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("tabplot", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("googleVis", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("matrixStats", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("Rtsne", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("FeaLect", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("apcluster", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("doMC", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("loe", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \  
+    echo 'install.packages("KODAMA", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("tpe", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("ROCR", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("RFOC", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("linkcomm", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("SNFtool", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("densityClust", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("Rserve", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("rChoiceDialogs", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("png", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("jpeg", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("tm", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("rtiff", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("gWidgets", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("gWidgets2RGtk2", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("propagate", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("caret", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("corrplot", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("psych", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
+    echo 'install.packages("fpc", repos="http://mran.revolutionanalytics.com/snapshot/2016-07-01")' >> /home/developer/packages.R && \
     xvfb-run -a Rscript /home/developer/packages.R
 	
 ##Install packages for ncdfFlow
@@ -267,13 +256,6 @@ RUN wget https://cran.r-project.org/src/contrib/Archive/NetPreProc/NetPreProc_1.
     xvfb-run -a Rscript /home/developer/packagesSource.R && \
     rm /tmp/NetPreProc_1.0.tar.gz
 
-##Use Bioc Devel (will only work if R Devel is installed) in order to install packages still under development
-##RUN echo 'source("library(BiocInstaller)")' > /home/developer/packagesBioDevel.R && \
-##    echo 'source("useDevel()")' >> /home/developer/packagesBioDevel.R && \
-##    echo 'source("http://bioconductor.org/biocLite.R")' >> /home/developer/packagesBioDevel.R && \
-##    echo 'biocLite("CytoML")' >> /home/developer/packagesBioDevel.R
-##    xvfb-run -a Rscript /home/developer/packagesBioDevel.R
-
 ##Install Python 3.5
 RUN wget https://www.python.org/ftp/python/3.5.1/Python-3.5.1.tar.xz -O /home/developer/Python-3.5.1.tar.xz -q && \
     cd /home/developer && tar xJf /home/developer/Python-3.5.1.tar.xz && \
@@ -321,9 +303,6 @@ RUN wget https://github.com/jacoblevine/PhenoGraph/archive/master.zip -O /home/d
     cd /opt/python3.5/lib/python3.5/site-packages/PhenoGraph-master && \
     /opt/python3.5/bin/python3 setup.py install
 
-##Install Gedit
-Run apt-get install gedit -y
-
 ##Install Wishbone (dependent upon Python 3.X and some libraries)
 ##The sed command below changes the setup.py script to point correctly to pip3
 RUN cd /opt/python3.5/lib/python3.5/site-packages && \
@@ -332,42 +311,8 @@ RUN cd /opt/python3.5/lib/python3.5/site-packages && \
     cd /opt/python3.5/lib/python3.5/site-packages/wishbone && \
     /opt/python3.5/bin/pip3 install .
 
-###################################################################################
-##Followed the following advice to install tsne, which is needed for wishbone:
-##http://stackoverflow.com/questions/25065113/blas-lapack-not-installed-how-to-install-it
-##RUN cd /opt/python3.5/lib/python3.5/site-packages && \
-##    apt-get --purge remove libatlas3gf-base -y && \
-##    apt-get install libatlas-base-dev -y && \
-##    /opt/python3.5/bin/pip3 install git+https://github.com/danielfrg/tsne.git
-
-##Some neccesary sed commands to fix some buggy code in wishbone. 
-##vim /opt/python3.5/lib/python3.5/site-packages/wishbone/setup.py
-##vim /opt/python3.5/lib/python3.5/site-packages/wishbone/src/wishbone/wb.py
-##RUN sed -i "16 a \ \ \ \ \ \ packages=['wishbone']," /opt/python3.5/lib/python3.5/site-packages/wishbone/setup.py && \
-##    sed -i -e "s@os.makedirs( os.path.expanduser('~/.wishbone/gsea/'), exist_ok=True )\n@os.makedirs( os.path.expanduser('~/.wishbone/gsea/'), exist_ok=True )@g" /opt/python3.5/lib/python3.5/site-##packages/wishbone/setup.py && \
-##    sed -i "/'tsne',/d" /opt/python3.5/lib/python3.5/site-packages/wishbone/setup.py && \
-##    sed -i "/from tsne import bh_sne/d" /opt/python3.5/lib/python3.5/site-packages/wishbone/src/wishbone/wb.py && \
-##    sed -i "25 a from sklearn.manifold import TSNE" /opt/python3.5/lib/python3.5/site-packages/wishbone/src/wishbone/wb.py && \
-##    sed -i "/self.tsne = pd.DataFrame(bh_sne(data),/d" /opt/python3.5/lib/python3.5/site-packages/wishbone/src/wishbone/wb.py && \
-##    sed -i "401 a \\\ttsne = TSNE(n_components=2, init='random', random_state=sum(data.shape))" /opt/python3.5/lib/python3.5/site-packages/wishbone/src/wishbone/wb.py && \
-##    sed -i "402 a \\\tself.tsne = pd.DataFrame(tsne.fit_transform(data)," /opt/python3.5/lib/python3.5/site-packages/wishbone/src/wishbone/wb.py
-
-##Wishbone does not correctly load its modules, we prepend the wb.py script with commands to manually load the modules
-##Also, loading the tsne module give problems, so we use sed to erase the command from the script
-##http://stackoverflow.com/questions/67631/how-to-import-a-module-given-the-full-path
-##RUN sed -i -e 's@from tsne import bh_sne@@g' /home/developer/wishbone/src/wishbone/wb.py && \
-##    echo '#!/bin/bash' > /home/developer/prependWishbone.sh && \
-##    echo 'echo -en "import wishbone\n" > /tmp/newfile' >> /home/developer/prependWishbone.sh && \
-##    echo 'echo -en "from importlib.machinery import SourceFileLoader\n" >> /tmp/newfile' >> /home/developer/prependWishbone.sh && \
-##    echo 'echo -en "wishbone.core = SourceFileLoader('"'"'wishbone.core'"'"', '"'"'/home/developer/wishbone/src/wishbone/core.py'"'"').load_module()\n" >> /tmp/newfile' >> /home/developer/##prependWishbone.sh && \
-##    chmod 777 /home/developer/prependWishbone.sh && \
-##    /home/developer/prependWishbone.sh && \
-##    cat /home/developer/wishbone/src/wishbone/wb.py >> /tmp/newfile && \
-##    cp /tmp/newfile /home/developer/wishbone/src/wishbone/wb.py && \
-##    rm -rf /tmp/newfile
-###################################################################################
-
 ##Install Combo
+##To compile on Ubuntu prepend '#include <stdio.h>' to the Graph.h file
 RUN mkdir -p /home/developer/Combo && \
     wget http://senseable.mit.edu/community_detection/combo.zip -O /tmp/combo.zip -q && \
     unzip -o /tmp/combo.zip -d /home/developer/Combo && \
@@ -380,7 +325,7 @@ RUN mkdir -p /home/developer/Combo && \
     cd /home/developer/Combo && make
 
 ##Install VorteX  
-RUN wget http://web.stanford.edu/~samusik/vortex/vortex_dist_17-June-16.zip -O /tmp/VorteX.zip -q && \
+RUN wget http://web.stanford.edu/~samusik/vortex/vortex_dist_1-July-16.zip -O /tmp/VorteX.zip -q && \
     unzip -o /tmp/VorteX.zip -d /home/developer/VorteX && \
     rm -rf /tmp/VorteX.zip
 
@@ -388,9 +333,14 @@ RUN wget http://web.stanford.edu/~samusik/vortex/vortex_dist_17-June-16.zip -O /
 RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - && \ 
     sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list' && \
     apt-get update -y && \
-      apt-get install xdg-utils -y && \ 
+    apt-get install xdg-utils -y && \ 
     apt-get install google-chrome-stable -y
 
+##Install Gedit
+Run apt-get install gedit -y
+
+##Share X11 socket with the container and use it directly
+##Set-up user privileges
 RUN apt-get install sudo -y && \
     mkdir -p /etc/sudoers.d && \
     chmod +x /home/developer/knime_3.1.2 && \
@@ -405,7 +355,6 @@ USER developer
 ENV HOME /home/developer
 WORKDIR /home/developer
 CMD /home/developer/knime_3.1.2/knime -data /home/developer/knime-workspace 
-
 
 
 
