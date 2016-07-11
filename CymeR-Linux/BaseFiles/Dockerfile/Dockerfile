@@ -2,6 +2,7 @@ FROM ubuntu:14.04
 MAINTAINER Brian Muchmore "brian.muchmore@genyo.es"
 ##Build with: docker build -t bmuchmore/cymer /Path/to/Dockerfile
 
+
 ENV DEBIAN_FRONTEND noninteractive
 ENV DEBCONF_NONINTERACTIVE_SEEN true
 
@@ -93,19 +94,23 @@ RUN echo 'deb http://lib.stat.cmu.edu/R/CRAN/bin/linux/ubuntu trusty/' >> /etc/a
 
 ##Download KNIME
 RUN echo 'Installing knime' && \
-    wget http://download.knime.org/analytics-platform/linux/knime_3.1.2.linux.gtk.x86_64.tar.gz -O /tmp/knime.tar.gz -q && \
+    wget http://download.knime.org/analytics-platform/linux/knime_3.2.0.linux.gtk.x86_64.tar.gz -O /tmp/knime.tar.gz -q && \
     tar -xf /tmp/knime.tar.gz -C /home/developer && \
     rm /tmp/knime.tar.gz && \
     apt-get install libwebkitgtk-3.0-0 -y
 
 ##Install needed KNIME extensions
-RUN cd /home/developer/knime_3.1.2 && \
-    ./knime -clean -purgeHistory -application org.eclipse.equinox.p2.director -noSplash -repository http://seleniumnodes.com/download/3.1 -repository http://update.knime.org/analytics-platform/3.1 -repository http://update.knime.org/community-contributions/trunk -repository http://update.knime.org/community-contributions/trusted/3.1 -repository http://update.knime.org/community-contributions/3.1 -installIUs org.pasteur.pf2.ngs -installIUs com.mind_era.knime_rapidminer.knime.feature.feature.group -installIUs org.knime.features.dbdrivers.feature.group -installIUs org.knime.features.ext.birt.feature.group -installIUs org.knime.ext.jfreechart -installIUs org.knime.python.nodes -installIUs org.knime.features.js.views.feature.group -installIUs com.knime.features.reporting.designer.feature.group -installIUs org.knime.features.r.feature.group -installIUs org.erlwood.features.core.base.feature.group -installIUs org.knime.features.arima.feature.group -installIUs org.knime.features.activelearning.feature.group -installIUs org.knime.features.stats2.feature.group -installIUs org.knime.features.virtual.feature.group -installIUs org.knime.features.distmatrix.feature.group -installIUs org.knime.features.ext.itemset.feature.group -installIUs org.knime.features.exttool.feature.group -installIUs org.knime.features.base.filehandling.feature.group -installIUs org.lhasalimited.knime.public.feature.feature.group -installIUs org.knime.features.core.streaming.feature.group -installIUs es.unican.knime.stark.feature.feature.group -vmargs -Declipse.p2.mirrors=true -Djava.net.preferIPv4Stack=true
+RUN cd /home/developer/knime_3.2.0 && \
+    ./knime -clean -purgeHistory -application org.eclipse.equinox.p2.director -noSplash -repository http://update.knime.org/store/3.2 -repository http://seleniumnodes.com/download/3.1 -repository http://update.knime.org/analytics-platform/3.2 -repository http://update.knime.org/community-contributions/trunk -repository http://update.knime.org/community-contributions/trusted/3.2 -repository http://update.knime.org/community-contributions/3.2 -installIUs org.pasteur.pf2.ngs -installIUs com.mind_era.knime_rapidminer.knime.feature.feature.group -installIUs org.knime.features.dbdrivers.feature.group -installIUs org.knime.features.ext.birt.feature.group -installIUs org.knime.ext.jfreechart -installIUs org.knime.python.nodes -installIUs org.knime.features.js.views.feature.group -installIUs com.knime.features.reporting.designer.feature.group -installIUs org.knime.features.r.feature.group -installIUs org.erlwood.features.core.base.feature.group -installIUs org.knime.features.arima.feature.group -installIUs org.knime.features.activelearning.feature.group -installIUs org.knime.features.stats2.feature.group -installIUs org.knime.features.virtual.feature.group -installIUs org.knime.features.distmatrix.feature.group -installIUs org.knime.features.ext.itemset.feature.group -installIUs org.knime.features.exttool.feature.group -installIUs org.knime.features.base.filehandling.feature.group -installIUs org.lhasalimited.knime.public.feature.feature.group -installIUs org.knime.features.ext.dl4j.feature.group -installIUs org.knime.features.base.widedata.feature.group -installIUs org.knime.features.core.streaming.feature.group -installIUs org.knime.features.rest.feature.group -installIUs es.unican.knime.stark.feature.feature.group -vmargs -Declipse.p2.mirrors=true -Djava.net.preferIPv4Stack=true
 ##Repository: http://update.knime.org/community-contributions/trunk
-##Repository: http://update.knime.org/community-contributions/trusted/3.1
-##Repository: http://update.knime.org/community-contributions/3.1
-##Repository: http://update.knime.org/analytics-platform/3.1
+##Repository: http://update.knime.org/community-contributions/trusted/3.2
+##Repository: http://update.knime.org/community-contributions/3.2
+##Repository: http://update.knime.org/analytics-platform/3.2
 ##Repository: http://seleniumnodes.com/download/3.1
+##Repository: http://update.knime.org/store/3.2
+##Deep learning: org.knime.features.ext.dl4j.feature.group
+##Wide data: org.knime.features.base.widedata.feature.group
+##RESTful: org.knime.features.rest.feature.group
 ##Javascript: org.knime.features.js.views.feature.group
 ##JfreeCharts: org.knime.ext.jfreechart
 ##Python: org.knime.python.nodes
@@ -134,8 +139,8 @@ RUN echo '/usr/local/lib/R/lib/' > /etc/ld.so.conf.d/libR.conf && \
     echo '/usr/lib/jvm/java-8-oracle/jre/lib/amd64' > /etc/ld.so.conf.d/java.conf && \
     echo '/usr/lib/jvm/java-8-oracle/jre/lib/amd64/server' >> /etc/ld.so.conf.d/java.conf && \
     ldconfig && \
-    echo '-Djava.library.path=/usr/local/lib/R/library/jri/' >> /home/developer/knime_3.1.2/knime.ini && \
-    echo '-Dknime.expert.mode=true' >> /home/developer/knime_3.1.2/knime.ini
+    echo '-Djava.library.path=/usr/local/lib/R/library/jri/' >> /home/developer/knime_3.2.0/knime.ini && \
+    echo '-Dknime.expert.mode=true' >> /home/developer/knime_3.2.0/knime.ini
   
 ##We install Impute from Bioconductor first because samr depends on it, and citrus depends on samr.
 ##We install preprocessCore, GO.db, and AnnotationDbi from Bioconductor first because WGCNA depends on it.
@@ -231,6 +236,7 @@ RUN echo 'source("http://bioconductor.org/biocLite.R")' > /home/developer/packag
     echo 'biocLite("flowDensity")' >> /home/developer/packagesBio.R && \
     echo 'biocLite("ClusterSignificance")' >> /home/developer/packagesBio.R && \
     echo 'biocLite("genefilter")' >> /home/developer/packagesBio.R && \
+    echo 'biocLite("CytoML")' >> /home/developer/packagesBio.R && \
     xvfb-run -a Rscript /home/developer/packagesBio.R
 
 ##Install Github R packages
@@ -242,9 +248,6 @@ RUN echo 'options(unzip = "internal")' > /home/developer/packagesGit.R && \
     echo 'devtools::install_github("nolanlab/scaffold")' >> /home/developer/packagesGit.R && \
     echo 'devtools::install_github("nolanlab/Rclusterpp")' >> /home/developer/packagesGit.R && \
     echo 'devtools::install_github("nolanlab/spade")' >> /home/developer/packagesGit.R && \
-    echo 'devtools::install_github("RGLab/flowWorkspace", ref="trunk")' >> /home/developer/packagesGit.R && \
-    echo 'devtools::install_github("RGLab/openCyto", ref="trunk")' >> /home/developer/packagesGit.R && \
-    echo 'devtools::install_github("RGLab/CytoML")' >> /home/developer/packagesGit.R && \
     echo 'devtools::install_github("nbafrank/ggflow")' >> /home/developer/packagesGit.R && \
     echo 'devtools::install_github("analyxcompany/ForceAtlas2")' >> /home/developer/packagesGit.R && \
     echo 'devtools::install_github("analyxcompany/resolution")' >> /home/developer/packagesGit.R && \
@@ -343,7 +346,7 @@ Run apt-get install gedit -y
 ##Set-up user privileges
 RUN apt-get install sudo -y && \
     mkdir -p /etc/sudoers.d && \
-    chmod +x /home/developer/knime_3.1.2 && \
+    chmod +x /home/developer/knime_3.2.0 && \
     echo "developer:x:1000:1000:Developer,,,:/home/developer:/bin/bash" >> /etc/passwd && \
     echo "developer:x:1000:" >> /etc/group && \
     echo "developer ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/developer && \
@@ -354,12 +357,4 @@ RUN apt-get install sudo -y && \
 USER developer
 ENV HOME /home/developer
 WORKDIR /home/developer
-CMD /home/developer/knime_3.1.2/knime -data /home/developer/knime-workspace 
-
-
-
-
-
-
-
-
+CMD /home/developer/knime_3.2.0/knime -data /home/developer/knime-workspace 
