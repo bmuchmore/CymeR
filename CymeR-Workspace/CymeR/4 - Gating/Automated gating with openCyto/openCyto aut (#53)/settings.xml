@@ -7,10 +7,12 @@
 </config>
 <config key="model">
 <config key="file-upload-359">
-<entry key="path" type="xstring" value="/home/developer/Data"/>
+<entry key="path" type="xstring" value="/home/developer/Data/PRECISESADS/FLOW/FromLucas/Renamed_Panel_1/Panel_1_32141752_IRCCS_CANTOII_17NOV2015_17NOV2015.fcs _norm.fcs _comp.fcs"/>
+<entry key="pathValid" type="xboolean" value="true"/>
 </config>
 <config key="file-upload-369">
 <entry key="path" type="xstring" value="/home/developer/Templates/Gating/Master"/>
+<entry key="pathValid" type="xboolean" value="true"/>
 </config>
 </config>
 <config key="nodeAnnotation">

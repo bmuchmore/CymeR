@@ -21,7 +21,7 @@ export DISPLAY1="$(/sbin/ifconfig vboxnet0 | grep 'inet' | cut -d' ' -f2)"
 ##Set DISPLAY variable
 export DISPLAY="$DISPLAY1:0"
 
-##Launch CymeR - will take longer to launch if there is no internet connection because the KNIME intro page can't load
+##Launch CymeR
 docker run -it --rm -e DISPLAY=$DISPLAY -v $parentDIR/CymeR-Workspace:/home/developer/knime-workspace -v $parentDIR/Scripts:/home/developer/Scripts -v $parentDIR/CymeR-Data:/home/developer/Data:rw -v $parentDIR/Templates:/home/developer/Templates:rw bmuchmore/cymer
 
 ##Remove the container once CymeR quits

@@ -1,2 +1,0 @@
-library(cytofkit)
-cytofkitShinyAPP()

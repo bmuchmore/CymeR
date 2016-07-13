@@ -2,12 +2,14 @@ FROM ubuntu:14.04
 MAINTAINER Brian Muchmore "brian.muchmore@genyo.es"
 ##Build with: docker build -t bmuchmore/cymer /Path/to/Dockerfile
 
-
 ENV DEBIAN_FRONTEND noninteractive
 ENV DEBCONF_NONINTERACTIVE_SEEN true
 
 ##Install x11 server so that programs that require a display compile correctly
+##Also, install localepurge to automagically remove unnecessary locale data for future apt-get calls
 RUN apt-get update -y && \
+    apt-get update -y && \
+    apt-get install localepurge -y && \
     apt-get install software-properties-common build-essential python-software-properties wget -y && \
     apt-get install xorg-dev xvfb -y
 
@@ -30,8 +32,7 @@ RUN chmod a+x /usr/bin/xvfb-daemon-run
 ENV DISPLAY :99
 
 ##Install many downstream dependencies
-RUN apt-get update -y
-RUN apt-get install unzip libreadline6 libreadline6-dev libcairo2-dev tk8.5 autoconf openssl -y
+RUN apt-get install unzip libreadline6 libreadline6-dev libcairo2-dev tk8.5 autoconf openssl libcanberra-gtk* -y
 RUN apt-get install gfortran tk tk-dev tcl tcl-dev libjpeg8 libxml2-dev liblz-dev libicu-dev libtool libssl-dev -y
 RUN apt-get install libtiff4-dev libtiff-tools libtiff-opengl libgtk2.0-dev bzip2 libbz2-dev vim -y
 RUN apt-get install libgd2-xpm-dev libpcre++-dev libhdf5-serial-dev libssh2-1 libcurl4-gnutls-dev git-core -y
@@ -62,7 +63,12 @@ RUN wget http://www.zlib.net/zlib-1.2.8.tar.gz -O /tmp/zlib.tar.gz -q && \
 RUN wget ftp://ftp.hdfgroup.org/HDF5/prev-releases/hdf5-1.8.16/src/hdf5-1.8.16.tar.gz -O /home/developer/hdf5-1.8.16.tar.gz -q && \
     cd /home/developer && tar -zxvf /home/developer/hdf5-1.8.16.tar.gz && \
     rm -rf /home/developer/hdf5-1.8.16.tar.gz && \
-    cd /home/developer/hdf5-1.8.16 && ./configure && make && make check && make install && make check-install
+    cd /home/developer/hdf5-1.8.16 && \
+    ./configure && \
+    make && \
+    make check && \
+    make install && \
+    make check-install
 
 ##Install LinearTimeNeRV
 RUN apt-get install libncurses5-dev libncursesw5-dev -y && \
@@ -84,13 +90,17 @@ RUN add-apt-repository ppa:webupd8team/java && \
 ##Get Python working with KNIME. This installs R, so it must be run before the R version you want installed systemwide.
 RUN apt-get install python-numpy python-pandas python-protobuf -y
 
-##Install R with Atlas (OpenBLAS doesn't seem to play nice with library(parallel))
-RUN echo 'deb http://lib.stat.cmu.edu/R/CRAN/bin/linux/ubuntu trusty/' >> /etc/apt/sources.list && \ 
-    apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9 && \ 
-    xvfb-run -a apt-get update -y && \
-    xvfb-run -a apt-get install r-base -y && \
-    xvfb-run -a apt-get install r-base-dev -y && \
-    xvfb-run -a apt-get install libatlas3gf-base liblapack3gf xclip xsel -y
+##Install R from source with Atlas (OpenBLAS doesn't seem to play nice with library(parallel))
+##It seems the "make check" fails on the 'utils' part when R is built --with-recommended-packages=no by calling some packages which are not built.
+RUN wget https://stat.ethz.ch/R/daily/R-devel.tar.gz --no-check-certificate -O /tmp/R.tar.gz -q && \
+    tar -xf /tmp/R.tar.gz -C /home/developer && \
+    rm /tmp/R.tar.gz && \
+    cd /home/developer/R-devel && \
+    xvfb-run -a ./configure --with-recommended-packages=yes --with-x=yes --with-tcltk --with-aqua --with-ICU --with-cairo --with-libpng --with-libtiff --with-jpeglib --enable-R-shlib --enable-BLAS-shlib && \
+    xvfb-run -a make && \
+    xvfb-run -a make check && \
+    xvfb-run -a make install && \
+    apt-get install libatlas3gf-base liblapack3gf xclip xsel -y
 
 ##Download KNIME
 RUN echo 'Installing knime' && \
@@ -236,11 +246,9 @@ RUN echo 'source("http://bioconductor.org/biocLite.R")' > /home/developer/packag
     echo 'biocLite("flowDensity")' >> /home/developer/packagesBio.R && \
     echo 'biocLite("ClusterSignificance")' >> /home/developer/packagesBio.R && \
     echo 'biocLite("genefilter")' >> /home/developer/packagesBio.R && \
-    echo 'biocLite("CytoML")' >> /home/developer/packagesBio.R && \
     xvfb-run -a Rscript /home/developer/packagesBio.R
 
 ##Install Github R packages
-##flowWorkspace and openCyto are installed this way for CytoML. See: https://github.com/RGLab/CytoML
 RUN echo 'options(unzip = "internal")' > /home/developer/packagesGit.R && \
     echo 'devtools::install_github("nolanlab/citrus")' >> /home/developer/packagesGit.R && \
     echo 'devtools::install_github("nolanlab/cytofCore")' >> /home/developer/packagesGit.R && \
@@ -259,34 +267,58 @@ RUN wget https://cran.r-project.org/src/contrib/Archive/NetPreProc/NetPreProc_1.
     xvfb-run -a Rscript /home/developer/packagesSource.R && \
     rm /tmp/NetPreProc_1.0.tar.gz
 
-##Install Python 3.5
-RUN wget https://www.python.org/ftp/python/3.5.1/Python-3.5.1.tar.xz -O /home/developer/Python-3.5.1.tar.xz -q && \
-    cd /home/developer && tar xJf /home/developer/Python-3.5.1.tar.xz && \
-    rm -rf /home/developer/Python-3.5.1.tar.xz && \
-    cd /home/developer/Python-3.5.1 && \
-    ./configure --prefix=/opt/python3.5 && \ 
-    make && \
-    make install && \
-    apt-get install python3-dev -y
+##Use Bioc Devel (will only work if R Devel is installed) in order to install Bioconductor packages still under development
+RUN echo 'source("http://bioconductor.org/biocLite.R")' > /home/developer/packagesBioDevel.R && \
+    echo 'biocLite("BiocInstaller")' >> /home/developer/packagesBioDevel.R && \
+    echo 'library(BiocInstaller)' >> /home/developer/packagesBioDevel.R && \
+    echo 'useDevel()' >> /home/developer/packagesBioDevel.R && \
+    echo 'biocLite("CytoML")' >> /home/developer/packagesBioDevel.R && \
+    xvfb-run -a Rscript /home/developer/packagesBioDevel.R
+
+##Install RStudio
+RUN apt-get install libjpeg62 libgstreamer0.10-0 libgstreamer-plugins-base0.10-0 -y && \
+    wget https://download1.rstudio.org/rstudio-0.99.902-amd64.deb -O /tmp/rstudio.deb -q && \
+    dpkg -i /tmp/rstudio.deb && \
+    rm -rf /tmp/rstudio.deb
+
+##Install some needed Python stuff
+RUN apt-get install libsqlite3-dev python3-dev python3-pip python-zmq libzmq3-dev -y
 
 ##Install some Python 3.5 libraries
 RUN apt-get install libblas-dev liblapack-dev -y && \
     export BLAS=/usr/lib/libblas.so && \
     export LAPACK=/usr/lib/liblapack.so && \
     export ATLAS=/usr/lib/libatlas.so.3 && \
-    /opt/python3.5/bin/pip3 install --upgrade pip && \
-    /opt/python3.5/bin/pip3 install numpy && \
-    /opt/python3.5/bin/pip3 install scipy && \
-    /opt/python3.5/bin/pip3 install scikit-learn && \
-    /opt/python3.5/bin/pip3 install pyzmq && \
-    /opt/python3.5/bin/pip3 install networkx && \
-    /opt/python3.5/bin/pip3 install matplotlib && \
-    /opt/python3.5/bin/pip3 install seaborn && \
-    /opt/python3.5/bin/pip3 install sklearn && \
-    /opt/python3.5/bin/pip3 install fcsparser && \
-    /opt/python3.5/bin/pip3 install statsmodels && \
-    /opt/python3.5/bin/pip3 install cython && \
-    /opt/python3.5/bin/pip3 install pandas
+    pip3 install --upgrade pip && \
+    pip3 install numpy && \
+    pip3 install scipy && \
+    pip3 install scikit-learn && \
+    pip3 install pyzmq && \
+    pip3 install networkx && \
+    pip3 install matplotlib && \
+    pip3 install seaborn && \
+    pip3 install sklearn && \
+    pip3 install fcsparser && \
+    pip3 install statsmodels && \
+    pip3 install cython && \
+    pip3 install ipython[all] && \
+    pip3 install --upgrade "ipython[all]" && \
+    pip3 install jupyter && \
+    pip3 install rpy2 && \
+    pip3 install pandas
+
+##Install R kernel for Jupyter
+RUN echo 'install.packages("rzmq", repos="http://irkernel.github.io/", type = "source")' > /home/developer/RMagic_packages.R && \
+    echo 'install.packages("repr", repos="http://irkernel.github.io/", type = "source")' >> /home/developer/RMagic_packages.R && \
+    echo 'devtools::install_github(c("IRkernel/IRdisplay", "IRkernel/IRkernel"))' >> /home/developer/RMagic_packages.R && \
+    echo 'IRkernel::installspec(user = FALSE)' >> /home/developer/RMagic_packages.R && \
+    xvfb-run -a Rscript /home/developer/RMagic_packages.R
+
+##Install Python 2 kernel for Jupyter
+RUN apt-get install python-pip -y && \
+    pip install --upgrade pip && \
+    python -m pip install --upgrade ipykernel && \
+    python -m ipykernel install
 
 ##Followed the following advice to install tsne, which is needed for wishbone:
 ##http://stackoverflow.com/questions/25065113/blas-lapack-not-installed-how-to-install-it
@@ -294,25 +326,23 @@ RUN apt-get install libblas-dev liblapack-dev -y && \
 RUN apt-get --purge remove libatlas3gf-base -y && \
     apt-get install libatlas-base-dev -y && \
     wget https://github.com/danielfrg/tsne/archive/v0.1.3.zip -O /home/developer/tsne.zip -q && \
-    unzip -o /home/developer/tsne.zip -d /opt/python3.5/lib/python3.5/site-packages && \
+    unzip -o /home/developer/tsne.zip -d /usr/local/lib/python3.4/dist-packages && \
     rm -rf /home/developer/tsne.zip && \
-    cd /opt/python3.5/lib/python3.5/site-packages/tsne-0.1.3 && \
-    /opt/python3.5/bin/python3 setup.py install
+    cd /usr/local/lib/python3.4/dist-packages/tsne-0.1.3 && \
+    python3 setup.py install
 
 ##Install PhenoGraph (dependent upon Python 3.x and some libraries)
 RUN wget https://github.com/jacoblevine/PhenoGraph/archive/master.zip -O /home/developer/PhenoGraph.zip -q && \
-    unzip -o /home/developer/PhenoGraph.zip -d /opt/python3.5/lib/python3.5/site-packages && \
+    unzip -o /home/developer/PhenoGraph.zip -d /usr/local/lib/python3.4/dist-packages && \
     rm -rf /home/developer/PhenoGraph.zip && \
-    cd /opt/python3.5/lib/python3.5/site-packages/PhenoGraph-master && \
-    /opt/python3.5/bin/python3 setup.py install
+    cd /usr/local/lib/python3.4/dist-packages/PhenoGraph-master && \
+    python3 setup.py install
 
 ##Install Wishbone (dependent upon Python 3.X and some libraries)
-##The sed command below changes the setup.py script to point correctly to pip3
-RUN cd /opt/python3.5/lib/python3.5/site-packages && \
+RUN cd /usr/local/lib/python3.4/dist-packages && \
     git clone git://github.com/manusetty/wishbone.git && \
-    sed -i -e 's@pip3@/opt/python3.5/bin/pip3@g' /opt/python3.5/lib/python3.5/site-packages/wishbone/setup.py && \
-    cd /opt/python3.5/lib/python3.5/site-packages/wishbone && \
-    /opt/python3.5/bin/pip3 install .
+    cd /usr/local/lib/python3.4/dist-packages/wishbone && \
+    pip3 install .
 
 ##Install Combo
 ##To compile on Ubuntu prepend '#include <stdio.h>' to the Graph.h file
@@ -327,7 +357,7 @@ RUN mkdir -p /home/developer/Combo && \
     /home/developer/prependCombo.sh && \
     cd /home/developer/Combo && make
 
-##Install VorteX  
+##Install VorteX
 RUN wget http://web.stanford.edu/~samusik/vortex/vortex_dist_1-July-16.zip -O /tmp/VorteX.zip -q && \
     unzip -o /tmp/VorteX.zip -d /home/developer/VorteX && \
     rm -rf /tmp/VorteX.zip
@@ -341,6 +371,16 @@ RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key
 
 ##Install Gedit
 Run apt-get install gedit -y
+
+##Install Xfce4-terminal
+Run apt-get install xfce4-terminal -y
+
+##Clean
+Run apt-get autoclean -y && \
+    apt-get clean -y && \
+    apt-get autoremove -y && \
+    apt-get install deborphan -y && \
+    deborphan | xargs sudo apt-get -y remove --purge
 
 ##Share X11 socket with the container and use it directly
 ##Set-up user privileges
@@ -358,3 +398,12 @@ USER developer
 ENV HOME /home/developer
 WORKDIR /home/developer
 CMD /home/developer/knime_3.2.0/knime -data /home/developer/knime-workspace 
+
+
+
+
+
+
+
+
+

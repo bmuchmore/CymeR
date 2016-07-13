@@ -52,7 +52,7 @@ echo echo ---------- >> C:\Users\%USERNAME%\install.sh
 echo echo You are now pulling a very large Docker Image. Do not be surprised if this takes a long time. ; >> C:\Users\%USERNAME%\install.sh
 echo sleep 30 ; >> C:\Users\%USERNAME%\install.sh
 echo eval "$(docker-machine env cymer)" ; >> C:\Users\%USERNAME%\install.sh
-echo #docker pull bmuchmore/cymer ; >> C:\Users\%USERNAME%\install.sh
+echo docker pull bmuchmore/cymer ; >> C:\Users\%USERNAME%\install.sh
 echo #mv $realgreatgrandparentDIR/CymeR-Windows/Install.bat $realgreatgrandparentDIR/CymeR-Windows/BaseFiles/Install/Install.bat ; >> C:\Users\%USERNAME%\install.sh
 echo echo - >> C:\Users\%USERNAME%\install.sh
 echo echo -- >> C:\Users\%USERNAME%\install.sh

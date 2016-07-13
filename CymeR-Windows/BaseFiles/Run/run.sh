@@ -1,6 +1,7 @@
 #!/bin/bash
-#ip=`route print | egrep "^ +0.0.0.0 +0.0.0.0 +" | gawk 'BEGIN { metric=255; ip="0.0.0.0"; } { if ( $5 < metric ) { ip=$4; metric=$5; } } END { printf("%s\n",ip); }'`
-ip=195.83.246.150
+ip=`route print | egrep "^ +0.0.0.0 +0.0.0.0 +" | gawk 'BEGIN { metric=255; ip="0.0.0.0"; } { if ( $5 < metric ) { ip=$4; metric=$5; } } END { printf("%s\n",ip); }'`
+##IP failure is relatively common, so you may want to set it manually on the line below, and comment out (i.e. #) the line above.
+#ip=195.83.246.150
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd ) ;
 parentDIR="$(dirname "$DIR")" ;
 grandparentDIR="$(dirname "$parentDIR")" ;

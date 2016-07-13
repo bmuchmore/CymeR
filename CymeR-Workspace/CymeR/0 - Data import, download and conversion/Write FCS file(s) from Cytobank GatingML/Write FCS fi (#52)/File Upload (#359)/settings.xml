@@ -1,13 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
 <entry key="node_file" type="xstring" value="settings.xml"/>
-<config key="flow_stack"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="files"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="/home/developer/Data/TESTING/GatingML_Test/premono2_Panel_1_32141752_IRCCS_CANTOII_17NOV2015_17NOV2015.fcs.norm.fcs.comp.fcs"/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="files (URL)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="file:/home/developer/Data/TESTING/GatingML_Test/premono2_Panel_1_32141752_IRCCS_CANTOII_17NOV2015_17NOV2015.fcs.norm.fcs.comp.fcs"/>
+</config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="files"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="/home/developer/Data/TESTING/GatingML_Test/premono2_Panel_1_32141752_IRCCS_CANTOII_17NOV2015_17NOV2015.fcs.norm.fcs.comp.fcs"/>
+</config>
+<config key="Variable_3">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="files (URL)"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="file:/home/developer/Data/TESTING/GatingML_Test/premono2_Panel_1_32141752_IRCCS_CANTOII_17NOV2015_17NOV2015.fcs.norm.fcs.comp.fcs"/>
+</config>
+</config>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
 <config key="defaultValue">
-<entry key="path" type="xstring" value="/home/developer/Data/TESTING/GatingML_Test/premono2_Panel_1_32141752_IRCCS_CANTOII_17NOV2015_17NOV2015.fcs _norm.fcs _comp.fcs"/>
+<entry key="path" type="xstring" value="/home/developer/Data"/>
+<entry key="pathValid" type="xboolean" value="true"/>
 </config>
 <entry key="label" type="xstring" value="Choose a single FCS file in the directory containing the files corresponding to your Cytobank experiment. You must choose a FCS file and not just the directory:"/>
 <entry key="description" type="xstring" value="Enter Description"/>
@@ -37,33 +63,34 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
-<config key="nodecontainer_message">
-<entry key="type" type="xstring" value="WARNING"/>
-<entry key="message" type="xstring" value="No such file: &quot;/home/developer/Data/TESTING/GatingML_Test/premono2_Panel_1_32141752_IRCCS_CANTOII_17NOV2015_17NOV2015.fcs _norm.fcs _comp.fcs&quot;"/>
-</config>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="factory" type="xstring" value="org.knime.js.base.node.quickform.input.fileupload.FileUploadQuickFormNodeFactory"/>
 <entry key="node-name" type="xstring" value="File Upload"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Quick Form Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.quickforms"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME.com, Zurich, Switzerland"/>
-<entry key="node-bundle-version" type="xstring" value="3.1.0.v201512021139"/>
+<entry key="node-bundle-version" type="xstring" value="3.2.0.v201607050924"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Quick Forms"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.quickforms.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME.com, Zurich, Switzerland"/>
-<entry key="node-feature-version" type="xstring" value="3.1.1.v201601281239"/>
+<entry key="node-feature-version" type="xstring" value="3.2.0.v201607051203"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="File Upload"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="103f4820-7327-4869-a3c1-15f9068d1fbb"/>
 </config>
 </config>
