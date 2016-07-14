@@ -1,7 +1,5 @@
 # CymeR  
 
-[[https://github.com/bmuchmore/CymeR/blob/master/CymeR-Linux/BaseFiles/Icons/knime.png|alt=octocat]]  
-
 Welcome to CymeR! Please see http://bmuchmore.github.io/CymeR/ for an overview.  
 
 ### Major updates  
