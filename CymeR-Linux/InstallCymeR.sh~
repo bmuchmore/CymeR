@@ -20,5 +20,4 @@ sudo echo 'Icon='$DIR'/BaseFiles/Icons/commit.png' >> $DIR/commit.desktop && \
 ##sudo mv $DIR/InstallCymeR.sh $DIR/BaseFiles/Install/InstallCymeR.sh && \
 sudo chown 777 -R $grandparentDIR && \
 sudo chmod 777 -R $grandparentDIR
-sudo docker rmi -f $(docker images | grep "^<none>" | awk "{print $3}")
 read -p "*** YOU CAN NOW CLOSE ME ***"
