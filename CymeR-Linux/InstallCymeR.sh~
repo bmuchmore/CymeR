@@ -4,7 +4,6 @@ parentDIR="$(dirname "$DIR")"
 grandparentDIR="$(dirname "$parentDIR")"
 sudo true && \
 sudo apt-get install xterm -y && \
-sudo docker rmi $(docker images | grep "^<none>" | awk "{print $3}")
 sudo docker pull bmuchmore/cymer
 ##sudo docker build -t bmuchmore/cymer $DIR/BaseFiles/Dockerfile && \
 sudo echo '[Desktop Entry]' > $DIR/CymeR.desktop && \
