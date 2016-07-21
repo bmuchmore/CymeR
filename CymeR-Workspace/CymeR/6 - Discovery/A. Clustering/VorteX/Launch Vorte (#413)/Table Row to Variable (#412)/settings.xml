@@ -24,7 +24,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="VorteX"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="cd /home/developer/VorteX &amp;&amp; cd vortex_dist_17-June-16 &amp;&amp; java -Xmx64G -cp &quot;lib/*&quot; vortex.gui2.frmMain"/>
+<entry key="value" type="xstring" value="cd /home/developer/VorteX &amp;&amp; cd vortex_dist_1-July-16 &amp;&amp; java -Xmx64G -cp &quot;lib/*&quot; vortex.gui2.frmMain"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -73,11 +73,11 @@
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-bundle-version" type="xstring" value="3.1.2.v201603300837"/>
+<entry key="node-bundle-version" type="xstring" value="3.2.0.v201607050924"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Core"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-feature-version" type="xstring" value="3.1.2.v201603311235"/>
+<entry key="node-feature-version" type="xstring" value="3.2.0.v201607061829"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Table Row to Variable"/>
 <entry key="hasContent" type="xboolean" value="false"/>
