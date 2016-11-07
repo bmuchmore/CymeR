@@ -6,13 +6,13 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="columns"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Cd(111.902)-Dual,Cd(113.903)-Dual,La(138.906)-Dual,Pr(140.907)-Dual,Nd(141.907)-Dual,Nd(143.910)-Dual,Nd(144.912)-Dual,Nd(145.913)-Dual,Nd(147.916)-Dual,Nd(149.920)-Dual,Sm(146.914)-Dual,Sm(151.919)-Dual,Sm(153.922)-Dual,Eu(150.919)-Dual,Eu(152.921)-Dual,Gd(155.922)-Dual,Gd(157.924)-Dual,Gd(159.927)-Dual,Tb(158.925)-Dual,Dy(163.929)-Dual,Ho(164.930)-Dual,Er(165.930)-Dual,Er(166.932)-Dual,Er(167.932)-Dual,Er(169.935)-Dual,Tm(168.934)-Dual,Yb(170.936)-Dual,Yb(171.936)-Dual,Yb(173.938)-Dual,Yb(175.942)-Dual,Lu(174.940)-Dual,Cd(110,111,112,114)"/>
+<entry key="value" type="xstring" value="La(138.906)-Dual,Pr(140.907)-Dual,Nd(141.907)-Dual,Nd(143.910)-Dual,Nd(144.912)-Dual,Nd(145.913)-Dual,Nd(147.916)-Dual,Nd(149.920)-Dual,Sm(146.914)-Dual,Sm(151.919)-Dual,Sm(153.922)-Dual,Eu(150.919)-Dual,Eu(152.921)-Dual,Gd(155.922)-Dual,Gd(157.924)-Dual,Gd(159.927)-Dual,Tb(158.925)-Dual,Dy(163.929)-Dual,Ho(164.930)-Dual,Er(165.930)-Dual,Er(166.932)-Dual,Er(167.932)-Dual,Er(169.935)-Dual,Tm(168.934)-Dual,Yb(170.936)-Dual,Yb(171.936)-Dual,Yb(173.938)-Dual,Yb(175.942)-Dual,Lu(174.940)-Dual,Cd(110,111,112,114),BHT.SNE.2D.Dim1,BHT.SNE.2D.Dim2"/>
 </config>
 <config key="Variable_1">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="columns"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="Cd(111.902)-Dual,Cd(113.903)-Dual,La(138.906)-Dual,Pr(140.907)-Dual,Nd(141.907)-Dual,Nd(143.910)-Dual,Nd(144.912)-Dual,Nd(145.913)-Dual,Nd(147.916)-Dual,Nd(149.920)-Dual,Sm(146.914)-Dual,Sm(151.919)-Dual,Sm(153.922)-Dual,Eu(150.919)-Dual,Eu(152.921)-Dual,Gd(155.922)-Dual,Gd(157.924)-Dual,Gd(159.927)-Dual,Tb(158.925)-Dual,Dy(163.929)-Dual,Ho(164.930)-Dual,Er(165.930)-Dual,Er(166.932)-Dual,Er(167.932)-Dual,Er(169.935)-Dual,Tm(168.934)-Dual,Yb(170.936)-Dual,Yb(171.936)-Dual,Yb(173.938)-Dual,Yb(175.942)-Dual,Lu(174.940)-Dual,Cd(110,111,112,114)"/>
+<entry key="value" type="xstring" value="La(138.906)-Dual,Pr(140.907)-Dual,Nd(141.907)-Dual,Nd(143.910)-Dual,Nd(144.912)-Dual,Nd(145.913)-Dual,Nd(147.916)-Dual,Nd(149.920)-Dual,Sm(146.914)-Dual,Sm(151.919)-Dual,Sm(153.922)-Dual,Eu(150.919)-Dual,Eu(152.921)-Dual,Gd(155.922)-Dual,Gd(157.924)-Dual,Gd(159.927)-Dual,Tb(158.925)-Dual,Dy(163.929)-Dual,Ho(164.930)-Dual,Er(165.930)-Dual,Er(166.932)-Dual,Er(167.932)-Dual,Er(169.935)-Dual,Tm(168.934)-Dual,Yb(170.936)-Dual,Yb(171.936)-Dual,Yb(173.938)-Dual,Yb(175.942)-Dual,Lu(174.940)-Dual,Cd(110,111,112,114),BHT.SNE.2D.Dim1,BHT.SNE.2D.Dim2"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -168,11 +168,11 @@
 <entry key="node-bundle-name" type="xstring" value="KNIME Quick Form Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.quickforms"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME.com, Zurich, Switzerland"/>
-<entry key="node-bundle-version" type="xstring" value="3.1.0.v201512021139"/>
+<entry key="node-bundle-version" type="xstring" value="3.2.1.v201608161059"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Quick Forms"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.quickforms.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME.com, Zurich, Switzerland"/>
-<entry key="node-feature-version" type="xstring" value="3.1.1.v201601281239"/>
+<entry key="node-feature-version" type="xstring" value="3.2.1.v201608182043"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Column Filter"/>
 <entry key="hasContent" type="xboolean" value="false"/>

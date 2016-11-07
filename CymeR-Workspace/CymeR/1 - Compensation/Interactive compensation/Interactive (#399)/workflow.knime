@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="workflow.knime">
-<entry key="created_by" type="xstring" value="3.2.0.v201607061829"/>
+<entry key="created_by" type="xstring" value="3.2.1.v201608190927"/>
 <entry key="version" type="xstring" value="3.1.0"/>
 <entry key="name" type="xstring" value="Interactive compensation continued"/>
 <config key="authorInformation">
@@ -25,7 +25,7 @@
 <entry key="0" type="xint" value="313"/>
 <entry key="1" type="xint" value="204"/>
 <entry key="2" type="xint" value="104"/>
-<entry key="3" type="xint" value="81"/>
+<entry key="3" type="xint" value="80"/>
 </config>
 </config>
 </config>
@@ -41,7 +41,7 @@
 <entry key="0" type="xint" value="372"/>
 <entry key="1" type="xint" value="69"/>
 <entry key="2" type="xint" value="82"/>
-<entry key="3" type="xint" value="99"/>
+<entry key="3" type="xint" value="97"/>
 </config>
 </config>
 </config>
@@ -57,7 +57,7 @@
 <entry key="0" type="xint" value="643"/>
 <entry key="1" type="xint" value="328"/>
 <entry key="2" type="xint" value="75"/>
-<entry key="3" type="xint" value="81"/>
+<entry key="3" type="xint" value="80"/>
 </config>
 </config>
 </config>
@@ -73,7 +73,7 @@
 <entry key="0" type="xint" value="444"/>
 <entry key="1" type="xint" value="214"/>
 <entry key="2" type="xint" value="117"/>
-<entry key="3" type="xint" value="99"/>
+<entry key="3" type="xint" value="97"/>
 </config>
 </config>
 </config>
@@ -89,7 +89,7 @@
 <entry key="0" type="xint" value="213"/>
 <entry key="1" type="xint" value="198"/>
 <entry key="2" type="xint" value="154"/>
-<entry key="3" type="xint" value="81"/>
+<entry key="3" type="xint" value="80"/>
 </config>
 </config>
 </config>
@@ -104,8 +104,8 @@
 <entry key="array-size" type="xint" value="4"/>
 <entry key="0" type="xint" value="743"/>
 <entry key="1" type="xint" value="198"/>
-<entry key="2" type="xint" value="167"/>
-<entry key="3" type="xint" value="81"/>
+<entry key="2" type="xint" value="168"/>
+<entry key="3" type="xint" value="80"/>
 </config>
 </config>
 </config>

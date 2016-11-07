@@ -1,8 +1,8 @@
-/home/developer/Scripts/Python/Copy/Copy_Wishbone2.py
-/home/developer/Scripts/Python/Copy/Copy_Wishbone1.py
 /home/developer/Scripts/R/Copy/Copy_Scaffold.R
 /home/developer/Scripts/Python/Copy/Copy_PhenoGraph.py
 /home/brian/Desktop/NeRV_input.txt
 /home/developer/Scripts/R/Copy/Copy_cytofkit.R
 forsomereasonineedtoentersomethinghere
-/home/developer/Data/Panel5.gml
+/home/developer/Scripts/R/Copy/Copy_FlowAI.R
+/home/developer/Scripts/Python/Copy/Copy_Wishbone2.py
+/home/developer/Scripts/Python/Copy/Copy_Wishbone1.py

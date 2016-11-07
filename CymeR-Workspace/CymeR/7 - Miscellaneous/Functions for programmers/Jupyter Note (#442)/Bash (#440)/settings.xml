@@ -38,10 +38,6 @@
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="CONFIGURED"/>
-<config key="nodecontainer_message">
-<entry key="type" type="xstring" value="WARNING"/>
-<entry key="message" type="xstring" value="Execution canceled"/>
-</config>
 <entry key="factory" type="xstring" value="org.pasteur.pf2.tools.BashNodeFactory"/>
 <entry key="node-name" type="xstring" value="Bash"/>
 <entry key="node-bundle-name" type="xstring" value="NGS related nodes for KNIME Workbench"/>

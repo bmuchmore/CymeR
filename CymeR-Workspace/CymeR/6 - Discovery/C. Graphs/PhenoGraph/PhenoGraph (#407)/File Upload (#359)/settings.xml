@@ -21,6 +21,7 @@
 <config key="model">
 <config key="defaultValue">
 <entry key="path" type="xstring" value="/home/developer/Data"/>
+<entry key="pathValid" type="xboolean" value="true"/>
 </config>
 <entry key="label" type="xstring" value="Choose a single FCS file in the directory containing the files you want to run PhenoGraph on. You must choose a FCS file and not just the directory:"/>
 <entry key="description" type="xstring" value="Enter Description"/>
@@ -56,11 +57,11 @@
 <entry key="node-bundle-name" type="xstring" value="KNIME Quick Form Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.quickforms"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME.com, Zurich, Switzerland"/>
-<entry key="node-bundle-version" type="xstring" value="3.1.0.v201512021139"/>
+<entry key="node-bundle-version" type="xstring" value="3.2.1.v201608161059"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Quick Forms"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.quickforms.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME.com, Zurich, Switzerland"/>
-<entry key="node-feature-version" type="xstring" value="3.1.1.v201601281239"/>
+<entry key="node-feature-version" type="xstring" value="3.2.1.v201608182043"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="File Upload"/>
 <entry key="hasContent" type="xboolean" value="false"/>

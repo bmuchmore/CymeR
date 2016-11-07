@@ -1,5 +1,5 @@
 [Desktop Entry]
 Type=Application
 Name=CymeR
-Exec=/home/walnut/CymeR/CymeR-Linux/BaseFiles/Run/run.sh
-Icon=/home/walnut/CymeR/CymeR-Linux/BaseFiles/Icons/knime.png
+Exec=/home/walnut/CymeR/CymeR/CymeR-Linux/BaseFiles/Run/run.sh
+Icon=/home/walnut/CymeR/CymeR/CymeR-Linux/BaseFiles/Icons/knime.png

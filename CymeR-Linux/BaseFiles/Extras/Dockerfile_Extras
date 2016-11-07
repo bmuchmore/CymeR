@@ -13,6 +13,18 @@ RUN wget https://stat.ethz.ch/R/daily/R-devel.tar.gz --no-check-certificate -O /
 RUN apt-get update -y && \
     apt-get install firefox -y
 
+##Install R package ncdfFlow from source in order to properly set the hdf5 library. This command may need to be continually updated with the #correct link to the ncdfFlow package.
+RUN wget https://www.bioconductor.org/packages/release/bioc/src/contrib/ncdfFlow_2.18.0.tar.gz -O /home/developer/ncdfFlow_2.18.0.tar.gz -q #&& \
+    cd /home/developer && R CMD INSTALL ncdfFlow_2.18.0.tar.gz --configure-args="--with-hdf5='/home/developer/hdf5-1.8.16'"
+
+##Use Bioc Devel (will only work if R Devel is installed) in order to install Bioconductor packages still under development
+RUN echo 'source("http://bioconductor.org/biocLite.R")' > /home/developer/packagesBioDevel.R && \
+    echo 'biocLite("BiocInstaller")' >> /home/developer/packagesBioDevel.R && \
+    echo 'library(BiocInstaller)' >> /home/developer/packagesBioDevel.R && \
+    echo 'useDevel()' >> /home/developer/packagesBioDevel.R && \
+    echo 'biocLite("CytoML")' >> /home/developer/packagesBioDevel.R && \
+    xvfb-run -a Rscript /home/developer/packagesBioDevel.R
+
 ##Install Chrome
 RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - && \ 
     sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list' && \
@@ -63,5 +75,81 @@ RUN wget http://chianti.ucsd.edu/cytoscape-3.2.1/cytoscape-3.2.1.tar.gz -O /tmp/
 
 ##Download Cytoscape Plugin ClustnSee - install within Cytoscape
 RUN wget http://tagc.univ-mrs.fr/tagc/download/Software/ClustnSee/ClustnSee.jar -O /home/developer/cytoscape-unix-3.2.1/ClustnSee.jar -q
+
+################################# NCDF #################################
+##Install packages for ncdfFlow
+RUN echo 'source("http://bioconductor.org/biocLite.R")' > /home/developer/4ncdfFlow.R && \
+    echo 'biocLite("Biobase")' >> /home/developer/4ncdfFlow.R && \
+    echo 'biocLite("flowCore")' >> /home/developer/4ncdfFlow.R && \
+    echo 'biocLite("flowViz")' >> /home/developer/4ncdfFlow.R && \
+    echo 'biocLite("zlibbioc")' >> /home/developer/4ncdfFlow.R && \
+    echo 'install.packages("RcppArmadillo", repos="http://mran.revolutionanalytics.com/snapshot/2016-05-01")' >> /home/developer/4ncdfFlow.R && \
+    xvfb-run -a Rscript /home/developer/4ncdfFlow.R
+
+##Install HDF5 from source for Bioconductor package ncdfflow
+RUN wget ftp://ftp.hdfgroup.org/HDF5/releases/hdf5-1.10/hdf5-1.10.0/src/hdf5-1.10.0.tar.gz -O /home/developer/hdf5-1.10.0.tar.gz -q && \
+    cd /home/developer && tar -zxvf /home/developer/hdf5-1.10.0.tar.gz && \
+    rm -rf /home/developer/hdf5-1.10.0.tar.gz && \
+    cd /home/developer/hdf5-1.10.0 && \
+    ./configure && \
+    make && \
+    make check && \
+    make install && \
+    make check-install
+
+##Install R package ncdfFlow from source in order to properly set the hdf5 library. This command may need to be continually updated with the correct link to the ncdfFlow package.
+RUN wget https://www.bioconductor.org/packages/devel/bioc/src/contrib/ncdfFlow_2.19.1.tar.gz -O /home/developer/ncdfFlow_2.19.1.tar.gz -q && \
+    cd /home/developer && R CMD INSTALL ncdfFlow_2.19.1.tar.gz --configure-args="--with-hdf5='/home/developer/hdf5-1.10.0'"
+################################# NCDF #################################
+
+##Install GTK3 from source because GTK-3.18.9 seemed to be causing Eclipse errors
+RUN cd /home/developer && \
+    wget http://ftp.gnome.org/pub/gnome/sources/gtk+/3.20/gtk+-3.20.0.tar.xz && \
+    tar -xf /home/developer/gtk+-3.20.0.tar.xz -C /home/developer && \
+    cd gtk+-3.20.0 && \
+    ./configure --prefix=/opt/gtk && \
+    make && \
+    make install && \
+    CPPFLAGS="-I/opt/gtk/include" && \
+    LDFLAGS="-L/opt/gtk/lib" && \
+    PKG_CONFIG_PATH="/opt/gtk/lib/pkgconfig" && \
+    export CPPFLAGS LDFLAGS PKG_CONFIG_PATH && \
+    LD_LIBRARY_PATH="/opt/gtk/lib" && \
+    PATH="/opt/gtk/bin:$PATH" && \
+    export LD_LIBRARY_PATH PATH
+
+#############################################################################################################
+##Set-up an Apache server
+##Mostly from https://medium.com/dev-tricks/apache-and-php-on-docker-44faef716150#.8fk9bmuv2
+RUN LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php && \
+    apt-get update && \
+    apt-get -y upgrade && \
+    apt-get install apache2 php7.0 php7.0-mysql libapache2-mod-php7.0 curl lynx-cur -y
+
+##Enable apache mods.
+RUN a2enmod php7.0
+RUN a2enmod rewrite
+
+##Update the PHP.ini file, enable <? ?> tags and quieten logging.
+RUN sed -i "s/short_open_tag = Off/short_open_tag = On/" /etc/php/7.0/apache2/php.ini
+RUN sed -i "s/error_reporting = .*$/error_reporting = E_ERROR | E_WARNING | E_PARSE/" /etc/php/7.0/apache2/php.ini
+
+##Manually set up the apache environment variables
+ENV APACHE_RUN_USER www-data
+ENV APACHE_RUN_GROUP www-data
+ENV APACHE_LOG_DIR /var/log/apache2
+ENV APACHE_LOCK_DIR /var/lock/apache2
+ENV APACHE_PID_FILE /var/run/apache2.pid
+
+##Expose apache.
+EXPOSE 80
+
+##make site directory
+RUN mkdir -p /var/www/site
+
+##Update the default apache site with the config we created.
+ADD apache-config.conf /etc/apache2/sites-enabled/000-default.conf
+#############################################################################################################
+
 
 

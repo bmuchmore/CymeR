@@ -11,7 +11,7 @@
 		<item value="800" key="AvailableListSashWeight"/>
 		<item value="1" key="AvailableViewType"/>
 		<item value="1379" key="AvailableVersionColumnWidth"/>
-		<item value="true" key="HideInstalledContent"/>
+		<item value="false" key="HideInstalledContent"/>
 		<item value="true" key="ShowLatestVersionsOnly"/>
 		<item value="200" key="AvailableDetailsSashWeight"/>
 		<item value="true" key="ResolveInstallWithAllSites"/>
@@ -29,7 +29,7 @@
 		<item value="200" key="DetailsSashWeight"/>
 		<item value="400" key="NameColumnWidth"/>
 		<item value="200" key="VersionColumnWidth"/>
-		<item value="200" key="IDColumnWidth"/>
+		<item value="1241" key="IDColumnWidth"/>
 		<item value="800" key="ListSashWeight"/>
 	</section>
 	<section name="org.eclipse.equinox.internal.p2.ui.dialogs.UpdateWizard.ResolutionResultsPage">

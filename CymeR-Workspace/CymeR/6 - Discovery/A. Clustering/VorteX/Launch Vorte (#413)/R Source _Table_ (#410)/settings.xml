@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="script" type="xstring" value="knime.out &lt;- as.data.frame(paste('cd /home/developer/VorteX &amp;&amp; cd vortex_dist_1-July-16 &amp;&amp; java -Xmx', knime.flow.in[[&quot;memory&quot;]], 'G -cp &quot;lib/*&quot; vortex.gui2.frmMain', sep = &quot;&quot;))%%00010names(knime.out)[1] &lt;- &quot;VorteX&quot;"/>
+<entry key="script" type="xstring" value="knime.out &lt;- as.data.frame(paste('cd /home/developer/VorteX &amp;&amp; cd vortex_dist_4-Oct-16 &amp;&amp; java -Xmx', knime.flow.in[[&quot;memory&quot;]], 'G -cp &quot;lib/*&quot; vortex.gui2.frmMain', sep = &quot;&quot;))%%00010names(knime.out)[1] &lt;- &quot;VorteX&quot;"/>
 <entry key="templateUUID" type="xstring" isnull="true" value=""/>
 <entry key="version" type="xstring" value="version 1.x"/>
 <entry key="Output non numbers (NaN, Inf, -Inf) as missing cells" type="xboolean" value="false"/>
@@ -14,10 +14,10 @@
 <config key="nodeAnnotation">
 <entry key="text" type="xstring" value=""/>
 <entry key="bgcolor" type="xint" value="16777215"/>
-<entry key="x-coordinate" type="xint" value="179"/>
+<entry key="x-coordinate" type="xint" value="175"/>
 <entry key="y-coordinate" type="xint" value="322"/>
-<entry key="width" type="xint" value="134"/>
-<entry key="height" type="xint" value="18"/>
+<entry key="width" type="xint" value="143"/>
+<entry key="height" type="xint" value="17"/>
 <entry key="alignment" type="xstring" value="CENTER"/>
 <entry key="borderSize" type="xint" value="0"/>
 <entry key="borderColor" type="xint" value="16777215"/>

@@ -42,11 +42,11 @@
 <entry key="node-bundle-name" type="xstring" value="KNIME Core API"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.core"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-bundle-version" type="xstring" value="3.2.0.v201607061829"/>
+<entry key="node-bundle-version" type="xstring" value="3.2.1.v201608190927"/>
 <entry key="node-feature-name" type="xstring" value="KNIME Core"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
-<entry key="node-feature-version" type="xstring" value="3.2.0.v201607061829"/>
+<entry key="node-feature-version" type="xstring" value="3.2.1.v201608190927"/>
 <config key="factory_settings">
 <config key="port_0">
 <entry key="index" type="xint" value="0"/>

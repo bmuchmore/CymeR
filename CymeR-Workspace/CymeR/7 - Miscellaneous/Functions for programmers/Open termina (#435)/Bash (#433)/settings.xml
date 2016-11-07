@@ -40,7 +40,7 @@
 <entry key="state" type="xstring" value="CONFIGURED"/>
 <config key="nodecontainer_message">
 <entry key="type" type="xstring" value="ERROR"/>
-<entry key="message" type="xstring" value="Execute failed: STDERR message:%%00010Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined%%00010"/>
+<entry key="message" type="xstring" value="Execute failed: STDERR message:%%00010Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined%%00010%%00010(xfce4-terminal:2997): Gdk-CRITICAL **: IA__gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed%%00010"/>
 </config>
 <entry key="factory" type="xstring" value="org.pasteur.pf2.tools.BashNodeFactory"/>
 <entry key="node-name" type="xstring" value="Bash"/>

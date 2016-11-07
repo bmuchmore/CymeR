@@ -32,6 +32,11 @@ sudo service docker restart
 ##Brian: Move this install file into another folder for reasons of practicality
 ##sudo mv $DIR/InstallDocker.sh $DIR/BaseFiles/Install/InstallDocker.sh && \
 
+##Enable Docker on boot
+sudo systemctl enable docker
+##On older distributions, you may need to use
+sudo chkconfig docker on
+
 echo "*** The system will now restart in 10 seconds ***"
 sudo sleep 10
 

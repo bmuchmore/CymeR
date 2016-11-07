@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="workflow.knime">
-<entry key="created_by" type="xstring" value="3.2.0.v201607061829"/>
+<entry key="created_by" type="xstring" value="3.2.1.v201608190927"/>
 <entry key="version" type="xstring" value="3.1.0"/>
 <entry key="name" type="xstring" isnull="true" value=""/>
 <config key="authorInformation">
 <entry key="authored-by" type="xstring" value="developer"/>
 <entry key="authored-when" type="xstring" value="2016-06-06 09:50:27 +0000"/>
 <entry key="lastEdited-by" type="xstring" value="developer"/>
-<entry key="lastEdited-when" type="xstring" value="2016-07-21 17:00:53 +0000"/>
+<entry key="lastEdited-when" type="xstring" value="2016-11-07 18:43:54 +0000"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="IDLE"/>
@@ -55,7 +55,7 @@
 <entry key="0" type="xint" value="247"/>
 <entry key="1" type="xint" value="188"/>
 <entry key="2" type="xint" value="114"/>
-<entry key="3" type="xint" value="81"/>
+<entry key="3" type="xint" value="80"/>
 </config>
 </config>
 </config>

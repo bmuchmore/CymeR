@@ -1,4 +1,4 @@
 library(scaffold)
-scaffold.run()
+scaffold.run(launch.browser=FALSE)
 xxPathxx
 
